@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Tinyblogz - The Blog That Will Help You Think Outside the Box</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- tabler Icons -->
+  <link rel="stylesheet" href="css/tabler-icons.min.css">
+  <!-- favicon -->
+  <link rel="icon" href="./images/logo/favicon.svg">
+  <!-- style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!--============================
+  =            Header            =
+  =============================-->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header_main">
+            <a href="index.html" class="logo">
+              <img src="images/logo/logo.svg" alt="">
+            </a>
+            <ul class="menu none_768">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="store.html">Store</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="categories.html" class="active">Categories</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- Search form -->
+            <form class="search">
+              <div class="search_wrapper">
+                <i class="ti ti-search"></i>
+                <input type="text" placeholder="search blogs &amp; categories...">
+                <button class="btn">
+                  <span>search</span>
+                </button>
+              </div>
+              <div class="search_result">
+                <div class="search_result_head">
+                  <h4>enter the keyword</h4>
+                  <a href="categories.html" class="btn"><span>view all</span></a>
+                </div>
+                <div class="search_result_body">
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_1.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_2.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_3.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_4.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_5.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_6.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </form>
+
+            <button class="btn" id="searchToggle">
+              <i class="ti ti-search"></i>
+            </button>
+<button class="menu_btn flex_768">
+              <i class="ti ti-menu-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--====  End of Header  ====-->
+  <!--==========================
+  =            Main            =
+  ===========================-->
+  <main>
+    <section class="single_post">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="single_post_main">
+              <div class="single_post_head">
+                <figure class="l_p_img">
+                  <img src="images/blogs/blog_1.webp" alt="">
+                </figure>
+                <div class="l_p_content">
+                  <h2 class="p_p_title">Your Phone Can Take The Best Quality Photo &amp; Style</h2>
+                  <p class="p_p_description webkit_box">Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat. Suspendisse vulputate porttitor condimentum.</p>
+                  <div class="single_post_tags">
+                    <a href="#" class="tag">Technology</a>
+                    <a href="#" class="tag">Design</a>
+                    <a href="#" class="tag">Innovation</a>
+                    <a href="#" class="tag">Coding</a>
+                  </div>
+                </div>
+              </div>
+              <div class="single_post_content">
+                <div class="s_p_body">
+                  <h3>Choose your destination</h3>
+                  <p>The first step is to choose your destination. This is the most important decision you'll make, so take your time and consider all of your options. What are you interested in? Do you want to relax on a beach, explore a new city, or go on an adventure? Once you know what you're looking for, you can start to narrow down your choices</p>
+                  <figure>
+                    <img src="images/blogs/blog_1.webp" alt="">
+                  </figure>
+                  <h3>Set a budget</h3>
+                  <p>Once you've chosen your destination, it's time to set a budget. This will help you narrow down your options and make sure you don't overspend. Be sure to factor in the cost of transportation, accommodation, food, activities, and souvenirs.</p>
+                  <h3>Book your flights and accommodation</h3>
+                  <p>Once you have a budget, it's time to start booking your flights and accommodation. This is usually the most expensive part of a vacation, so it's important to shop around and find the best deals. You can use travel websites like Kayak or Skyscanner to compare prices.</p>
+                  <figure>
+                    <img src="images/blogs/blog_2.webp" alt="">
+                  </figure>
+                  <h3>Plan your itinerary</h3>
+                  <p>Once you have your flights and accommodation booked, it's time to start planning your itinerary. This is where you'll decide what you want to do on your vacation. Make a list of all the activities and attractions that interest you, and then prioritize them based on your interests and budget.</p>
+                  <figure>
+                    <img src="images/blogs/blog_3.webp" alt="">
+                  </figure>
+                  <h5>Here are some additional tips for planning your dream vacation:</h5>
+                  <ul>
+                    <li>Be flexible with your dates. This will help you find the best deals on flights and accommodation.</li>
+                    <li>Consider traveling during the off-season. This can save you a lot of money.</li>
+                    <li>Use social media to research your destination. There are many travel bloggers and influencers who can share their tips and recommendations.</li>
+                    <li>Don't forget to book your travel insurance!</li>
+                  </ul>
+                  <h3>Choose your destination</h3>
+                  <p>The first step is to choose your destination. This is the most important decision you'll make, so take your time and consider all of your options. What are you interested in? Do you want to relax on a beach, explore a new city, or go on an adventure? Once you know what you're looking for, you can start to narrow down your choices</p>
+                  <h3>Set a budget</h3>
+                  <p>Once you've chosen your destination, it's time to set a budget. This will help you narrow down your options and make sure you don't overspend. Be sure to factor in the cost of transportation, accommodation, food, activities, and souvenirs.</p>
+                  <figure>
+                    <img src="images/blogs/blog_4.webp" alt="">
+                  </figure>
+                  <h3>Book your flights and accommodation</h3>
+                  <p>Once you have a budget, it's time to start booking your flights and accommodation. This is usually the most expensive part of a vacation, so it's important to shop around and find the best deals. You can use travel websites like Kayak or Skyscanner to compare prices.</p>
+                  <div class="post_pagination">
+                    <a href="#" class="post_page prev">
+                      <figure class="overlay">
+                        <span>prev</span>
+                        <img src="images/blogs/blog_3.webp" alt="">
+                      </figure>
+                      <content>
+                        <h5 class="webkit_box">Types of Shower Heads: Discover Your Favorites Here</h5>
+                      </content>
+                    </a>
+                    <a href="#" class="post_page next">
+                      <figure class="overlay">
+                        <span>next</span>
+                        <img src="images/blogs/blog_4.webp" alt="">
+                      </figure>
+                      <content>
+                        <h5 class="webkit_box">Types of Shower Heads: Discover Your Favorites Here</h5>
+                      </content>
+                    </a>
+                  </div>
+                </div>
+                <div class="single_str_sidebar">
+                  <div class="sidebar_item">
+                    <h3 class="sidebar_heading">popular stores :</h3>
+                    <div class="side_str">
+                      <a href="#" class="side_str_item">
+                        <div class="side_str_img">
+                          <div class="web_imagebox"><img src="images/stores/store_1.webp" alt="" class="lazy"></div>
+                        </div>
+                        <div class="side_str_content">
+                          <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                          <p class="side_str_offer">123 offers</p>
+                        </div>
+                      </a>
+                      <a href="#" class="side_str_item">
+                        <div class="side_str_img">
+                          <div class="web_imagebox"><img src="images/stores/store_2.webp" alt="" class="lazy"></div>
+                        </div>
+                        <div class="side_str_content">
+                          <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                          <p class="side_str_offer">123 offers</p>
+                        </div>
+                      </a>
+                      <a href="#" class="side_str_item">
+                        <div class="side_str_img">
+                          <div class="web_imagebox"><img src="images/stores/store_3.webp" alt="" class="lazy"></div>
+                        </div>
+                        <div class="side_str_content">
+                          <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                          <p class="side_str_offer">123 offers</p>
+                        </div>
+                      </a>
+                      <a href="#" class="side_str_item">
+                        <div class="side_str_img">
+                          <div class="web_imagebox"><img src="images/stores/store_4.webp" alt="" class="lazy"></div>
+                        </div>
+                        <div class="side_str_content">
+                          <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                          <p class="side_str_offer">123 offers</p>
+                        </div>
+                      </a>
+                      <a href="#" class="side_str_item">
+                        <div class="side_str_img">
+                          <div class="web_imagebox"><img src="images/stores/store_5.webp" alt="" class="lazy"></div>
+                        </div>
+                        <div class="side_str_content">
+                          <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                          <p class="side_str_offer">123 offers</p>
+                        </div>
+                      </a>
+                      <a href="#" class="side_str_item">
+                        <div class="side_str_img">
+                          <div class="web_imagebox"><img src="images/stores/store_6.webp" alt="" class="lazy"></div>
+                        </div>
+                        <div class="side_str_content">
+                          <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                          <p class="side_str_offer">123 offers</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar_item">
+                    <h3 class="sidebar_heading">Designerwear's Categories :</h3>
+                    <div class="str_side_cat">
+                      <a href="#" class="str_side_cat_item">
+                        <svg width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                          <line x1="5" y1="9" x2="19" y2="9"></line>
+                          <line x1="5" y1="15" x2="19" y2="15"></line>
+                          <line x1="11" y1="4" x2="7" y2="20"></line>
+                          <line x1="17" y1="4" x2="13" y2="20"></line>
+                        </svg>
+                        <div class="str_side_cat_content">
+                          <h4 class="side_cat_name">abbott lyon</h4>
+                          <h4 class="side_cat_offer">123 offers</h4>
+                        </div>
+                      </a>
+                      <a href="#" class="str_side_cat_item">
+                        <svg width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                          <circle cx="8.5" cy="8.5" r="1" fill="currentColor"></circle>
+                          <path d="M4 7v3.859c0 .537 .213 1.052 .593 1.432l8.116 8.116a2.025 2.025 0 0 0 2.864 0l4.834 -4.834a2.025 2.025 0 0 0 0 -2.864l-8.117 -8.116a2.025 2.025 0 0 0 -1.431 -.593h-3.859a3 3 0 0 0 -3 3z"></path>
+                        </svg>
+                        <div class="str_side_cat_content">
+                          <h4 class="side_cat_name">abbott lyon</h4>
+                          <h4 class="side_cat_offer">123 offers</h4>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="sidebar_item">
+                    <h3 class="sidebar_heading">related categories</h3>
+                    <div class="sngle_tab">
+                      <a href="#" class="sngle_tab_item">Accessories</a>
+                      <a href="#" class="sngle_tab_item">Children's Fashion</a>
+                      <a href="#" class="sngle_tab_item">Jewellery &amp; Watches</a>
+                      <a href="#" class="sngle_tab_item">Men's Fashion</a>
+                      <a href="#" class="sngle_tab_item">Women's Fashion</a>
+                      <a href="#" class="sngle_tab_item">Shoes</a>
+                      <a href="#" class="sngle_tab_item">Lingerie</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--====  End of Main  ====-->
+  <!--============================
+  =            Footer            =
+  =============================-->
+  <footer>
+    <div class="footer_top">
+      <div class="container">
+        <div class="footer_top_main">
+          <div class="footer_column footer_profile">
+            <a href="index.html" class="logo">
+              <img src="images/logo/logo.svg" alt="">
+            </a>
+            <p>A super modern theme following the latest trends with premium Membership and fully compatible with Ghost.</p>
+            <form class="subscribe_form">
+              <div class="subs_wrapper">
+                <input type="email" placeholder="enter the email...">
+                <button class="subs_btn">
+                  <span>Subscribe</span>
+                </button>
+              </div>
+            </form>
+            <div class="social_icons">
+              <div class="icon facebook">
+                <figure>
+                  <img src="images/socials/facebook.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon twitter">
+                <i class="fa fa-twitter"></i>
+                <figure>
+                  <img src="images/socials/twitter.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon instagram">
+                <i class="fa fa-instagram"></i>
+                <figure>
+                  <img src="images/socials/instagram.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon google_plus">
+                <i class="fa fa-google-plus"></i>
+                <figure>
+                  <img src="images/socials/google_plus.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon linkedin">
+                <i class="fa fa-linkedin"></i>
+                <figure>
+                  <img src="images/socials/linkedin.svg" alt="">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="footer_column quick_links">
+            <h2 class="ftr_heading">Quick links</h2>
+            <ul class="ftr_link_list">
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Home</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span>Privacy Policy</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Terms & Conditions</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Plans</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Meet the Authors</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Tag Archive</a></li>
+            </ul>
+          </div>
+          <div class="footer_column quick_links">
+            <h2 class="ftr_heading">Latest Articles</h2>
+            <ul class="ftr_link_list">
+              <li>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/blogs/blog_2.webp" alt="category image 2"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">The Latest Trends in Summer Fashion</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/blogs/blog_3.webp" alt="category image 2"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">The Latest Trends in Summer Fashion</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="container">
+        <div class="copyRight">
+          <p>© 2023 Hayyan Ali. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--====  End of Footer  ====-->
+  <!-- JQuery js CDN -->
+  <script src="js/jquery.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/swiper.bundle.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

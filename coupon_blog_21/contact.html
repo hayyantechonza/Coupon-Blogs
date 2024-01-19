@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Tinyblogz - The Blog That Will Help You Think Outside the Box</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- tabler Icons -->
+  <link rel="stylesheet" href="css/tabler-icons.min.css">
+  <!-- favicon -->
+  <link rel="icon" href="./images/logo/favicon.svg">
+  <!-- style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!--============================
+  =            Header            =
+  =============================-->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header_main">
+            <a href="index.html" class="logo">
+              <img src="images/logo/logo.svg" alt="">
+            </a>
+            <ul class="menu none_768">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="store.html">Store</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="categories.html">Categories</a></li>
+              <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <!-- Search form -->
+            <form class="search">
+              <div class="search_wrapper">
+                <i class="ti ti-search"></i>
+                <input type="text" placeholder="search blogs &amp; categories...">
+                <button class="btn">
+                  <span>search</span>
+                </button>
+              </div>
+              <div class="search_result">
+                <div class="search_result_head">
+                  <h4>enter the keyword</h4>
+                  <a href="categories.html" class="btn"><span>view all</span></a>
+                </div>
+                <div class="search_result_body">
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_1.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_2.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_3.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_4.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_5.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_6.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </form>
+
+            <button class="btn" id="searchToggle">
+              <i class="ti ti-search"></i>
+            </button>
+<button class="menu_btn flex_768">
+              <i class="ti ti-menu-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--====  End of Header  ====-->
+  <!--==========================
+  =            Main            =
+  ===========================-->
+  <main>
+    <!--  about -->
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="contact_main">
+            <form class="contact_form">
+              <h2 class="heading"><span>get in touch</span></h2>
+              <p class="contact_detail">Welcome To Our Website Where You Can Enjoy A Huge Variety Of Coupons On Different Stores!</p>
+              <div class="fom_wrapper">
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input required="" type="text" id="name" placeholder="Enter the Name..">
+                </div>
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input required="" type="email" id="email" placeholder="Enter the email..">
+                </div>
+                <div class="field">
+                  <label for="subject">subject</label>
+                  <input required="" type="text" id="subject" placeholder="Enter the subject..">
+                </div>
+                <div class="field">
+                  <label for="messege">Messege</label>
+                  <textarea id="messege" required="" placeholder="You'r messege..."></textarea>
+                </div>
+                <button class="btn contact center" type="submit">
+                  <span>submit</span>
+                </button>
+              </div>
+            </form>
+            <div class="contact_sidebar">
+              <div class="c_side_item">
+                <figure class="contact_img">
+                  <img src="./images/common/contact.svg" alt="">
+                </figure>
+              </div>
+              <div class="c_side_item">
+                <h4 class="sidebar_heading">contact info</h4>
+                <div class="c_s_infos">
+                  <div class="c_s_info">
+                    <h4>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
+                        <path d="M15 7a2 2 0 0 1 2 2"></path>
+                        <path d="M15 3a6 6 0 0 1 6 6"></path>
+                      </svg>
+                    </h4>
+                    <div class="c_s_content">
+                      <span>phone</span>
+                      <p>Office Telephone : 0029129102320 Mobile : 000 2324 39493</p>
+                    </div>
+                  </div>
+                  <div class="c_s_info ">
+                    <h4>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-location" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"></path>
+                      </svg>
+                    </h4>
+                    <div class="c_s_content">
+                      <span>location</span>
+                      <p>Maypole Crescent 70-80 Upper St Norwich NR2 ILT</p>
+                    </div>
+                  </div>
+                  <div class="c_s_info">
+                    <h4>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M3 9l9 6l9 -6l-9 -6l-9 6"></path>
+                        <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"></path>
+                        <path d="M3 19l6 -6"></path>
+                        <path d="M15 13l6 6"></path>
+                      </svg>
+                    </h4>
+                    <div class="c_s_content">
+                      <span>Mail</span>
+                      <p>Main Email : info@foxco.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--====  End of Main  ====-->
+  <!--============================
+  =            Footer            =
+  =============================-->
+  <footer>
+      <div class="footer_top">
+        <div class="container">
+          <div class="footer_top_main">
+            <div class="footer_column footer_profile">
+              <a href="index.html" class="logo">
+              <img src="images/logo/logo.svg" alt="">
+              </a>
+              <p>A super modern theme following the latest trends with premium Membership and fully compatible with Ghost.</p>
+              <form class="subscribe_form">
+                <div class="subs_wrapper">
+                  <input type="email" placeholder="enter the email...">
+                  <button class="subs_btn">
+                  <span>Subscribe</span>
+                  </button>
+                </div>
+              </form>
+              <div class="social_icons">
+                <div class="icon facebook">
+                  <figure>
+                    <img src="images/socials/facebook.svg" alt="">
+                  </figure>
+                </div>
+                <div class="icon twitter">
+                  <i class="fa fa-twitter"></i>
+                  <figure>
+                    <img src="images/socials/twitter.svg" alt="">
+                  </figure>
+                </div>
+                <div class="icon instagram">
+                  <i class="fa fa-instagram"></i>
+                  <figure>
+                    <img src="images/socials/instagram.svg" alt="">
+                  </figure>
+                </div>
+                <div class="icon google_plus">
+                  <i class="fa fa-google-plus"></i>
+                  <figure>
+                    <img src="images/socials/google_plus.svg" alt="">
+                  </figure>
+                </div>
+                <div class="icon linkedin">
+                  <i class="fa fa-linkedin"></i>
+                  <figure>
+                    <img src="images/socials/linkedin.svg" alt="">
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="footer_column quick_links">
+              <h2 class="ftr_heading">Quick links</h2>
+              <ul class="ftr_link_list">
+                <li><a href="#"><span class="ti ti-chevron-right"></span> Home</a></li>
+                <li><a href="#"><span class="ti ti-chevron-right"></span>Privacy Policy</a></li>
+                <li><a href="#"><span class="ti ti-chevron-right"></span> Terms & Conditions</a></li>
+                <li><a href="#"><span class="ti ti-chevron-right"></span> Plans</a></li>
+                <li><a href="#"><span class="ti ti-chevron-right"></span> Meet the Authors</a></li>
+                <li><a href="#"><span class="ti ti-chevron-right"></span> Tag Archive</a></li>
+              </ul>
+            </div>
+            <div class="footer_column quick_links">
+              <h2 class="ftr_heading">Latest Articles</h2>
+              <ul class="ftr_link_list">
+                <li>
+                  <div class="side_pop_cat">
+                    <figure class="side_pop_cat_img"><img src="images/blogs/blog_2.webp" alt="category image 2"></figure>
+                    <div class="side_pop_cat_content">
+                      <a href="single_post.html">
+                        <h4 class="side_pop_cat_title webkit_box">The Latest Trends in Summer Fashion</h4>
+                      </a>
+                      <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="side_pop_cat">
+                    <figure class="side_pop_cat_img"><img src="images/blogs/blog_3.webp" alt="category image 2"></figure>
+                    <div class="side_pop_cat_content">
+                      <a href="single_post.html">
+                        <h4 class="side_pop_cat_title webkit_box">The Latest Trends in Summer Fashion</h4>
+                      </a>
+                      <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="container">
+          <div class="copyRight">
+            <p>© 2023 Hayyan Ali. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!--====  End of Footer  ====-->
+  <!-- JQuery js CDN -->
+  <script src="js/jquery.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/swiper.bundle.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Tiny Blogz | The Ultimate Coupon and Blogging Hub</title>
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- swiper -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- tabler Icons -->
+  <link rel="stylesheet" href="css/tabler-icons.min.css">
+  <!-- favicon -->
+  <link type="image/png" sizes="32x32" rel="icon" href="./images/logo/favicon.svg">
+  <!-- style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!-- search modal -->
+  <div class="modal fade" id="search_modal" data-search="false">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <form class="search">
+            <div class="search_wrapper">
+              <i class="ti ti-search"></i>
+              <input type="text" id="search_input" placeholder="Start typing to search blogs...">
+            </div>
+          </form>
+        </div>
+        <div class="modal-body">
+          <div class="search_items">
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">The Ultimate Guide to Statement Jewelry</h4>
+                <span>Views 12</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Tips for Creating a Cozy Home Atmosphere</h4>
+                <span>Views 8</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Exploring the Best Hiking Trails in the Mountains</h4>
+                <span>Views 20</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Delicious and Easy Breakfast Recipes</h4>
+                <span>Views 15</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Mastering the Art of Interior Design</h4>
+                <span>Views 10</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Essential Tips for Effective Time Management</h4>
+                <span>Views 18</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Exploring the Fascinating World of Underwater Photography</h4>
+                <span>Views 25</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Healthy and Delicious Smoothie Recipes</h4>
+                <span>Views 14</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Tips for Growing Your Own Organic Vegetable Garden</h4>
+                <span>Views 22</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">The Importance of Regular Exercise and Fitness</h4>
+                <span>Views 30</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p>Copyright 2022 © All Rights Reserved. - Created & Managed By : Hayyan ©</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header -->
+  <header>
+    <div class="container">
+      <div class="header_main">
+        <div class="logo_main">
+          <a href="index.html" class="logo">
+            <img src="images/logo/svg/logo-no-background.svg" alt="logo">
+          </a>
+        </div>
+        <nav>
+          <a href="index.html" class="logo">
+            <img src="images/logo/svg/logo-no-background.svg" alt="logo">
+          </a>
+          <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <a href="contact.html" class="btn contact_btn">
+            <span>contact</span>
+          </a>
+        </nav>
+        <div class="header_right">
+          <button class="btn search_modal_btn" data-bs-toggle="modal" data-bs-target="#search_modal">
+            <i class="ti ti-search"></i>
+            <span>search</span>
+          </button>
+          <button class="btn menu_btn">
+            <i class="ti ti-menu-2"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--  main -->
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="hero_main">
+              <a href="single_post.html" class="hero_img">
+                <figure>
+                  <img src="images/blogs/blog_1.webp" alt="">
+                </figure>
+              </a>
+              <div class="hero_content">
+                <h1 class="hero_heading">10 Tips for <span>Successful</span> Time Management</h1>
+                <div class="hero_content_pera">
+                  <p class="hero_pera">Discover effective strategies and techniques to optimize your time and improve productivity in all aspects of your life.</p>
+                  <div class="hero_details">
+                    <div class="hero_detail">
+                      <p><i class="ti ti-eye"></i>120</p>
+                      <span>views</span>
+                    </div>
+                    <div class="hero_detail">
+                      <p><i class="ti ti-news"></i>200+</p>
+                      <span>posts</span>
+                    </div>
+                    <div class="hero_detail">
+                      <p> <i class="ti ti-category"></i>236</p>
+                      <span>categories</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- latest blog -->
+    <section class="latest_blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="latest_blog_wrapper">
+              <div class="l_b_sidebar">
+                <h2 class="heading no_m">latest blogs</h2>
+                <div class="latest_blog_slider_btns">
+                  <div class="swiper-button-prev l_b_btn arrows"></div>
+                  <div class="swiper-button-next l_b_btn arrows"></div>
+                </div>
+              </div>
+              <div class="latest_blog_main swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="single_post.html" class="latest_blog_card">
+                      <figure class="latest_blog_img"><img src="images/blogs/blog_1.webp" alt=""></figure>
+                      <div class="latest_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag"><span>technology</span></div>
+                        </div>
+                        <h4 class="latest_blog_title webkit_box">10 Essential Tips for Effective Time Management</h4>
+                        <p class="latest_blog_desc webkit_box">Discover practical strategies and techniques to maximize productivity and make the most of your time.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="single_post.html" class="latest_blog_card">
+                      <figure class="latest_blog_img"><img src="images/blogs/blog_2.webp" alt=""></figure>
+                      <div class="latest_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag"><span>technology</span></div>
+                        </div>
+                        <h4 class="latest_blog_title webkit_box">10 Essential Tips for Effective Time Management</h4>
+                        <p class="latest_blog_desc webkit_box">Discover practical strategies and techniques to maximize productivity and make the most of your time.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="single_post.html" class="latest_blog_card">
+                      <figure class="latest_blog_img"><img src="images/blogs/blog_3.webp" alt=""></figure>
+                      <div class="latest_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag"><span>technology</span></div>
+                        </div>
+                        <h4 class="latest_blog_title webkit_box">10 Essential Tips for Effective Time Management</h4>
+                        <p class="latest_blog_desc webkit_box">Discover practical strategies and techniques to maximize productivity and make the most of your time.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="single_post.html" class="latest_blog_card">
+                      <figure class="latest_blog_img"><img src="images/blogs/blog_4.webp" alt=""></figure>
+                      <div class="latest_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag"><span>technology</span></div>
+                        </div>
+                        <h4 class="latest_blog_title webkit_box">10 Essential Tips for Effective Time Management</h4>
+                        <p class="latest_blog_desc webkit_box">Discover practical strategies and techniques to maximize productivity and make the most of your time.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="single_post.html" class="latest_blog_card">
+                      <figure class="latest_blog_img"><img src="images/blogs/blog_5.webp" alt=""></figure>
+                      <div class="latest_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag"><span>technology</span></div>
+                        </div>
+                        <h4 class="latest_blog_title webkit_box">10 Essential Tips for Effective Time Management</h4>
+                        <p class="latest_blog_desc webkit_box">Discover practical strategies and techniques to maximize productivity and make the most of your time.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="single_post.html" class="latest_blog_card">
+                      <figure class="latest_blog_img"><img src="images/blogs/blog_6.webp" alt=""></figure>
+                      <div class="latest_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag"><span>technology</span></div>
+                        </div>
+                        <h4 class="latest_blog_title webkit_box">10 Essential Tips for Effective Time Management</h4>
+                        <p class="latest_blog_desc webkit_box">Discover practical strategies and techniques to maximize productivity and make the most of your time.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="single_post.html" class="latest_blog_card">
+                      <figure class="latest_blog_img"><img src="images/blogs/blog_7.webp" alt=""></figure>
+                      <div class="latest_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag"><span>technology</span></div>
+                        </div>
+                        <h4 class="latest_blog_title webkit_box">10 Essential Tips for Effective Time Management</h4>
+                        <p class="latest_blog_desc webkit_box">Discover practical strategies and techniques to maximize productivity and make the most of your time.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="single_post.html" class="latest_blog_card">
+                      <figure class="latest_blog_img"><img src="images/blogs/blog_8.webp" alt=""></figure>
+                      <div class="latest_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag"><span>technology</span></div>
+                        </div>
+                        <h4 class="latest_blog_title webkit_box">10 Essential Tips for Effective Time Management</h4>
+                        <p class="latest_blog_desc webkit_box">Discover practical strategies and techniques to maximize productivity and make the most of your time.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="single_post.html" class="latest_blog_card">
+                      <figure class="latest_blog_img"><img src="images/blogs/blog_9.webp" alt=""></figure>
+                      <div class="latest_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag"><span>technology</span></div>
+                        </div>
+                        <h4 class="latest_blog_title webkit_box">10 Essential Tips for Effective Time Management</h4>
+                        <p class="latest_blog_desc webkit_box">Discover practical strategies and techniques to maximize productivity and make the most of your time.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- popular categories -->
+    <section class="popular_categories bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="heading">popular categories</h2>
+            <div class="pop_cat_main">
+              <a href="single_categories.html" class="pop_cat_item">
+                <figure class="pop_cat_img"><img src="images/categories/categories_1.webp" alt=""></figure>
+                <p class="po_cat_name"><span class="webkit_box">Smart Home Devices</span></p>
+              </a>
+              <a href="single_categories.html" class="pop_cat_item">
+                <figure class="pop_cat_img"><img src="images/categories/categories_2.webp" alt=""></figure>
+                <p class="po_cat_name"><span class="webkit_box">Household Gizmos</span></p>
+              </a>
+              <a href="single_categories.html" class="pop_cat_item">
+                <figure class="pop_cat_img"><img src="images/categories/categories_3.webp" alt=""></figure>
+                <p class="po_cat_name"><span class="webkit_box">Domestic Electronics</span></p>
+              </a>
+              <a href="single_categories.html" class="pop_cat_item">
+                <figure class="pop_cat_img"><img src="images/categories/categories_4.webp" alt=""></figure>
+                <p class="po_cat_name"><span class="webkit_box">Innovative Home Appliances</span></p>
+              </a>
+              <a href="single_categories.html" class="pop_cat_item">
+                <figure class="pop_cat_img"><img src="images/categories/categories_5.webp" alt=""></figure>
+                <p class="po_cat_name"><span class="webkit_box">Futuristic House Gadgets</span></p>
+              </a>
+              <a href="single_categories.html" class="pop_cat_item">
+                <figure class="pop_cat_img"><img src="images/categories/categories_6.webp" alt=""></figure>
+                <p class="po_cat_name"><span class="webkit_box">Cutting-Edge Home Technology</span></p>
+              </a>
+              <a href="single_categories.html" class="pop_cat_item">
+                <figure class="pop_cat_img"><img src="images/categories/categories_7.webp" alt=""></figure>
+                <p class="po_cat_name"><span class="webkit_box">Modern House Accessories</span></p>
+              </a>
+              <a href="single_categories.html" class="pop_cat_item">
+                <figure class="pop_cat_img"><img src="images/categories/categories_8.webp" alt=""></figure>
+                <p class="po_cat_name"><span class="webkit_box">High-Tech Household Tools</span></p>
+              </a>
+              <a href="single_categories.html" class="pop_cat_item">
+                <figure class="pop_cat_img"><img src="images/categories/categories_9.webp" alt=""></figure>
+                <p class="po_cat_name"><span class="webkit_box">Contemporary Home Gadgets</span></p>
+              </a>
+              <a href="single_categories.html" class="pop_cat_item">
+                <figure class="pop_cat_img"><img src="images/categories/categories_10.webp" alt=""></figure>
+                <p class="po_cat_name"><span class="webkit_box">home Gadgets</span></p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Popular blog -->
+    <section class="popular_blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="heading">popular blog</h2>
+            <div class="pop_blog_wrapper">
+              <div class="pop_blog_img_slider swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <figure class="pop_blog_slide_img"><img src="images/popular_img/popular_img_1.webp" alt=""></figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure class="pop_blog_slide_img"><img src="images/popular_img/popular_img_2.webp" alt=""></figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure class="pop_blog_slide_img"><img src="images/popular_img/popular_img_3.webp" alt=""></figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure class="pop_blog_slide_img"><img src="images/popular_img/popular_img_4.webp" alt=""></figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure class="pop_blog_slide_img"><img src="images/popular_img/popular_img_5.webp" alt=""></figure>
+                  </div>
+                  <div class="swiper-slide">
+                    <figure class="pop_blog_slide_img"><img src="images/popular_img/popular_img_6.webp" alt=""></figure>
+                  </div>
+                </div>
+                <div class="autoplay-progress">
+                  <svg viewBox="0 0 48 48">
+                    <circle cx="24" cy="24" r="20"></circle>
+                  </svg>
+                  <span></span>
+                </div>
+              </div>
+              <div thumbsSlider="" class="pop_blog_main swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="pop_blog">
+                      <figure class="pop_blog_img">
+                        <img src="images/popular_img/popular_img_1.webp" alt="">
+                      </figure>
+                      <div class="pop_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag">
+                            <span>development</span>
+                          </div>
+                          <div class="blog_tag">
+                            <i class="ti ti-clock-hour-10"></i>
+                            <span>2hr ago</span>
+                          </div>
+                        </div>
+                        <a href="single_post.html">
+                          <h2 class="pop_blog_title webkit_box">Important Features to look for in Web Development Services</h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="pop_blog">
+                      <figure class="pop_blog_img">
+                        <img src="images/popular_img/popular_img_2.webp" alt="">
+                      </figure>
+                      <div class="pop_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag">
+                            <span>development</span>
+                          </div>
+                          <div class="blog_tag">
+                            <i class="ti ti-clock-hour-10"></i>
+                            <span>2hr ago</span>
+                          </div>
+                        </div>
+                        <a href="single_post.html">
+                          <h2 class="pop_blog_title webkit_box">10 Essential Tools for Front-End Development</h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="pop_blog">
+                      <figure class="pop_blog_img">
+                        <img src="images/popular_img/popular_img_3.webp" alt="">
+                      </figure>
+                      <div class="pop_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag">
+                            <span>design</span>
+                          </div>
+                          <div class="blog_tag">
+                            <i class="ti ti-clock-hour-10"></i>
+                            <span>3hr ago</span>
+                          </div>
+                        </div>
+                        <a href="single_post.html">
+                          <h2 class="pop_blog_title webkit_box">The Art of Minimalistic Web Design</h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="pop_blog">
+                      <figure class="pop_blog_img">
+                        <img src="images/popular_img/popular_img_4.webp" alt="">
+                      </figure>
+                      <div class="pop_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag">
+                            <span>development</span>
+                          </div>
+                          <div class="blog_tag">
+                            <i class="ti ti-clock-hour-10"></i>
+                            <span>4hr ago</span>
+                          </div>
+                        </div>
+                        <a href="single_post.html">
+                          <h2 class="pop_blog_title webkit_box">MasteringApologies for the incomplete response.</h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="pop_blog">
+                      <figure class="pop_blog_img">
+                        <img src="images/popular_img/popular_img_5.webp" alt="">
+                      </figure>
+                      <div class="pop_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag">
+                            <span>technology</span>
+                          </div>
+                          <div class="blog_tag">
+                            <i class="ti ti-clock-hour-10"></i>
+                            <span>5hr ago</span>
+                          </div>
+                        </div>
+                        <a href="single_post.html">
+                          <h2 class="pop_blog_title webkit_box">The Rise of Artificial Intelligence in Business</h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="pop_blog">
+                      <figure class="pop_blog_img">
+                        <img src="images/popular_img/popular_img_6.webp" alt="">
+                      </figure>
+                      <div class="pop_blog_content">
+                        <div class="blog_tags">
+                          <div class="blog_tag">
+                            <span>design</span>
+                          </div>
+                          <div class="blog_tag">
+                            <i class="ti ti-clock-hour-10"></i>
+                            <span>6hr ago</span>
+                          </div>
+                        </div>
+                        <a href="single_post.html">
+                          <h2 class="pop_blog_title webkit_box">Tips for Creating an Engaging User Experience</h2>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- featured blogs -->
+    <section class="featured_blogs bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="heading">featured blogs</h2>
+            <div class="featured_blogs_main">
+              <div class="featured_blog">
+                <div class="f_b_card">
+                  <div class="f_b_front">
+                    <figure class="f_b_img">
+                      <img src="images/blogs/blog_1.webp" alt="">
+                    </figure>
+                    <div class="f_b_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">Frontend Development Best Practices</h2>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="f_b_back">
+                    <div class="f_b_hover_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">Frontend Development Best Practices</h2>
+                      </a>
+                      <p class="f_desc">Learn about the best practices in frontend development and how they contribute to creating high-quality web applications.</p>
+                      <a href="single_post.html" class="btn">
+                        <span>Read More</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="featured_blog">
+                <div class="f_b_card">
+                  <div class="f_b_front">
+                    <figure class="f_b_img">
+                      <img src="images/blogs/blog_2.webp" alt="">
+                    </figure>
+                    <div class="f_b_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">Introduction to Responsive Web Design</h2>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="f_b_back">
+                    <div class="f_b_hover_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">Introduction to Responsive Web Design</h2>
+                      </a>
+                      <p class="f_desc">Discover the concept of responsive web design and its significance in creating websites that adapt to different devices and screen sizes.</p>
+                      <a href="single_post.html" class="btn">
+                        <span>Read More</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="featured_blog">
+                <div class="f_b_card">
+                  <div class="f_b_front">
+                    <figure class="f_b_img">
+                      <img src="images/blogs/blog_3.webp" alt="">
+                    </figure>
+                    <div class="f_b_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">The Benefits of Using JavaScript Frameworks</h2>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="f_b_back">
+                    <div class="f_b_hover_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">The Benefits of Using JavaScript Frameworks</h2>
+                      </a>
+                      <p class="f_desc">Explore the advantages of using JavaScript frameworks for web development and how they simplify the process of building interactive applications.</p>
+                      <a href="single_post.html" class="btn">
+                        <span>Read More</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="featured_blog">
+                <div class="f_b_card">
+                  <div class="f_b_front">
+                    <figure class="f_b_img">
+                      <img src="images/blogs/blog_4.webp" alt="">
+                    </figure>
+                    <div class="f_b_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">Introduction to CSS Grid Layout</h2>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="f_b_back">
+                    <div class="f_b_hover_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">Introduction to CSS Grid Layout</h2>
+                      </a>
+                      <p class="f_desc">Learn about CSS Grid Layout and how it revolutionizes the way web designers create flexible and responsive page layouts.</p>
+                      <a href="single_post.html" class="btn">
+                        <span>Read More</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="featured_blog">
+                <div class="f_b_card">
+                  <div class="f_b_front">
+                    <figure class="f_b_img">
+                      <img src="images/blogs/blog_5.webp" alt="">
+                    </figure>
+                    <div class="f_b_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">User Experience Design Principles</h2>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="f_b_back">
+                    <div class="f_b_hover_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">User Experience Design Principles</h2>
+                      </a>
+                      <p class="f_desc">Discover the key principles of user experience (UX) design and how they contribute to creating intuitive and enjoyable web interfaces.</p>
+                      <a href="single_post.html" class="btn">
+                        <span>Read More</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="featured_blog">
+                <div class="f_b_card">
+                  <div class="f_b_front">
+                    <figure class="f_b_img">
+                      <img src="images/blogs/blog_6.webp" alt="">
+                    </figure>
+                    <div class="f_b_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">The Basics of Search Engine Optimization (SEO)</h2>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="f_b_back">
+                    <div class="f_b_hover_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">The Basics of Search Engine Optimization (SEO)</h2>
+                      </a>
+                      <p class="f_desc">Learn the fundamental concepts of search engine optimization (SEO) and how to improve the visibility of your website in search engine results.</p>
+                      <a href="single_post.html" class="btn">
+                        <span>Read More</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="featured_blog">
+                <div class="f_b_card">
+                  <div class="f_b_front">
+                    <figure class="f_b_img">
+                      <img src="images/blogs/blog_7.webp" alt="">
+                    </figure>
+                    <div class="f_b_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">Introduction to Backend as a Service (BaaS)</h2>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="f_b_back">
+                    <div class="f_b_hover_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">Introduction to Backend as a Service (BaaS)</h2>
+                      </a>
+                      <p class="f_desc">Explore Backend as a Service (BaaS) and how it simplifies backend development by providing pre-built infrastructure and services for web applications.</p>
+                      <a href="single_post.html" class="btn">
+                        <span>Read More</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="featured_blog">
+                <div class="f_b_card">
+                  <div class="f_b_front">
+                    <figure class="f_b_img">
+                      <img src="images/blogs/blog_8.webp" alt="">
+                    </figure>
+                    <div class="f_b_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">Responsive Images for Web Design</h2>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="f_b_back">
+                    <div class="f_b_hover_content">
+                      <a href="single_post.html">
+                        <h2 class="f_b_title webkit_box">Responsive Images for Web Design</h2>
+                      </a>
+                      <p class="f_desc">Learn the techniques and best practices for implementing responsive images in web design to optimize image display across different devices and screen sizes.</p>
+                      <a href="single_post.html" class="btn">
+                        <span>Read More</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--  footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="footer_columns">
+            <div class="footer_column">
+              <a href="index.html" class="logo ftr_logo">
+                <img src="images/logo/svg/logo-no-background.svg" alt="">
+              </a>
+              <p>Disclaimer: "By utilizing our coupon links on Discount Dash, please be aware that we may earn a commission from your purchases."</p>
+              <form class="subscribe_form">
+                <input type="email" placeholder="Enter the Email...">
+                <button>
+                  <i class="ti ti-arrow-right"></i>
+                </button>
+              </form>
+            </div>
+            <div class="footer_column">
+              <h3>Quick Links</h3>
+              <!-- Add your quick links here -->
+              <div class="ftr_links_wrapper">
+                <a href="about.html" class="footer_link">About</a>
+                <a href="privacy_policy.html" class="footer_link">Privacy Policy</a>
+                <a href="terms_conditions.html" class="footer_link">Terms &amp; Conditions</a>
+                <a href="contact_us.html" class="footer_link">Contact Us</a>
+              </div>
+            </div>
+            <div class="footer_column">
+              <h3>Social Links</h3>
+              <div class="social_icons">
+                <div class="icon facebook">
+                  <figure>
+                    <img src="images/socials/facebook.svg" alt="">
+                  </figure>
+                  <span>faceook</span>
+                </div>
+                <div class="icon twitter">
+                  <figure>
+                    <img src="images/socials/twitter.svg" alt="">
+                  </figure>
+                  <span>twitter</span>
+                </div>
+                <div class="icon instagram">
+                  <figure>
+                    <img src="images/socials/instagram.svg" alt="">
+                  </figure>
+                  <span>instrgram</span>
+                </div>
+                <div class="icon google_plus">
+                  <figure>
+                    <img src="images/socials/google_plus.svg" alt="">
+                  </figure>
+                  <span>google plus</span>
+                </div>
+                <div class="icon linkedin">
+                  <figure>
+                    <img src="images/socials/linkedin.svg" alt="">
+                  </figure>
+                  <span>linked in</span>
+                </div>
+              </div>
+            </div>
+            <div class="footer_column">
+              <h3>Blogs</h3>
+              <!-- Add your blog links or content here -->
+              <div class="footer_blogs_main">
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_1.webp" alt="category image 1"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">10 Essential Wardrobe Pieces for Every Fashionista</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_2.webp" alt="category image 2"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">The Latest Trends in Summer Fashion</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_3.webp" alt="category image 3"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">How to Style Denim Jackets for a Chic Look</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_4.webp" alt="category image 4"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">Accessorizing 101: The Art of Statement Jewelry</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_5.webp" alt="category image 5"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">Elevate Your Style with Monochrome Outfits</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_6.webp" alt="category image 6"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">Effortlessly Chic: Styling Tips for Casual Wear</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">Copyright 2022 © All Rights Reserved. - Created &amp; Managed By : Hayyan ©</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JQuery js CDN -->
+  <script src="js/jquery.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/swiper.bundle.min.js"></script>
+  <!-- lazy js -->
+  <script src="js/lazy.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,338 @@
+<!doctype html>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+   <title>Blog 9th</title>
+   <!-- Bootstrap CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- swiper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <!-- font-awesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <!-- fav icon -->
+   <link type="image/png" sizes="32x32" rel="icon" href="images/favicon.svg">
+   <!-- style sheet -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+   <div class="sidebar">
+      <div class="close_menu">
+         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M18 6l-12 12"></path>
+            <path d="M6 6l12 12"></path>
+         </svg>
+      </div>
+      <ul class="menu">
+         <a href="#" class="logo flex_center">
+            <img class="lazy" class="lazy" src="./images/logo.svg" alt="">
+         </a>
+         <li><a href="index.html" class="nav_link active">Home</a></li>
+         <li><a href="about.html" class="nav_link">About</a></li>
+         <li><a href="categories.html" class="nav_link">Categories</a></li>
+         <li><a href="store.html" class="nav_link">stores</a></li>
+         <li><a href="contact.html" class="nav_link">contact</a></li>
+      </ul>
+   </div>
+   <main>
+      <!--  HEADER -->
+      <header>
+         <div class="primary_header">
+            <div class="container">
+               <div class="p_header_main flex_jus_start gap_20">
+                  <div class="logo_wrapper flex_jus_start">
+                     <a href="#" class="logo flex_center">
+                        <img class="lazy" class="lazy" src="./images/logo.svg" alt="">
+                     </a>
+                  </div>
+                  <div class="nav_wrapper">
+                     <form action="./blog_search.html" class="search flex_center">
+                        <div class="search_wrapper flex_center">
+                           <input type="search" placeholder="search......">
+                           <button class="search_btn">
+                              <span class="d-none">search</span>
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                                 <path d="M21 21l-6 -6"></path>
+                              </svg>
+                           </button>
+                        </div>
+                     </form>
+                     <nav class="navigation_bar flex_jus_end">
+                        <ul class="gap_20">
+                           <li><a href="index.html" class="nav_link active">Home</a></li>
+                           <li><a href="about.html" class="nav_link">About</a></li>
+                           <li><a href="categories.html" class="nav_link">Categories</a></li>
+                           <li><a href="store.html" class="nav_link">stores</a></li>
+                           <li><a href="contact.html" class="nav_link">contact</a></li>
+                           <span class="trigger"></span>
+                        </ul>
+                     </nav>
+                  </div>
+                  <button class="toggler flex_center">
+                     <i class="fa fa-bars"></i>
+                  </button>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!--  categories -->
+      <section class="categories">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="main_heading">
+                     <h4><span>all categories</span></h4>
+                  </div>
+                  <div class="categories_main">
+                     <div class="c_item">
+                        <div class="main_cat">
+                           <span class="webkit_box">Business & Office Supplies</span>
+                           <a  href="single_categories.html" class="button no_m">
+                              view all
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                           </a>
+                        </div>
+                        <div class="s_sub_categories">
+                           <a href="single_categories.html" class="webkit_box">
+                              <figure class="overlay"><img src="images/categories/categories_1.webp" alt=""></figure>
+                              <content>
+                                 <span class="cat_name">sport</span>
+                                 <p class="cat_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, nam?</p>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="webkit_box">
+                              <figure class="overlay"><img src="images/categories/categories_2.webp" alt=""></figure>
+                              <content>
+                                 <span class="cat_name">sport</span>
+                                 <p class="cat_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, nam?</p>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="webkit_box">
+                              <figure class="overlay"><img src="images/categories/categories_3.webp" alt=""></figure>
+                              <content>
+                                 <span class="cat_name">sport</span>
+                                 <p class="cat_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, nam?</p>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="webkit_box">
+                              <figure class="overlay"><img src="images/categories/categories_4.webp" alt=""></figure>
+                              <content>
+                                 <span class="cat_name">sport</span>
+                                 <p class="cat_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, nam?</p>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="webkit_box">
+                              <figure class="overlay"><img src="images/categories/categories_5.webp" alt=""></figure>
+                              <content>
+                                 <span class="cat_name">sport</span>
+                                 <p class="cat_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, nam?</p>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="webkit_box">
+                              <figure class="overlay"><img src="images/categories/categories_6.webp" alt=""></figure>
+                              <content>
+                                 <span class="cat_name">sport</span>
+                                 <p class="cat_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, nam?</p>
+                              </content>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="c_item">
+                        <div class="main_cat">
+                           <span class="webkit_box">Children & Babies</span>
+                           <a  href="single_categories.html" class="button no_m">
+                              view all
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                           </a>
+                        </div>
+                        <div class="s_sub_categories">
+                           <a href="single_categories.html" class="webkit_box">
+                              <figure class="overlay"><img src="images/categories/categories_5.webp" alt=""></figure>
+                              <content>
+                                 <span class="cat_name">sport</span>
+                                 <p class="cat_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, nam?</p>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="webkit_box">
+                              <figure class="overlay"><img src="images/categories/categories_2.webp" alt=""></figure>
+                              <content>
+                                 <span class="cat_name">sport</span>
+                                 <p class="cat_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, nam?</p>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="webkit_box">
+                              <figure class="overlay"><img src="images/categories/categories_1.webp" alt=""></figure>
+                              <content>
+                                 <span class="cat_name">sport</span>
+                                 <p class="cat_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, nam?</p>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="webkit_box">
+                              <figure class="overlay"><img src="images/categories/categories_6.webp" alt=""></figure>
+                              <content>
+                                 <span class="cat_name">sport</span>
+                                 <p class="cat_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, nam?</p>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="webkit_box">
+                              <figure class="overlay"><img src="images/categories/categories_3.webp" alt=""></figure>
+                              <content>
+                                 <span class="cat_name">sport</span>
+                                 <p class="cat_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, nam?</p>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="webkit_box">
+                              <figure class="overlay"><img src="images/categories/categories_4.webp" alt=""></figure>
+                              <content>
+                                 <span class="cat_name">sport</span>
+                                 <p class="cat_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, nam?</p>
+                              </content>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--  Footer -->
+      <!--  Footer -->
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="footer">
+                     <div class="ftr_columns ftr_column_1">
+                        <a href="#" class="logo">
+                           <img class="lazy" class="lazy" src="./images/logo_ftr.svg" alt="">
+                        </a>
+                        <p class="ftr_disclaimer">Populo tritani laboramus rnei, no eum i uvaret ceteros euripidis, ne alia sadißcing mei- Te inciderint cotidieque pro, ei iisque docendi qui.</p>
+                        <h4 class="ftr_heading">follow us</h4>
+                        <div class="social_icons">
+                           <div class="icon fb">
+                              <i class="fa fa-facebook-f"></i>
+                           </div>
+                           <div class="icon twt">
+                              <i class="fa fa-twitter"></i>
+                           </div>
+                           <div class="icon insta">
+                              <i class="fa fa-instagram"></i>
+                           </div>
+                           <div class="icon google_plus">
+                              <i class="fa fa-google-plus"></i>
+                           </div>
+                           <div class="icon linked_in">
+                              <i class="fa fa-linkedin"></i>
+                           </div>
+                        </div>
+                        <h4 class="ftr_heading">subscribe</h4>
+                        <form action="./blog_search.html" class="search flex_center">
+                           <div class="search_wrapper flex_center">
+                              <input type="search" placeholder="Enter the Email...">
+                              <button class="search_btn">
+                                 <span class="d-none">search</span>
+                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-send" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M10 14l11 -11"></path>
+                                    <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"></path>
+                                 </svg>
+                              </button>
+                           </div>
+                        </form>
+                     </div>
+                     <div class="ftr_columns ftr_column_2 gap_25">
+                        <h4 class="ftr_heading">latest post</h4>
+                        <div class="ftr_column_item">
+                           <a href="#" class="blog layout_2">
+                              <figure><img src="./images/blogs/blog_1.webp" alt="blog image" class="lazy"></figure>
+                              <content>
+                                 <h4 class="webkit_box">21+ Easy Ways To Build An Email List That Will Skyrocket By 552% In 1 Year</h4>
+                                 <p class="webkit_box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, unde. Alias, ea qui laborum nostrum quod totam odio ut dolorem.</p>
+                              </content>
+                           </a>
+                           <a href="#" class="blog layout_2">
+                              <figure><img src="./images/blogs/blog_2.webp" alt="blog image" class="lazy"></figure>
+                              <content>
+                                 <h4 class="webkit_box">21+ Easy Ways To Build An Email List That Will Skyrocket By 552% In 1 Year</h4>
+                                 <p class="webkit_box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, unde. Alias, ea qui laborum nostrum quod totam odio ut dolorem.</p>
+                              </content>
+                           </a>
+                           <a href="#" class="blog layout_2">
+                              <figure><img src="./images/blogs/blog_3.webp" alt="blog image" class="lazy"></figure>
+                              <content>
+                                 <h4 class="webkit_box">21+ Easy Ways To Build An Email List That Will Skyrocket By 552% In 1 Year</h4>
+                                 <p class="webkit_box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, unde. Alias, ea qui laborum nostrum quod totam odio ut dolorem.</p>
+                              </content>
+                           </a>
+                           <a href="#" class="blog layout_2">
+                              <figure><img src="./images/blogs/blog_4.webp" alt="blog image" class="lazy"></figure>
+                              <content>
+                                 <h4 class="webkit_box">21+ Easy Ways To Build An Email List That Will Skyrocket By 552% In 1 Year</h4>
+                                 <p class="webkit_box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, unde. Alias, ea qui laborum nostrum quod totam odio ut dolorem.</p>
+                              </content>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="ftr_columns ftr_column_3">
+                        <h4 class="ftr_heading">flickr photos</h4>
+                        <div class="ftr_column_3_item">
+                           <a href="#" class="ftr_column_3_blog">
+                              <figure><img src="images/blogs/blog_1.webp" alt=""></figure>
+                           </a>
+                           <a href="#" class="ftr_column_3_blog">
+                              <figure><img src="images/blogs/blog_2.webp" alt=""></figure>
+                           </a>
+                           <a href="#" class="ftr_column_3_blog">
+                              <figure><img src="images/blogs/blog_3.webp" alt=""></figure>
+                           </a>
+                           <a href="#" class="ftr_column_3_blog">
+                              <figure><img src="images/blogs/blog_4.webp" alt=""></figure>
+                           </a>
+                           <a href="#" class="ftr_column_3_blog">
+                              <figure><img src="images/blogs/blog_5.webp" alt=""></figure>
+                           </a>
+                           <a href="#" class="ftr_column_3_blog">
+                              <figure><img src="images/blogs/blog_6.webp" alt=""></figure>
+                           </a>
+                           <a href="#" class="ftr_column_3_blog">
+                              <figure><img src="images/blogs/blog_7.webp" alt=""></figure>
+                           </a>
+                           <a href="#" class="ftr_column_3_blog">
+                              <figure><img src="images/blogs/blog_8.webp" alt=""></figure>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <p class="copyright">A copyright notice in the footer of a website indicates that the content is protected by copyright laws and who owns the rights.</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </main>
+</body>
+<!-- JQuery js CDN -->
+<script src="js/jquery.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- swiper js -->
+<script src="js/swiper.bundle.min.js"></script>
+<!-- lazy js -->
+<script src="js/lazy.min.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+
+</html>

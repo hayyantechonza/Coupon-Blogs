@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+   <title>Blog 7th</title>
+   <!-- Bootstrap CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- font family -->
+   <link rel="stylesheet" href="fonts/font.css" rel="stylesheet">
+   <!-- swipper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <!-- font-awesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <!-- fav icon -->
+   <link type="image/png" sizes="32x32" rel="icon" href="images/fav_icon.svg">
+   <!-- stylesheet -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="css/responsive.css">
+   <input type="hidden" name="pageNow" id="pageNow" value="homepage">
+</head>
+
+<body>
+   <div class="loader"></div>
+   <!-- header -->
+   <header>
+      <nav class="navbar flex-column navbar-expand-lg">
+         <div class="top_header w-100">
+            <div class="container gap-3 d-flex justify-content-between align-items-center">
+               <a class="navbar-brand" href="#">
+                  <img src="images/logo.svg" alt="">
+               </a>
+               <form action="./blog_search.html" class="search_form">
+                  <div class="input-group">
+                     <select class="form-select bg-light d-md-flex d-none" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected="">All</option>
+                        <option value="1">Stores</option>
+                        <option value="2">Categories</option>
+                        <option value="3">Blogs</option>
+                     </select>
+                     <input type="search" class="form-control" placeholder="What do you want to buy today? Search retailer or website name">
+                     <button class="btn search_icon" type="submit">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-1hy7qas">
+                           <circle cx="11" cy="11" r="8"></circle>
+                           <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                     </button>
+                  </div>
+               </form>
+               <div class="social_icons d-lg-flex d-none">
+                  <div class="icon fb">
+                     <i class="fa fa-facebook-f"></i>
+                  </div>
+                  <div class="icon twt">
+                     <i class="fa fa-twitter"></i>
+                  </div>
+                  <div class="icon insta">
+                     <i class="fa fa-instagram"></i>
+                  </div>
+                  <div class="icon google_plus">
+                     <i class="fa fa-google-plus"></i>
+                  </div>
+                  <div class="icon linked_in">
+                     <i class="fa fa-linkedin"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bottom_header w-100">
+            <div class="container d-flex gap-3 justify-content-between">
+               <a href="index.html" class="extra_btn d-lg-none d-flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                  </svg>
+               </a>
+               <ul class="navbar-nav gap-3">
+                  <button class="extra_btn menu_close d-lg-none d-flex">
+                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                     </svg>
+                  </button>
+                  <li class="nav-item">
+                     <a class="nav-link active" href="index.html" data-page="homepage">home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">about</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="store.html" class="nav-link">store</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="contact.html" class="nav-link">contact</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="categories.html" class="nav-link">categories</a>
+                  </li>
+               </ul>
+               <button class="extra_btn menu_toggler d-lg-none d-flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+               </button>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <!-- single alphabat -->
+   <section class="single_alphabat">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="main_heading">
+                  <h4>store from a</h4>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-12">
+               <div class="str_item">
+                  <div class="str_item_body">
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_1.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_2.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_3.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_4.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_5.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_6.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_7.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_8.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_9.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_1.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_1.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_2.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_3.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_4.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_5.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_6.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_7.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_8.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_9.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                     <a href="single_store.html" class="str_card">
+                        <picture><img src="images/stores/store_1.png" alt="store image"></picture>
+                        <content>
+                           <h4>abbott lyon</h4>
+                           <p>offers 123</p>
+                        </content>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- footer -->
+   <section class="footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="footer_container">
+                  <div class="footer_item">
+                     <a class="navbar-brand" href="#">
+                        <img src="images/logo.svg" alt="">
+                     </a>
+                     <p><b>disclaimer : </b>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Impedit mollitia vitae repudiandae culpa illo molestias rerum, fugit recusandae eius officiis.</p>
+                     <div class="social_icons d-lg-flex d-none">
+                        <div class="icon fb">
+                           <i class="fa fa-facebook-f"></i>
+                        </div>
+                        <div class="icon twt">
+                           <i class="fa fa-twitter"></i>
+                        </div>
+                        <div class="icon insta">
+                           <i class="fa fa-instagram"></i>
+                        </div>
+                        <div class="icon google_plus">
+                           <i class="fa fa-google-plus"></i>
+                        </div>
+                        <div class="icon linked_in">
+                           <i class="fa fa-linkedin"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer_item">
+                     <h4 class="footer_headding">web link</h4>
+                     <ul class="footer_links">
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              home
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              fashion
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              business
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              travel
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              sports
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="footer_item">
+                     <h4 class="footer_headding">latest post</h4>
+                     <ul class="footer_links">
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              home
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              fashion
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              business
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              travel
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              sports
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="footer_item">
+                     <h4 class="footer_headding">recent post</h4>
+                     <ul class="footer_links">
+                        <li>
+                           <a href="#" class="blog footer_layout">
+                              <picture><img src="images/blogs/blog_1.jpg" alt="blog image"></picture>
+                              <content>
+                                 <h4 class="webkit_box">21+ Easy Ways To Build An Email List That Will Skyrocket By 552% In 1 Year</h4>
+                              </content>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="blog footer_layout">
+                              <picture><img src="images/blogs/blog_2.jpg" alt="blog image"></picture>
+                              <content>
+                                 <h4 class="webkit_box">21+ Easy Ways To Build An Email List That Will Skyrocket By 552% In 1 Year</h4>
+                              </content>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <p class="text-center copy_right">Copyright 2022 © All Rights Reserved..</p>
+            </div>
+         </div>
+      </div>
+   </section>
+</body>
+<!-- JQuery js CDN -->
+<script src="js/jquery.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- swiper js -->
+<script src="js/swiper.bundle.min.js"></script>
+<!-- lazy js -->
+<script src="js/lazy.min.js"></script>
+<!-- parallax js -->
+<script src="js/parallax.min.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+
+</html>

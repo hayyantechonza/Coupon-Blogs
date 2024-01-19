@@ -1,0 +1,276 @@
+/*
+==============================================
+        //// CONTAINER RESPONSIVE ////
+==============================================
+*/
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+
+@media (max-width: 1400px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container {
+    width: 1300px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/*
+==============================================
+        //// CUSTOM RESPONSIVE ////
+==============================================
+*/
+@media (max-width: 1024px) {
+  .single_store_main {
+    flex-direction: column;
+  }
+
+  .single_str_sidebar {
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .sidebar_item {
+    flex: 1 1 300px;
+  }
+
+  .side_str {
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 992px) {
+  .side_social_link {
+    max-width: calc(100% / 3);
+
+  }
+
+  .popular_blog_main {
+    flex-direction: column;
+  }
+
+  .contact_sidebar {
+    width: 100%;
+  }
+
+  .contact:before {
+    top: unset;
+    transform: unset;
+    bottom: 0;
+    height: 70%;
+  }
+
+  .contact_main {
+    flex-direction: column-reverse;
+  }
+
+  .latest_post_main {
+    flex-direction: column;
+  }
+
+  .search {
+    background: transparent;
+    z-index: 11;
+    position: unset;
+  }
+
+  .search_result {
+    top: calc(100% + 40px);
+  }
+
+  .form_wrapper {
+    padding: 0;
+  }
+
+  .search input {
+    position: absolute;
+    top: 100%;
+    background: var(--white);
+    border-radius: 0 0 8px 8px;
+    width: calc(100% - 20px);
+    height: 40px;
+    padding: 10px;
+    left: 12px;
+    border: 2px solid var(--gray-900);
+    border-top: 0;
+    display: none;
+  }
+
+  .form_wrapper button {
+    margin-left: auto;
+  }
+
+  .menu_btn {
+    display: flex;
+  }
+
+  .navigation_prent {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: var(--gray-900);
+    border-radius: 0 0 8px 8px;
+    width: calc(100% - 20px);
+    z-index: 55;
+  }
+
+  .nav_link {
+    padding: 12px 15px 14px 15px;
+    line-height: 1;
+  }
+
+  .single_post_content {
+    flex-direction: column;
+  }
+
+  .categories_sidebar {
+    position: unset;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .post_pagination {
+    flex-direction: column;
+    align-items: unset;
+    grid-gap: 20px;
+}
+
+.post_pagination:before {
+    content: none;
+}
+
+.post_page content h5 {
+    max-width: 300px;
+}
+  .pop_blog {
+    flex-direction: column !important;
+  }
+
+  .pop_blog_img {
+    flex: 0 0 200px;
+  }
+
+  .show-at-768 {
+    display: block;
+  }
+
+  .main_post .l_p_content {
+    margin: 0;
+    padding: 0;
+  }
+
+  .coupon-img {
+    align-self: flex-start;
+    height: 100px;
+    width: 100px;
+    flex: 0 0 100px;
+    border-bottom: 1px solid var(--gray-200);
+    border-radius: 0 0 10px 0;
+  }
+
+  .coupon_sidebar {
+    flex: 1 1 100%;
+    padding-bottom: 20px;
+  }
+
+  .singlestore-mainpanel {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
+  .header_top {
+    display: none;
+  }
+
+  .logo {
+    height: 80px;
+    width: 130px;
+    padding: 0;
+    background: transparent;
+    filter: brightness(200);
+  }
+
+  .logo_wrapper {
+    margin-top: 0;
+  }
+
+  .used {
+    display: none;
+  }
+
+  .coupon-title {
+    padding: 0;
+  }
+
+  .str_details {
+    display: none;
+  }
+
+  .single_str_main_img {
+    width: 100px;
+    height: 100px;
+    flex: 0 0 100px;
+  }
+
+  .str_head_title a {
+    display: none;
+  }
+
+  .str_head_footer {
+    padding: 10px 0;
+  }
+
+  .modal_head {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .modal_head content {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .str_head_footer {
+    display: none;
+  }
+
+  .singlestore-mainpanel {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coupon-img {
+    border: 1px solid var(--gray-200);
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .coupon-body {
+    text-align: center;
+  }
+}

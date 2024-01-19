@@ -1,0 +1,249 @@
+/*
+==============================================
+        //// CONTAINER RESPONSIVE ////
+==============================================
+*/
+@media (min-width: 992px) {
+   .container {
+      width: 970px;
+   }
+}
+
+@media (min-width: 768px) {
+   .container {
+      width: 750px;
+   }
+
+   .modal-lg,
+   .modal-xl {
+      --bs-modal-width: 600px;
+   }
+}
+
+
+@media (max-width: 1400px) {
+   .container {
+      width: 90%;
+   }
+}
+
+@media (min-width: 1300px) {
+   .container {
+      width: 1300px;
+   }
+}
+
+@media (max-width: 992px) {
+   .container {
+      width: 100%;
+   }
+}
+
+/*
+==============================================
+        //// CUSTOM RESPONSIVE ////
+==============================================
+*/
+@media (max-width: 992px) {
+   .single_categories .s_s_main {
+    flex-direction: column-reverse;
+}
+   .str_prifile {
+      flex-direction: row;
+      align-items: center;
+      grid-gap: 20px;
+   }
+
+   .str_prifile content {
+      align-items: flex-start;
+   }
+
+   .str_prifile .button {
+      width: unset;
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      margin: 0;
+   }
+
+   .s_s_main {
+      flex-direction: column;
+      position: relative;
+      padding-top: 135px;
+   }
+
+   .s_s_main>* {
+      width: 100%;
+      margin: 0;
+      flex-flow: row wrap;
+   }
+.main_cpn_container{
+   flex-direction: column;
+}
+   .sidebar_item:has(.str_prifile) {
+      position: absolute;
+      top: 0;
+      background: var(--white);
+      padding: 10px;
+      width: 100%;
+   }
+
+   .single_str_sidebar {
+      align-items: flex-start;
+   }
+
+   .sidebar_item {
+      flex: 1 1 300px;
+   }
+
+   .contact_container {
+      flex-direction: column;
+   }
+
+   .single_post_container {
+      flex-direction: column;
+   }
+
+   .single_post_sidebar {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      width: 100%;
+   }
+
+   .blogs_area {
+      padding: 0;
+      border: none;
+   }
+
+   .subs_links>* {
+      flex: 1 1 300px;
+      margin: 0;
+   }
+
+   .footer {
+      flex-direction: column;
+   }
+
+   .subs_links {
+      flex: 0 0 auto;
+      flex-direction: row;
+      flex-wrap: wrap;
+   }
+
+   .t_p_container {
+      flex-direction: column;
+   }
+
+   .hedr_socials {
+      display: none;
+   }
+
+   .logo_main {
+      justify-content: flex-start;
+   }
+}
+
+@media (max-width: 768px) {
+   .post_main content {
+      margin: 0;
+      box-shadow: none;
+      border-radius: 0;
+      padding: 0;
+   }
+}
+
+@media (max-width: 600px) {
+
+   .f_o_container {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   }
+
+   .comment.nasted {
+      padding-left: 0;
+   }
+
+   .p_c_item {
+      flex: 1 1 150px;
+   }
+
+   .p_c_main {
+      grid-gap: 20px;
+      padding: 0;
+   }
+
+   .p_c_item:before {
+      content: none !important;
+   }
+
+   .p_c_item small {
+      position: relative;
+      inset: unset;
+   }
+
+   .navigation:has(li:nth-child(5)) {
+      overflow-x: auto;
+      padding-bottom: 5px;
+   }
+
+   .search_form {
+      max-width: calc(100% - 24px);
+      margin: 0 auto;
+   }
+
+   .search {
+      width: 0px;
+      flex: 0 0 0px;
+   }
+
+   .subs_btn_main .button {
+      display: none;
+   }
+
+   .search_btn {
+      position: absolute;
+      top: 20px;
+      right: 12px;
+   }
+}
+
+@media (max-width: 500px) {
+   .s_s_wrapper{
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   }
+   .str_prifile .button{
+      display: none;
+   }
+   .timing{
+      justify-content: center;
+   }
+   .pop_str_content svg {
+      display: none;
+   }
+
+   .p_s_container {
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      grid-gap: 20px;
+   }
+
+   .popular_store_container {
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      grid-gap: 20px;
+   }
+
+   .main_cpn_footer {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .main_cpn_head {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+
+   .main_cpn_content p {
+      max-width: calc(100% - 50px);
+      margin: auto;
+   }
+}

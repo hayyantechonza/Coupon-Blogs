@@ -1,0 +1,980 @@
+<!doctype html>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+   <title>Blog 11th</title>
+   <!-- Bootstrap CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- swiper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <!-- font-awesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <!-- fav icon -->
+   <link type="image/png" sizes="32x32" rel="icon" href="images/favicon.svg">
+   <!-- style sheet -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+   <!--  HEADER -->
+   <header>
+      <div class="primary_header">
+         <div class="container">
+            <div class="p_header_main">
+               <div class="logo_wrapper">
+                  <a href="#" class="logo">
+                     <img src="./images/logo.svg" alt="">
+                  </a>
+               </div>
+               <nav class="navigation_bar flex_jus_end">
+                  <ul class="gap_20">
+                     <li>
+                        <a href="index.html" class="nav_link active">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor"></path>
+                           </svg>
+                           Home
+                        </a>
+                     </li>
+                     <li>
+                        <a href="about.html" class="nav_link">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor"></path>
+                           </svg>
+                           About
+                        </a>
+                     </li>
+                     <li>
+                        <a href="categories.html" class="nav_link">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor"></path>
+                           </svg>
+                           Categories
+                        </a>
+                     </li>
+                     <li>
+                        <a href="store.html" class="nav_link">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor"></path>
+                           </svg>
+                           stores
+                        </a>
+                     </li>
+                     <li>
+                        <a href="contact.html" class="nav_link">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor"></path>
+                           </svg>
+                           contact
+                        </a>
+                     </li>
+                     <button class="toggler close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                           <path d="M18 6l-12 12"></path>
+                           <path d="M6 6l12 12"></path>
+                        </svg>
+                        <span>close</span>
+                     </button>
+                  </ul>
+               </nav>
+               <div class="header_bottom">
+                  <form action="./blog_search.html" class="search">
+                     <div class="search_wrapper">
+                        <input type="search" placeholder="search....">
+                        <button class="search_btn">
+                           <span class="d-none">search</span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                              <path d="M21 21l-6 -6"></path>
+                           </svg>
+                        </button>
+                     </div>
+                  </form>
+                  <a href="categories.html" class="button no_m">all categories</a>
+               </div>
+               <button class="toggler">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path d="M4 6l16 0"></path>
+                     <path d="M4 12l16 0"></path>
+                     <path d="M4 18l16 0"></path>
+                  </svg>
+               </button>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!--  store -->
+   <section class="store">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="main_heading">
+                  <h4><span>all stores</span></h4>
+               </div>
+               <div class="str_filter_head">
+                  <form action="./blog_search.html" class="search">
+                     <div class="search_wrapper">
+                        <input type="search" placeholder="search....">
+                        <button class="search_btn">
+                           <span class="d-none">search</span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                              <path d="M21 21l-6 -6"></path>
+                           </svg>
+                        </button>
+                     </div>
+                  </form>
+                  <button class="button no_m str_filter_btn">filter alphabets</button>
+                  <div class="str_filter_fade">
+                     <div class="str_filter">
+                     </div>
+                  </div>
+               </div>
+               <div class="store_main">
+                  <div class="store_item">
+                     <div class="str_head animate">
+                        <figure><img src="images/stores/store_bg_1.webp" alt=""></figure>
+                        <a href="single_alphabet.html" class="str_head_content">
+                           <h4>store from A</h4>
+                           <p>offers 123</p>
+                        </a>
+                     </div>
+                     <div class="str_body_main animate">
+                        <div class="str_body">
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_1.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_2.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_3.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_4.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_5.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_6.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_7.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_8.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_9.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="store_item">
+                     <div class="str_head animate">
+                        <figure><img src="images/stores/store_bg_2.webp" alt=""></figure>
+                        <a href="single_alphabet.html" class="str_head_content">
+                           <h4>store from A</h4>
+                           <p>offers 123</p>
+                        </a>
+                     </div>
+                     <div class="str_body_main animate">
+                        <div class="str_body">
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_1.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_2.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_3.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_4.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_5.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_6.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_7.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_8.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_9.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="store_item">
+                     <div class="str_head animate">
+                        <figure><img src="images/stores/store_bg_3.webp" alt=""></figure>
+                        <a href="single_alphabet.html" class="str_head_content">
+                           <h4>store from A</h4>
+                           <p>offers 123</p>
+                        </a>
+                     </div>
+                     <div class="str_body_main animate">
+                        <div class="str_body">
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_1.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_2.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_3.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_4.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_5.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_6.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_7.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_8.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_9.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="store_item">
+                     <div class="str_head animate">
+                        <figure><img src="images/stores/store_bg_4.webp" alt=""></figure>
+                        <a href="single_alphabet.html" class="str_head_content">
+                           <h4>store from A</h4>
+                           <p>offers 123</p>
+                        </a>
+                     </div>
+                     <div class="str_body_main animate">
+                        <div class="str_body">
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_1.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_2.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_3.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_4.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_5.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_6.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_7.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_8.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_9.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="store_item">
+                     <div class="str_head animate">
+                        <figure><img src="images/stores/store_bg_5.webp" alt=""></figure>
+                        <a href="single_alphabet.html" class="str_head_content">
+                           <h4>store from A</h4>
+                           <p>offers 123</p>
+                        </a>
+                     </div>
+                     <div class="str_body_main animate">
+                        <div class="str_body">
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_1.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_2.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_3.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_4.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_5.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_6.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_7.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_8.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_9.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="store_item">
+                     <div class="str_head animate">
+                        <figure><img src="images/stores/store_bg_6.webp" alt=""></figure>
+                        <a href="single_alphabet.html" class="str_head_content">
+                           <h4>store from A</h4>
+                           <p>offers 123</p>
+                        </a>
+                     </div>
+                     <div class="str_body_main animate">
+                        <div class="str_body">
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_1.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_2.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_3.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_4.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_5.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_6.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_7.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_8.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_9.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="store_item">
+                     <div class="str_head animate">
+                        <figure><img src="images/stores/store_bg_7.webp" alt=""></figure>
+                        <a href="single_alphabet.html" class="str_head_content">
+                           <h4>store from A</h4>
+                           <p>offers 123</p>
+                        </a>
+                     </div>
+                     <div class="str_body_main animate">
+                        <div class="str_body">
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_1.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_2.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_3.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_4.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_5.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_6.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_7.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_8.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_9.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="store_item">
+                     <div class="str_head animate">
+                        <figure><img src="images/stores/store_bg_8.webp" alt=""></figure>
+                        <a href="single_alphabet.html" class="str_head_content">
+                           <h4>store from A</h4>
+                           <p>offers 123</p>
+                        </a>
+                     </div>
+                     <div class="str_body_main animate">
+                        <div class="str_body">
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_1.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_2.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_3.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_4.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_5.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_6.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_7.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_8.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_9.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="store_item">
+                     <div class="str_head animate">
+                        <figure><img src="images/stores/store_bg_9.webp" alt=""></figure>
+                        <a href="single_alphabet.html" class="str_head_content">
+                           <h4>store from A</h4>
+                           <p>offers 123</p>
+                        </a>
+                     </div>
+                     <div class="str_body_main animate">
+                        <div class="str_body">
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_1.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_2.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_3.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_4.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_5.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_6.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_7.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_8.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                           <a href="single_store.html" class="str_item">
+                              <figure><img src="images/stores/store_9.webp" alt=""></figure>
+                              <div class="str_content">
+                                 <h4>abbott lyon</h4>
+                                 <p>offerse 123</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--  Footer -->
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="footer">
+                  <div class="ftr_item ftr_profile">
+                     <a href="index.html" class="logo_wrapper">
+                        <span class="logo">
+                           <img src="./images/logo.svg" alt="">
+                        </span>
+                     </a>
+                     <p class="ftr_desclaimer">
+                        Populo tritani laboramus rnei, no eum i uvaret ceteros euripidis, ne alia sadißcing mei- Te inciderint cotidieque pro, ei iisque docendi qui.
+                     </p>
+                     <div class="social_icons">
+                        <div class="icon fb">
+                           <i class="fa fa-facebook-f"></i>
+                        </div>
+                        <div class="icon twt">
+                           <i class="fa fa-twitter"></i>
+                        </div>
+                        <div class="icon insta">
+                           <i class="fa fa-instagram"></i>
+                        </div>
+                        <div class="icon google_plus">
+                           <i class="fa fa-google-plus"></i>
+                        </div>
+                        <div class="icon linked_in">
+                           <i class="fa fa-linkedin"></i>
+                        </div>
+                     </div>
+                     <div class="ftr_menu">
+                        <a href="index.html" class="ftr_menu_link">home</a>
+                        <a href="store.html" class="ftr_menu_link">store</a>
+                        <a href="about.html" class="ftr_menu_link">about</a>
+                        <a href="categories.html" class="ftr_menu_link">categories</a>
+                        <a href="contact.html" class="ftr_menu_link">contact</a>
+                     </div>
+                  </div>
+                  <div class="ftr_item subscribe_area">
+                     <h4 class="ftr_heading no_m">subscribe area</h4>
+                     <p class="subs_desc">Sign up for our weekly email newsletter with the best money saving coupons.</p>
+                     <form class="subscribe">
+                        <div class="subs_wrapper">
+                           <input type="email" required placeholder="Enter The Email...">
+                           <button class="button no_m">
+                              subscribe
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-send" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M10 14l11 -11"></path>
+                                 <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"></path>
+                              </svg>
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="ftr_item ftr_links">
+                     <div class="ftr_posts">
+                        <h4 class="ftr_heading">popular posts</h4>
+                        <div class="h_side_list">
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_1.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Importance of Mindfulness in Today's Fast-Paced World</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_2.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">5 Ways to Improve Your Productivity at Work</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_3.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Benefits of Regular Exercise for Mental Health</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_4.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">How to Build Strong and Lasting Relationships</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="copyright">
+         <div class="container">
+            <p>
+               A copyright notice in the footer of a website indicates that the content is protected by copyright laws and who owns the rights.
+            </p>
+         </div>
+      </div>
+   </footer>
+</body>
+<!-- JQuery js CDN -->
+<script src="js/jquery.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- swiper js -->
+<script src="js/swiper.bundle.min.js"></script>
+<!-- lazy js -->
+<script src="js/lazy.min.js"></script>
+<!-- parallax js -->
+<script src="js/parallax.min.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+
+</html>

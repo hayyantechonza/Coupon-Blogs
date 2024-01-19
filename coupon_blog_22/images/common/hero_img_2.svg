@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 400 400" height="400" width="400">
+  <g id="Coding 1">
+    <g id="Coding">
+      <path id="Vector" fill="#e5e7eb" stroke="#9ca3af" stroke-linecap="round" stroke-linejoin="round" d="m31.25 393.75 337.5 0a25 25 0 0 0 25 -25l0 -337.5a25 25 0 0 0 -25 -25L31.25 6.25a25 25 0 0 0 -25 25l0 337.5a25 25 0 0 0 25 25Z" stroke-width="2"></path>
+      <path id="Vector_2" fill="#e5e7eb" stroke="#9ca3af" stroke-linecap="round" stroke-linejoin="round" d="M393.75 56.25 6.25 56.25V31.25a25 25 0 0 1 25 -25l337.5 0a25 25 0 0 1 25 25v25Z" stroke-width="2"></path>
+      <path id="Vector_3" fill="#231f20" stroke="#9ca3af" stroke-linecap="round" stroke-linejoin="round" d="m68.75 393.75 300 0a25 25 0 0 0 25 -25l0 -337.5a25 25 0 0 0 -25 -25L68.75 6.25a25 25 0 0 0 -25 25l0 337.5a25 25 0 0 0 25 25Z" stroke-width="2"></path>
+      <path id="Vector_4" fill="#ffffff" stroke="#9ca3af" stroke-linecap="round" stroke-linejoin="round" d="M393.75 56.25 43.75 56.25V31.25a25 25 0 0 1 25 -25l300 0a25 25 0 0 1 25 25v25Z" stroke-width="2"></path>
+      <path id="Vector_5" stroke="#9ca3af" stroke-linecap="round" stroke-linejoin="round" d="M68.75 31.25h6.25" stroke-width="2"></path>
+      <path id="Vector_6" stroke="#9ca3af" stroke-linecap="round" stroke-linejoin="round" d="M118.75 31.25h6.25" stroke-width="2"></path>
+      <path id="Vector_7" stroke="#9ca3af" stroke-linecap="round" stroke-linejoin="round" d="M93.75 31.25h6.25" stroke-width="2"></path>
+      <path id="Vector_8" fill="#ffffff" stroke="#9ca3af" stroke-linecap="round" stroke-linejoin="round" d="M156.25 393.75H68.75a25 25 0 0 1 -25 -25V56.25h112.5v337.5Z" stroke-width="2"></path>
+      <path id="Vector_9" stroke="#e5e7eb" stroke-linecap="round" stroke-linejoin="round" d="M68.75 125h50" stroke-width="2"></path>
+      <path id="Vector_10" stroke="#e5e7eb" stroke-linecap="round" stroke-linejoin="round" d="M68.75 100h50" stroke-width="2"></path>
+      <path id="Vector_11" stroke="#e5e7eb" stroke-linecap="round" stroke-linejoin="round" d="M68.75 150h37.5" stroke-width="2"></path>
+      <path id="Vector_12" stroke="#e5e7eb" stroke-linecap="round" stroke-linejoin="round" d="M68.75 175h43.75" stroke-width="2"></path>
+      <path id="Vector_13" stroke="#e5e7eb" stroke-linecap="round" stroke-linejoin="round" d="M68.75 200h31.25" stroke-width="2"></path>
+      <path id="Vector_14" stroke="#e5e7eb" stroke-linecap="round" stroke-linejoin="round" d="M68.75 225h43.75" stroke-width="2"></path>
+      <path id="Vector_15" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="M200 100h137.5" stroke-width="2"></path>
+      <path id="Vector_16" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="M200 125h118.75" stroke-width="2"></path>
+      <path id="Vector_17" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="M200 150h100" stroke-width="2"></path>
+      <path id="Vector_18" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="M200 200h100" stroke-width="2"></path>
+      <path id="Vector_19" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="M200 225h150" stroke-width="2"></path>
+      <path id="Vector_20" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="M200 250h118.75" stroke-width="2"></path>
+      <path id="Vector_21" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="M200 175h131.25" stroke-width="2"></path>
+      <path id="Vector_22" fill="#ff5858" d="M356.25 293.75H268.75a12.5 12.5 0 0 0 -12.5 12.5v50a12.5 12.5 0 0 0 12.5 12.5h87.5a12.5 12.5 0 0 0 12.5 -12.5v-50a12.5 12.5 0 0 0 -12.5 -12.5Z" stroke-width="2"></path>
+      <path id="Vector_23" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="m300 312.5 -18.75 18.75 18.75 18.75" stroke-width="2"></path>
+      <path id="Vector_24" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="m325 312.5 18.75 18.75 -18.75 18.75" stroke-width="2"></path>
+    </g>
+  </g>
+</svg>

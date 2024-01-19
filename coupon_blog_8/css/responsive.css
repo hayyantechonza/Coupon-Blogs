@@ -1,0 +1,135 @@
+/*
+==============================================
+        //// CONTAINER RESPONSIVE ////
+==============================================
+*/
+@media (min-width: 991px) {
+   .container {
+      width: 970px;
+   }
+}
+
+@media (min-width: 768px) {
+   .container {
+      width: 750px;
+   }
+}
+
+
+@media (max-width: 1400px) {
+   .container {
+      width: 90%;
+   }
+}
+
+@media (min-width: 1300px) {
+   .container {
+      width: 1300px;
+   }
+}
+
+@media (max-width: 991px) {
+   .container {
+      width: 100%;
+   }
+}
+
+/* custom */
+@media (max-width: 1200px) {
+   .footer_container {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (max-width : 991px) {
+   .single_str_sidebar {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-gap: 20px;
+    background: transparent;
+    box-shadow: none;
+    align-items: flex-start;
+}
+   .store_image_responsive {
+    display: block;
+}
+.feedback {
+    display: block;
+}
+   .blog.d-flex.layout_3 {
+      flex: 1 1 300px;
+   }
+
+   .row.align-items-start :where(.col-lg-4) {
+      flex-direction: row !important;
+      flex-wrap: wrap;
+   }
+
+   .search_form {
+      max-width: 100%;
+      width: 100%;
+      background-color: #fff !important;
+      border-radius: 5px;
+      border: 1px solid #0002;
+   }
+
+   .search_form:has(:where(.btn, input, select):focus) {
+      width: 100%;
+   }
+
+   .search_form .btn {
+      color: var(--black) !important;
+   }
+
+   .navbar-nav {
+      align-items: center;
+   }
+
+   .row.gap>div[class^="col-"]:not(:nth-child(-n + 2)) {
+      margin-top: 30px;
+   }
+}
+
+@media (max-width: 768px) {
+   .row.gap>div[class^="col-"]:not(:nth-child(-n + 1)) {
+      margin-top: 30px;
+   }
+
+   .blockquote :where(h1, h2, h3, h4, h5, h6) {
+      font-size: 16px;
+   }
+}
+
+@media (max-width: 600px) {
+   .blog.layout_2 {
+      flex-direction: column;
+   }
+
+   .layout_2 .blog_date {
+      top: 0;
+      bottom: auto;
+      right: 0;
+      left: auto;
+      border-radius: 0 0 0 10px;
+   }
+
+   .layout_2 .blog_img {
+      min-height: clamp(150px, 30vw, 200px);
+      flex: UNSET;
+   }
+}
+
+@media (max-width: 500px) {
+   .footer_container {
+      grid-template-columns: 1fr;
+   }
+   .str_main_head {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.stars {
+    justify-content: center;
+}
+}

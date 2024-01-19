@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Tinyblogz - The Blog That Will Help You Think Outside the Box</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- tabler Icons -->
+  <link rel="stylesheet" href="css/tabler-icons.min.css">
+  <!-- favicon -->
+  <link rel="icon" href="./images/logo/favicon.svg">
+  <!-- style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!--============================
+  =            Header            =
+  =============================-->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header_main">
+            <a href="index.html" class="logo">
+              <img src="images/logo/logo.svg" alt="">
+            </a>
+            <ul class="menu none_768">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="store.html">Store</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="categories.html" class="active">Categories</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- Search form -->
+            <form class="search">
+              <div class="search_wrapper">
+                <i class="ti ti-search"></i>
+                <input type="text" placeholder="search blogs &amp; categories...">
+                <button class="btn">
+                  <span>search</span>
+                </button>
+              </div>
+              <div class="search_result">
+                <div class="search_result_head">
+                  <h4>enter the keyword</h4>
+                  <a href="categories.html" class="btn"><span>view all</span></a>
+                </div>
+                <div class="search_result_body">
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_1.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_2.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_3.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_4.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_5.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_6.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </form>
+
+            <button class="btn" id="searchToggle">
+              <i class="ti ti-search"></i>
+            </button>
+<button class="menu_btn flex_768">
+              <i class="ti ti-menu-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--====  End of Header  ====-->
+  <!--==========================
+  =            Main            =
+  ===========================-->
+  <main>
+    <!--====================================
+    =            All Categories            =
+    =====================================-->
+    <section class="single_categories">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="heading">
+              <span>Techonology</span>
+            </h2>
+            <div class="single_categories_main">
+              <a href="single_post.html" class="blog latest_blog">
+                <figure class="blog_img"><img src="images/categories/categories_1.webp" alt="Fashion Blog 2 Image"></figure>
+                <content class="blog_content hover">
+                  <div class="blog_meta"><span class="blog_meta_item">Posted on July 20, 2023</span></div>
+                  <h4 class="blog_title webkit_box">Sustainable Chic: Revolutionizing Fashion for a Greener Tomorrow</h4>
+                  <p class="blog_desc webkit_box">Dive into the world of sustainable fashion and witness the groundbreaking shift towards eco-conscious style. This blog post uncovers the growing movement that's redefining the way we think about clothing</p>
+                </content>
+              </a>
+              <a href="single_post.html" class="blog latest_blog">
+                <figure class="blog_img"><img src="images/categories/categories_2.webp" alt="Fashion Blog 2 Image"></figure>
+                <content class="blog_content hover">
+                  <div class="blog_meta"><span class="blog_meta_item">Posted on July 20, 2023</span></div>
+                  <h4 class="blog_title webkit_box">Sustainable Chic: Revolutionizing Fashion for a Greener Tomorrow</h4>
+                  <p class="blog_desc webkit_box">Dive into the world of sustainable fashion and witness the groundbreaking shift towards eco-conscious style. This blog post uncovers the growing movement that's redefining the way we think about clothing</p>
+                </content>
+              </a>
+              <a href="single_post.html" class="blog latest_blog">
+                <figure class="blog_img"><img src="images/categories/categories_3.webp" alt="Fashion Blog 2 Image"></figure>
+                <content class="blog_content hover">
+                  <div class="blog_meta"><span class="blog_meta_item">Posted on July 20, 2023</span></div>
+                  <h4 class="blog_title webkit_box">Sustainable Chic: Revolutionizing Fashion for a Greener Tomorrow</h4>
+                  <p class="blog_desc webkit_box">Dive into the world of sustainable fashion and witness the groundbreaking shift towards eco-conscious style. This blog post uncovers the growing movement that's redefining the way we think about clothing</p>
+                </content>
+              </a>
+              <a href="single_post.html" class="blog latest_blog">
+                <figure class="blog_img"><img src="images/categories/categories_4.webp" alt="Fashion Blog 2 Image"></figure>
+                <content class="blog_content hover">
+                  <div class="blog_meta"><span class="blog_meta_item">Posted on July 20, 2023</span></div>
+                  <h4 class="blog_title webkit_box">Sustainable Chic: Revolutionizing Fashion for a Greener Tomorrow</h4>
+                  <p class="blog_desc webkit_box">Dive into the world of sustainable fashion and witness the groundbreaking shift towards eco-conscious style. This blog post uncovers the growing movement that's redefining the way we think about clothing</p>
+                </content>
+              </a>
+              <a href="single_post.html" class="blog latest_blog">
+                <figure class="blog_img"><img src="images/categories/categories_5.webp" alt="Fashion Blog 2 Image"></figure>
+                <content class="blog_content hover">
+                  <div class="blog_meta"><span class="blog_meta_item">Posted on July 20, 2023</span></div>
+                  <h4 class="blog_title webkit_box">Sustainable Chic: Revolutionizing Fashion for a Greener Tomorrow</h4>
+                  <p class="blog_desc webkit_box">Dive into the world of sustainable fashion and witness the groundbreaking shift towards eco-conscious style. This blog post uncovers the growing movement that's redefining the way we think about clothing</p>
+                </content>
+              </a>
+              <a href="single_post.html" class="blog latest_blog">
+                <figure class="blog_img"><img src="images/categories/categories_6.webp" alt="Fashion Blog 2 Image"></figure>
+                <content class="blog_content hover">
+                  <div class="blog_meta"><span class="blog_meta_item">Posted on July 20, 2023</span></div>
+                  <h4 class="blog_title webkit_box">Sustainable Chic: Revolutionizing Fashion for a Greener Tomorrow</h4>
+                  <p class="blog_desc webkit_box">Dive into the world of sustainable fashion and witness the groundbreaking shift towards eco-conscious style. This blog post uncovers the growing movement that's redefining the way we think about clothing</p>
+                </content>
+              </a>
+              <a href="single_post.html" class="blog latest_blog">
+                <figure class="blog_img"><img src="images/categories/categories_7.webp" alt="Fashion Blog 2 Image"></figure>
+                <content class="blog_content hover">
+                  <div class="blog_meta"><span class="blog_meta_item">Posted on July 20, 2023</span></div>
+                  <h4 class="blog_title webkit_box">Sustainable Chic: Revolutionizing Fashion for a Greener Tomorrow</h4>
+                  <p class="blog_desc webkit_box">Dive into the world of sustainable fashion and witness the groundbreaking shift towards eco-conscious style. This blog post uncovers the growing movement that's redefining the way we think about clothing</p>
+                </content>
+              </a>
+              <a href="single_post.html" class="blog latest_blog">
+                <figure class="blog_img"><img src="images/categories/categories_8.webp" alt="Fashion Blog 2 Image"></figure>
+                <content class="blog_content hover">
+                  <div class="blog_meta"><span class="blog_meta_item">Posted on July 20, 2023</span></div>
+                  <h4 class="blog_title webkit_box">Sustainable Chic: Revolutionizing Fashion for a Greener Tomorrow</h4>
+                  <p class="blog_desc webkit_box">Dive into the world of sustainable fashion and witness the groundbreaking shift towards eco-conscious style. This blog post uncovers the growing movement that's redefining the way we think about clothing</p>
+                </content>
+              </a>
+              <a href="single_post.html" class="blog latest_blog">
+                <figure class="blog_img"><img src="images/categories/categories_9.webp" alt="Fashion Blog 2 Image"></figure>
+                <content class="blog_content hover">
+                  <div class="blog_meta"><span class="blog_meta_item">Posted on July 20, 2023</span></div>
+                  <h4 class="blog_title webkit_box">Sustainable Chic: Revolutionizing Fashion for a Greener Tomorrow</h4>
+                  <p class="blog_desc webkit_box">Dive into the world of sustainable fashion and witness the groundbreaking shift towards eco-conscious style. This blog post uncovers the growing movement that's redefining the way we think about clothing</p>
+                </content>
+              </a>
+              <a href="single_post.html" class="blog latest_blog">
+                <figure class="blog_img"><img src="images/categories/categories_10.webp" alt="Fashion Blog 2 Image"></figure>
+                <content class="blog_content hover">
+                  <div class="blog_meta"><span class="blog_meta_item">Posted on July 20, 2023</span></div>
+                  <h4 class="blog_title webkit_box">Sustainable Chic: Revolutionizing Fashion for a Greener Tomorrow</h4>
+                  <p class="blog_desc webkit_box">Dive into the world of sustainable fashion and witness the groundbreaking shift towards eco-conscious style. This blog post uncovers the growing movement that's redefining the way we think about clothing</p>
+                </content>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--====  End of All Categories  ====-->
+  </main>
+  <!--====  End of Main  ====-->
+  <!--============================
+  =            Footer            =
+  =============================-->
+  <footer>
+    <div class="footer_top">
+      <div class="container">
+        <div class="footer_top_main">
+          <div class="footer_column footer_profile">
+            <a href="index.html" class="logo">
+              <img src="images/logo/logo.svg" alt="">
+            </a>
+            <p>A super modern theme following the latest trends with premium Membership and fully compatible with Ghost.</p>
+            <form class="subscribe_form">
+              <div class="subs_wrapper">
+                <input type="email" placeholder="enter the email...">
+                <button class="subs_btn">
+                  <span>Subscribe</span>
+                </button>
+              </div>
+            </form>
+            <div class="social_icons">
+              <div class="icon facebook">
+                <figure>
+                  <img src="images/socials/facebook.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon twitter">
+                <i class="fa fa-twitter"></i>
+                <figure>
+                  <img src="images/socials/twitter.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon instagram">
+                <i class="fa fa-instagram"></i>
+                <figure>
+                  <img src="images/socials/instagram.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon google_plus">
+                <i class="fa fa-google-plus"></i>
+                <figure>
+                  <img src="images/socials/google_plus.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon linkedin">
+                <i class="fa fa-linkedin"></i>
+                <figure>
+                  <img src="images/socials/linkedin.svg" alt="">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="footer_column quick_links">
+            <h2 class="ftr_heading">Quick links</h2>
+            <ul class="ftr_link_list">
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Home</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span>Privacy Policy</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Terms & Conditions</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Plans</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Meet the Authors</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Tag Archive</a></li>
+            </ul>
+          </div>
+          <div class="footer_column quick_links">
+            <h2 class="ftr_heading">Latest Articles</h2>
+            <ul class="ftr_link_list">
+              <li>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/blogs/blog_2.webp" alt="category image 2"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">The Latest Trends in Summer Fashion</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/blogs/blog_3.webp" alt="category image 2"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">The Latest Trends in Summer Fashion</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="container">
+        <div class="copyRight">
+          <p>© 2023 Hayyan Ali. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--====  End of Footer  ====-->
+  <!-- JQuery js CDN -->
+  <script src="js/jquery.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/swiper.bundle.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

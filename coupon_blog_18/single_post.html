@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Tiny Blogz | The Ultimate Coupon and Blogging Hub</title>
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- swiper -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- tabler Icons -->
+  <link rel="stylesheet" href="css/tabler-icons.min.css">
+  <!-- favicon -->
+  <link type="image/png" sizes="32x32" rel="icon" href="./images/logo/favicon.svg">
+  <!-- style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!-- search modal -->
+  <div class="modal fade" id="search_modal" data-search="false">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <form class="search">
+            <div class="search_wrapper">
+              <i class="ti ti-search"></i>
+              <input type="text" id="search_input" placeholder="Start typing to search blogs...">
+            </div>
+          </form>
+        </div>
+        <div class="modal-body">
+          <div class="search_items">
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">The Ultimate Guide to Statement Jewelry</h4>
+                <span>Views 12</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Tips for Creating a Cozy Home Atmosphere</h4>
+                <span>Views 8</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Exploring the Best Hiking Trails in the Mountains</h4>
+                <span>Views 20</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Delicious and Easy Breakfast Recipes</h4>
+                <span>Views 15</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Mastering the Art of Interior Design</h4>
+                <span>Views 10</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Essential Tips for Effective Time Management</h4>
+                <span>Views 18</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Exploring the Fascinating World of Underwater Photography</h4>
+                <span>Views 25</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Healthy and Delicious Smoothie Recipes</h4>
+                <span>Views 14</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Tips for Growing Your Own Organic Vegetable Garden</h4>
+                <span>Views 22</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">The Importance of Regular Exercise and Fitness</h4>
+                <span>Views 30</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p>Copyright 2022 © All Rights Reserved. - Created & Managed By : Hayyan ©</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header -->
+  <header>
+    <div class="container">
+      <div class="header_main">
+        <div class="logo_main">
+          <a href="index.html" class="logo">
+            <img src="images/logo/svg/logo-no-background.svg" alt="logo">
+          </a>
+        </div>
+        <nav>
+          <a href="index.html" class="logo">
+            <img src="images/logo/svg/logo-no-background.svg" alt="logo">
+          </a>
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <a href="contact.html" class="btn contact_btn">
+            <span>contact</span>
+          </a>
+        </nav>
+        <div class="header_right">
+          <button class="btn search_modal_btn" data-bs-toggle="modal" data-bs-target="#search_modal">
+            <i class="ti ti-search"></i>
+            <span>search</span>
+          </button>
+          <button class="btn menu_btn">
+            <i class="ti ti-menu-2"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- top header -->
+    <section class="">
+        <div class="main_post">
+          <figure class="main_post_img">
+            <img src="images/blogs/blog_5.webp" alt="">
+          </figure>
+          <div class="container">
+            <div class="l_p_content">
+              <div class="p_p_details">
+                <div class="p_p_detail">
+                  <i class="ti ti-user"></i>
+                  <span>author</span>
+                </div>
+                <div class="p_p_detail">
+                  <i class="ti ti-pencil"></i>
+                  <span>2 Mins read</span>
+                </div>
+                <div class="p_p_detail">
+                  <i class="ti ti-clock-hour-2"></i>
+                  <span>June 17, 2023</span>
+                </div>
+              </div>
+              <h2 class="p_p_title">Your Phone Can Take The Best Quality Photo &amp; Style</h2>
+              <p class="p_p_description webkit_box">Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat. Suspendisse vulputate porttitor condimentum.</p>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- single post -->
+    <section class="single_post">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="single_post_main bg_class">
+              <div class="single_post_content">
+                <div class="s_p_body">
+                  <h3>Choose your destination</h3>
+                  <p>The first step is to choose your destination. This is the most important decision you'll make, so take your time and consider all of your options. What are you interested in? Do you want to relax on a beach, explore a new city, or go on an adventure? Once you know what you're looking for, you can start to narrow down your choices</p>
+                  <figure>
+                    <img src="images/blogs/blog_1.webp" alt="">
+                  </figure>
+                  <h3>Set a budget</h3>
+                  <p>Once you've chosen your destination, it's time to set a budget. This will help you narrow down your options and make sure you don't overspend. Be sure to factor in the cost of transportation, accommodation, food, activities, and souvenirs.</p>
+                  <h3>Book your flights and accommodation</h3>
+                  <p>Once you have a budget, it's time to start booking your flights and accommodation. This is usually the most expensive part of a vacation, so it's important to shop around and find the best deals. You can use travel websites like Kayak or Skyscanner to compare prices.</p>
+                  <figure>
+                    <img src="images/blogs/blog_2.webp" alt="">
+                  </figure>
+                  <h3>Plan your itinerary</h3>
+                  <p>Once you have your flights and accommodation booked, it's time to start planning your itinerary. This is where you'll decide what you want to do on your vacation. Make a list of all the activities and attractions that interest you, and then prioritize them based on your interests and budget.</p>
+                  <figure>
+                    <img src="images/blogs/blog_3.webp" alt="">
+                  </figure>
+                  <h5>Here are some additional tips for planning your dream vacation:</h5>
+                  <ul>
+                    <li>Be flexible with your dates. This will help you find the best deals on flights and accommodation.</li>
+                    <li>Consider traveling during the off-season. This can save you a lot of money.</li>
+                    <li>Use social media to research your destination. There are many travel bloggers and influencers who can share their tips and recommendations.</li>
+                    <li>Don't forget to book your travel insurance!</li>
+                  </ul>
+                  <h3>Choose your destination</h3>
+                  <p>The first step is to choose your destination. This is the most important decision you'll make, so take your time and consider all of your options. What are you interested in? Do you want to relax on a beach, explore a new city, or go on an adventure? Once you know what you're looking for, you can start to narrow down your choices</p>
+                  <h3>Set a budget</h3>
+                  <p>Once you've chosen your destination, it's time to set a budget. This will help you narrow down your options and make sure you don't overspend. Be sure to factor in the cost of transportation, accommodation, food, activities, and souvenirs.</p>
+                  <figure>
+                    <img src="images/blogs/blog_4.webp" alt="">
+                  </figure>
+                  <h3>Book your flights and accommodation</h3>
+                  <p>Once you have a budget, it's time to start booking your flights and accommodation. This is usually the most expensive part of a vacation, so it's important to shop around and find the best deals. You can use travel websites like Kayak or Skyscanner to compare prices.</p>
+                  <div class="post_pagination">
+                    <a href="#" class="post_page prev">
+                      <picture>
+                        <span>prev</span>
+                        <img src="images/blogs/blog_3.webp" alt="">
+                      </picture>
+                      <content>
+                        <h5 class="webkit_box">Types of Shower Heads: Discover Your Favorites Here</h5>
+                      </content>
+                    </a>
+                    <a href="#" class="post_page next">
+                      <picture>
+                        <span>next</span>
+                        <img src="images/blogs/blog_4.webp" alt="">
+                      </picture>
+                      <content>
+                        <h5 class="webkit_box">Types of Shower Heads: Discover Your Favorites Here</h5>
+                      </content>
+                    </a>
+                  </div>
+                </div>
+                <div class="categories_sidebar">
+                  <div class="cat_sidebar_item">
+                    <h4 class="sidebar_heading">categories search</h4>
+                    <form class="search">
+                      <div class="form_wrapper">
+                        <input type="search" placeholder="search...">
+                        <button class="btn">
+                          <i class="ti ti-search"></i>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="cat_sidebar_item">
+                    <h4 class="sidebar_heading">categories</h4>
+                    <ul class="sidebar_categories">
+                      <li>
+                        <a href="single_categories.html" class="sidebar_cat">
+                          <div class="side_cat_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M4 4h6v6h-6z"></path>
+                              <path d="M14 4h6v6h-6z"></path>
+                              <path d="M4 14h6v6h-6z"></path>
+                              <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                            </svg>
+                          </div>
+                          <h4 class="sidebar_cat_title">T-shirts</h4>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 6l6 6l-6 6"></path>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single_categories.html" class="sidebar_cat">
+                          <div class="side_cat_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M4 4h6v6h-6z"></path>
+                              <path d="M14 4h6v6h-6z"></path>
+                              <path d="M4 14h6v6h-6z"></path>
+                              <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                            </svg>
+                          </div>
+                          <h4 class="sidebar_cat_title">Dresses</h4>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 6l6 6l-6 6"></path>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single_categories.html" class="sidebar_cat">
+                          <div class="side_cat_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M4 4h6v6h-6z"></path>
+                              <path d="M14 4h6v6h-6z"></path>
+                              <path d="M4 14h6v6h-6z"></path>
+                              <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                            </svg>
+                          </div>
+                          <h4 class="sidebar_cat_title">Pants</h4>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 6l6 6l-6 6"></path>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single_categories.html" class="sidebar_cat">
+                          <div class="side_cat_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M4 4h6v6h-6z"></path>
+                              <path d="M14 4h6v6h-6z"></path>
+                              <path d="M4 14h6v6h-6z"></path>
+                              <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                            </svg>
+                          </div>
+                          <h4 class="sidebar_cat_title">Jackets</h4>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 6l6 6l-6 6"></path>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single_categories.html" class="sidebar_cat">
+                          <div class="side_cat_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M4 4h6v6h-6z"></path>
+                              <path d="M14 4h6v6h-6z"></path>
+                              <path d="M4 14h6v6h-6z"></path>
+                              <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                            </svg>
+                          </div>
+                          <h4 class="sidebar_cat_title">Shoes</h4>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 6l6 6l-6 6"></path>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single_categories.html" class="sidebar_cat">
+                          <div class="side_cat_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M4 4h6v6h-6z"></path>
+                              <path d="M14 4h6v6h-6z"></path>
+                              <path d="M4 14h6v6h-6z"></path>
+                              <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                            </svg>
+                          </div>
+                          <h4 class="sidebar_cat_title">Hats</h4>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 6l6 6l-6 6"></path>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single_categories.html" class="sidebar_cat">
+                          <div class="side_cat_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M4 4h6v6h-6z"></path>
+                              <path d="M14 4h6v6h-6z"></path>
+                              <path d="M4 14h6v6h-6z"></path>
+                              <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                            </svg>
+                          </div>
+                          <h4 class="sidebar_cat_title">Sweaters</h4>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 6l6 6l-6 6"></path>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single_categories.html" class="sidebar_cat">
+                          <div class="side_cat_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M4 4h6v6h-6z"></path>
+                              <path d="M14 4h6v6h-6z"></path>
+                              <path d="M4 14h6v6h-6z"></path>
+                              <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                            </svg>
+                          </div>
+                          <h4 class="sidebar_cat_title">Shorts</h4>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 6l6 6l-6 6"></path>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="single_categories.html" class="sidebar_cat">
+                          <div class="side_cat_icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M4 4h6v6h-6z"></path>
+                              <path d="M14 4h6v6h-6z"></path>
+                              <path d="M4 14h6v6h-6z"></path>
+                              <path d="M17 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                            </svg>
+                          </div>
+                          <h4 class="sidebar_cat_title">Accessories</h4>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M9 6l6 6l-6 6"></path>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--  footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="footer_columns">
+            <div class="footer_column">
+              <a href="index.html" class="logo ftr_logo">
+                <img src="images/logo/svg/logo-no-background.svg" alt="">
+              </a>
+              <p>Disclaimer: "By utilizing our coupon links on Discount Dash, please be aware that we may earn a commission from your purchases."</p>
+              <form class="subscribe_form">
+                <input type="email" placeholder="Enter the Email...">
+                <button>
+                  <i class="ti ti-arrow-right"></i>
+                </button>
+              </form>
+            </div>
+            <div class="footer_column">
+              <h3>Quick Links</h3>
+              <!-- Add your quick links here -->
+              <div class="ftr_links_wrapper">
+                <a href="about.html" class="footer_link">About</a>
+                <a href="privacy_policy.html" class="footer_link">Privacy Policy</a>
+                <a href="terms_conditions.html" class="footer_link">Terms &amp; Conditions</a>
+                <a href="contact_us.html" class="footer_link">Contact Us</a>
+              </div>
+            </div>
+            <div class="footer_column">
+              <h3>Social Links</h3>
+              <div class="social_icons">
+                <div class="icon facebook">
+                  <figure>
+                    <img src="images/socials/facebook.svg" alt="">
+                  </figure>
+                  <span>faceook</span>
+                </div>
+                <div class="icon twitter">
+                  <figure>
+                    <img src="images/socials/twitter.svg" alt="">
+                  </figure>
+                  <span>twitter</span>
+                </div>
+                <div class="icon instagram">
+                  <figure>
+                    <img src="images/socials/instagram.svg" alt="">
+                  </figure>
+                  <span>instrgram</span>
+                </div>
+                <div class="icon google_plus">
+                  <figure>
+                    <img src="images/socials/google_plus.svg" alt="">
+                  </figure>
+                  <span>google plus</span>
+                </div>
+                <div class="icon linkedin">
+                  <figure>
+                    <img src="images/socials/linkedin.svg" alt="">
+                  </figure>
+                  <span>linked in</span>
+                </div>
+              </div>
+            </div>
+            <div class="footer_column">
+              <h3>Blogs</h3>
+              <!-- Add your blog links or content here -->
+              <div class="footer_blogs_main">
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_1.webp" alt="category image 1"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">10 Essential Wardrobe Pieces for Every Fashionista</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_2.webp" alt="category image 2"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">The Latest Trends in Summer Fashion</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_3.webp" alt="category image 3"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">How to Style Denim Jackets for a Chic Look</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_4.webp" alt="category image 4"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">Accessorizing 101: The Art of Statement Jewelry</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_5.webp" alt="category image 5"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">Elevate Your Style with Monochrome Outfits</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_6.webp" alt="category image 6"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">Effortlessly Chic: Styling Tips for Casual Wear</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">Copyright 2022 © All Rights Reserved. - Created &amp; Managed By : Hayyan ©</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JQuery js CDN -->
+  <script src="js/jquery.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/swiper.bundle.min.js"></script>
+  <!-- lazy js -->
+  <script src="js/lazy.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

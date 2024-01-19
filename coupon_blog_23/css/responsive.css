@@ -1,0 +1,300 @@
+/*=====================================
+=            Container CSS            =
+=====================================*/
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1300px) {
+  .container {
+    width: 1300px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/*=====  End of Container CSS  ======*/
+
+/*=============================================
+=            Custom Responsive CSS            =
+=============================================*/
+
+@media (max-width: 1200px) {
+  .hide_1200 {
+    display: none;
+  }
+
+  .show_1200 {
+    display: block;
+  }
+
+  .show_flex_1200 {
+    display: flex;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hide_1024 {
+    display: none;
+  }
+
+  .show_1024 {
+    display: block;
+  }
+
+  .show_flex_1024 {
+    display: flex;
+  }
+}
+
+@media (max-width: 992px) {
+  .sngl_str_main {
+    flex-direction: column;
+  }
+
+  .store_sidebar {
+    width: 100%;
+    position: unset;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+
+  .footer_profile:before {
+    content: none;
+  }
+
+  .footer_main {
+    flex-direction: column;
+    grid-gap: 0;
+  }
+
+  .footer_profile_item {
+    flex: 1 1 300px;
+  }
+
+  .footer_profile {
+    flex: 0 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+  }
+
+  .latest_post_main {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+
+  .latest_post_main .blog {
+    flex-direction: column;
+  }
+
+  .search {
+    margin: 0;
+  }
+
+  .prim_header_main {
+    padding: 0;
+  }
+
+  .hide_992 {
+    display: none;
+  }
+
+  .show_992 {
+    display: block;
+  }
+
+  .show_flex_992 {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .sngl_str_pnl_main {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+  .secondary_header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+
+  .hide_768 {
+    display: none;
+  }
+
+  .show_768 {
+    display: block;
+  }
+
+  .show_flex_768 {
+    display: flex;
+  }
+}
+
+@media (max-width: 650px) {
+
+  .fom_wrapper {
+    flex-direction: column;
+    height: unset;
+  }
+
+  .hide_650 {
+    display: none;
+  }
+
+  .show_650 {
+    display: block;
+  }
+
+  .show_flex_650 {
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  .hide_600 {
+    display: none;
+  }
+
+  .show_600 {
+    display: block;
+  }
+
+  .show_flex_600 {
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .coupon {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .coupon_side {
+    flex-direction: row;
+    text-align: left;
+    border-radius: 10px;
+  }
+
+  .cpn_discount {
+    justify-content: flex-start;
+    border: 0;
+    border-left: 1px solid var(--secondary-400);
+    padding-left: 10px;
+    padding-top: 0;
+    align-self: stretch;
+    align-items: center;
+  }
+
+  .cpn_discount .discount_rate {
+    font-size: clamp(20px, 10vw, 40px);
+  }
+
+  .cpn_tag {
+    justify-content: center;
+  }
+
+  .cpn_footer {
+    align-items: center;
+  }
+
+  .coupon_side:after,
+  .coupon_side:before {
+    right: unset;
+    bottom: -10px;
+  }
+
+  .coupon_side:after {
+    right: -10px;
+    top: unset;
+  }
+
+  .coupon_side:before {
+    left: -10px;
+  }
+
+  .menu_btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+  }
+
+  .prim_header_item.end {
+    position: absolute;
+    bottom: 11px;
+    right: 12px;
+    width: 100%;
+    max-width: calc(100% - 24px);
+  }
+
+  .search {
+    max-width: 100%;
+  }
+
+  .hide_500 {
+    display: none;
+  }
+
+  .show_500 {
+    display: block;
+  }
+
+  .show_flex_500 {
+    display: flex;
+  }
+}
+
+@media (max-width: 425px) {
+  .hide_425 {
+    display: none;
+  }
+
+  .show_425 {
+    display: block;
+  }
+
+  .show_flex_425 {
+    display: flex;
+  }
+}
+
+@media (max-width: 375px) {
+  .hide_375 {
+    display: none;
+  }
+
+  .show_375 {
+    display: block;
+  }
+
+  .show_flex_375 {
+    display: flex;
+  }
+}
+
+/*=====  End of Custom Responsive CSS  ======*/

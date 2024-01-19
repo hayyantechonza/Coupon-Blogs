@@ -1,0 +1,922 @@
+<!doctype html>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+   <title>VOUCHIFY</title>
+   <!-- Bootstrap CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- swiper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <!-- fav icon -->
+   <link type="image/png" sizes="32x32" rel="icon" href="images/statics/favicon.svg">
+   <!-- style sheet -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+   <!-- header -->
+   <header>
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="header">
+                  <div class="header_top">
+                     <div class="h_top_search">
+                        <button class="search_btn">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                              <path d="M21 21l-6 -6"></path>
+                           </svg>
+                           <span>search</span>
+                        </button>
+                     </div>
+                     <a href="index.html" class="logo">
+                        <img src="./images/statics/logo.svg" alt="">
+                     </a>
+                     <div class="h_top_discount">
+                        <a href="discount.html" class="discount_btn">20% off offers</a>
+                     </div>
+                  </div>
+                  <div class="header_bottom">
+                     <div class="search_bar_wrapper">
+                        <form class="search_bar">
+                           <div class="search_wrapepr">
+                              <input type="search" placeholder="search...">
+                              <button class="search_btn">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                                    <path d="M21 21l-6 -6"></path>
+                                 </svg>
+                              </button>
+                           </div>
+                        </form>
+                     </div>
+                     <nav class="navigation">
+                        <ul class="menu_navbar">
+                           <li>
+                              <a href="index.html" class="nav_link">home</a>
+                           </li>
+                           <li>
+                              <a href="about.html" class="nav_link">about</a>
+                           </li>
+                           <li>
+                              <a href="contact.html" class="nav_link">contact</a>
+                           </li>
+                           <li>
+                              <a href="store.html" class="nav_link">store</a>
+                           </li>
+                           <li>
+                              <a href="categories.html" class="nav_link res_link">categories</a>
+                           </li>
+                           <li class="cat_btn">
+                              <a href="javascript:void(0)" class="nav_link">
+                                 <span>categories</span>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M6 9l6 6l6 -6"></path>
+                                 </svg>
+                              </a>
+                              <div class="dropdown_wrapper">
+                                 <div class="cat_dropdown">
+                                    <h4 class="dropdown_heading"><a href="categories.html">categories</a></h4>
+                                    <a href="single_categories.html">
+                                       <figure>
+                                          <img src="./images/categories/categories_1.webp" alt="">
+                                       </figure>
+                                       <content>
+                                          <h4 class="cat_name">typography</h4>
+                                          <span class="cat_offer">12 offers</span>
+                                       </content>
+                                    </a>
+                                    <a href="single_categories.html">
+                                       <figure>
+                                          <img src="./images/categories/categories_2.webp" alt="">
+                                       </figure>
+                                       <content>
+                                          <h4 class="cat_name">fashion</h4>
+                                          <span class="cat_offer">23 offers</span>
+                                       </content>
+                                    </a>
+                                    <a href="single_categories.html">
+                                       <figure>
+                                          <img src="./images/categories/categories_3.webp" alt="">
+                                       </figure>
+                                       <content>
+                                          <h4 class="cat_name">food</h4>
+                                          <span class="cat_offer">15 offers</span>
+                                       </content>
+                                    </a>
+                                    <a href="single_categories.html">
+                                       <figure>
+                                          <img src="./images/categories/categories_4.webp" alt="">
+                                       </figure>
+                                       <content>
+                                          <h4 class="cat_name">travel</h4>
+                                          <span class="cat_offer">8 offers</span>
+                                       </content>
+                                    </a>
+                                    <a href="single_categories.html">
+                                       <figure>
+                                          <img src="./images/categories/categories_5.webp" alt="">
+                                       </figure>
+                                       <content>
+                                          <h4 class="cat_name">technology</h4>
+                                          <span class="cat_offer">20 offers</span>
+                                       </content>
+                                    </a>
+                                    <a href="single_categories.html">
+                                       <figure>
+                                          <img src="./images/categories/categories_6.webp" alt="">
+                                       </figure>
+                                       <content>
+                                          <h4 class="cat_name">sports</h4>
+                                          <span class="cat_offer">5 offers</span>
+                                       </content>
+                                    </a>
+                                    <a href="single_categories.html">
+                                       <figure>
+                                          <img src="./images/categories/categories_7.webp" alt="">
+                                       </figure>
+                                       <content>
+                                          <h4 class="cat_name">beauty</h4>
+                                          <span class="cat_offer">18 offers</span>
+                                       </content>
+                                    </a>
+                                    <a href="single_categories.html">
+                                       <figure>
+                                          <img src="./images/categories/categories_8.webp" alt="">
+                                       </figure>
+                                       <content>
+                                          <h4 class="cat_name">home decor</h4>
+                                          <span class="cat_offer">7 offers</span>
+                                       </content>
+                                    </a>
+                                    <a href="single_categories.html">
+                                       <figure>
+                                          <img src="./images/categories/categories_9.webp" alt="">
+                                       </figure>
+                                       <content>
+                                          <h4 class="cat_name">books</h4>
+                                          <span class="cat_offer">14 offers</span>
+                                       </content>
+                                    </a>
+                                    <a href="single_categories.html">
+                                       <figure>
+                                          <img src="./images/categories/categories_10.webp" alt="">
+                                       </figure>
+                                       <content>
+                                          <h4 class="cat_name">music</h4>
+                                          <span class="cat_offer">11 offers</span>
+                                       </content>
+                                    </a>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- breadcrumb -->
+   <section class="breadcrumb">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="breadcrumbs">
+                  <a href="index.html">home</a>
+                  <span class="line"></span>
+                  <a href="javascript:void(0)" class="active">store</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- store -->
+   <section class="stores">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <h2 class="heading">all stores</h2>
+               <div class="store_contanier">
+                  <div class="store_item">
+                     <h4 class="store_heading">store from a</h4>
+                     <div class="swiper store_slide">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_1.webp" alt="store img 1"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Zara</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_2.webp" alt="store img 2"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">H&M</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_3.webp" alt="store img 3"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Forever 21</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_4.webp" alt="store img 4"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Sephora</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_5.webp" alt="store img 5"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Adidas</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_6.webp" alt="store img 6"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Nike</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_7.webp" alt="store img 7"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Apple</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_8.webp" alt="store img 8"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Urban Outfitters</h4>
+                                    <p class="str_offer">12 offers
+                                    </p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_9.webp" alt="store img 9"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Topshop</h4>
+                                    <p class="str_offer">10 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="swiper-button-prev arrows"></div>
+                        <div class="swiper-button-next arrows"></div>
+                     </div>
+                  </div>
+                  <div class="store_item">
+                     <h4 class="store_heading">store from b</h4>
+                     <div class="swiper store_slide">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_1.webp" alt="store img 1"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Zara</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_2.webp" alt="store img 2"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">H&M</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_3.webp" alt="store img 3"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Forever 21</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_4.webp" alt="store img 4"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Sephora</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_5.webp" alt="store img 5"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Adidas</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_6.webp" alt="store img 6"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Nike</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_7.webp" alt="store img 7"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Apple</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_8.webp" alt="store img 8"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Urban Outfitters</h4>
+                                    <p class="str_offer">12 offers
+                                    </p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_9.webp" alt="store img 9"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Topshop</h4>
+                                    <p class="str_offer">10 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="swiper-button-prev arrows"></div>
+                        <div class="swiper-button-next arrows"></div>
+                     </div>
+                  </div>
+                  <div class="store_item">
+                     <h4 class="store_heading">store from c</h4>
+                     <div class="swiper store_slide">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_1.webp" alt="store img 1"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Zara</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_2.webp" alt="store img 2"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">H&M</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_3.webp" alt="store img 3"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Forever 21</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_4.webp" alt="store img 4"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Sephora</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_5.webp" alt="store img 5"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Adidas</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_6.webp" alt="store img 6"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Nike</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_7.webp" alt="store img 7"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Apple</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_8.webp" alt="store img 8"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Urban Outfitters</h4>
+                                    <p class="str_offer">12 offers
+                                    </p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_9.webp" alt="store img 9"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Topshop</h4>
+                                    <p class="str_offer">10 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="swiper-button-prev arrows"></div>
+                        <div class="swiper-button-next arrows"></div>
+                     </div>
+                  </div>
+                  <div class="store_item">
+                     <h4 class="store_heading">store from d</h4>
+                     <div class="swiper store_slide">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_1.webp" alt="store img 1"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Zara</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_2.webp" alt="store img 2"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">H&M</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_3.webp" alt="store img 3"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Forever 21</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_4.webp" alt="store img 4"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Sephora</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_5.webp" alt="store img 5"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Adidas</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_6.webp" alt="store img 6"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Nike</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_7.webp" alt="store img 7"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Apple</h4>
+                                    <p class="str_offer">12 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_8.webp" alt="store img 8"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Urban Outfitters</h4>
+                                    <p class="str_offer">12 offers
+                                    </p>
+                                 </content>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_store.html" class="str_card">
+                                 <figure class="str_img"><img src="images/stores/store_9.webp" alt="store img 9"></figure>
+                                 <content>
+                                    <h4 class="str_title webkit_box">Topshop</h4>
+                                    <p class="str_offer">10 offers</p>
+                                 </content>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="swiper-button-prev arrows"></div>
+                        <div class="swiper-button-next arrows"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- footer -->
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="footer_container">
+                  <div class="subscribe">
+                     <h3 class="subs_heading">subscribe to our newsletter and stay up-to-date with the latest news and updates</h3>
+                     <p class="subs_desciption">sign up for our weekly email newsletter with the best money saving coupons</p>
+                     <form class="subscribe_form">
+                        <div class="subs_wrapper">
+                           <input type="email" placeholder="enter the email..." />
+                           <button class="subs_btn">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                 <path d="m3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
+                                 <path d="m3 7l9 6l9 -6"></path>
+                              </svg>
+                              <span>subscribe</span>
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="footer">
+                     <div class="footer_columns one">
+                        <div class="site_info">
+                           <a href="index.html" class="logo">
+                              <img src="./images/statics/logo.svg" alt="">
+                           </a>
+                           <p class="site_disclaimer"><span>disclaimer</span> "we may earn a commission when you use one of our coupons links to make a purchase."</p>
+                           <div class="social_icons">
+                              <div class="icon facebook">
+                                 <figure>
+                                    <img src="images/socials/facebook.svg" alt="">
+                                 </figure>
+                              </div>
+                              <div class="icon twitter">
+                                 <i class="fa fa-twitter"></i>
+                                 <figure>
+                                    <img src="images/socials/twitter.svg" alt="">
+                                 </figure>
+                              </div>
+                              <div class="icon instagram">
+                                 <i class="fa fa-instagram"></i>
+                                 <figure>
+                                    <img src="images/socials/instagram.svg" alt="">
+                                 </figure>
+                              </div>
+                              <div class="icon google_plus">
+                                 <i class="fa fa-google-plus"></i>
+                                 <figure>
+                                    <img src="images/socials/google_plus.svg" alt="">
+                                 </figure>
+                              </div>
+                              <div class="icon linkedin">
+                                 <i class="fa fa-linkedin"></i>
+                                 <figure>
+                                    <img src="images/socials/linkedin.svg" alt="">
+                                 </figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="footer_columns two">
+                        <div class="ftr_sub_column">
+                           <div class="ftr_links">
+                              <h3 class="ftr_heading">quick links</h3>
+                              <ul class="ftr_link_list">
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       home
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       about
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       store
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       categories
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       contact
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="ftr_links">
+                              <h3 class="ftr_heading">popular stores</h3>
+                              <ul class="ftr_link_list">
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       amazon
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       target
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       walmart
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       macy's
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       best buy
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="ftr_links">
+                              <h3 class="ftr_heading">more discount
+                              </h3>
+                              <ul class="ftr_link_list">
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       about
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       privacy policy
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       terms & conditions
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       contact us
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="ftr_links">
+                              <h3 class="ftr_heading">Categories</h3>
+                              <ul class="ftr_link_list">
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       amazon
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       target
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       walmart
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       macy's
+                                    </a>
+                                 </li>
+                                 <li>
+                                    <a href="#" class="ftr_link">
+                                       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                                          <path d="m7 7l5 5l-5 5"></path>
+                                          <path d="m13 7l5 5l-5 5"></path>
+                                       </svg>
+                                       best buy
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="post_boxs">
+                     <div class="post_box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="m0 0h24v24h0z" fill="none"></path>
+                           <path d="m4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                           <path d="m9 8a3 3 0 0 0 6 0"></path>
+                        </svg>
+                        <div class="post_box_content">
+                           <h4 class="post_box_title">merchants</h4>
+                           <p class="post_box_description">we've partnered with over 3576+ merchants</p>
+                        </div>
+                     </div>
+                     <div class="post_box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                           <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                           <path d="M4 9h8"></path>
+                           <path d="M12 15h8"></path>
+                           <path d="M12 4v16"></path>
+                        </svg>
+                        <div class="post_box_content">
+                           <h4 class="post_box_title">categories</h4>
+                           <p class="post_box_description">we have more than 83+ categories to choose from</p>
+                        </div>
+                     </div>
+                     <div class="post_box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                           <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                           <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                        </svg>
+                        <div class="post_box_content">
+                           <h4 class="post_box_title">users</h4>
+                           <p class="post_box_description">we're a growing family of over 342+ users daily</p>
+                        </div>
+                     </div>
+                     <div class="post_box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                           <path d="M15 5l0 2"></path>
+                           <path d="M15 11l0 2"></path>
+                           <path d="M15 17l0 2"></path>
+                           <path d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2"></path>
+                        </svg>
+                        <div class="post_box_content">
+                           <h4 class="post_box_title">coupon</h4>
+                           <p class="post_box_description">we offer a wide range of over 556164+ coupons</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+</body>
+<!-- jquery js cdn -->
+<script src="js/jquery.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- swiper js -->
+<script src="js/swiper.bundle.min.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+
+</html>

@@ -1,0 +1,7 @@
+<svg id="visual" viewBox="0 0 700 100" width="900" height="100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <rect x="0" y="0" width="900" height="100" fill="#ffffff"></rect>
+    <path d="M607 100L571 0L900 0L900 100Z" fill="#ff4c4c"></path>
+    <path d="M577 100L674 0L900 0L900 100Z" fill="#ff7474"></path>
+    <path d="M687 100L815 0L900 0L900 100Z" fill="#ff9292"></path>
+    <path d="M795 100L746 0L900 0L900 100Z" fill="#ff9292"></path>
+</svg>

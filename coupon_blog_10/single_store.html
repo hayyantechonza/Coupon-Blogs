@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+<!-- data-bs-theme="dark" -->
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+   <title>Blog 7th</title>
+   <!-- Bootstrap CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- font family -->
+   <link rel="stylesheet" href="fonts/font.css" rel="stylesheet">
+   <!-- swipper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <!-- font-awesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <!-- fav icon -->
+   <link type="image/png" sizes="32x32" rel="icon" href="images/fav_icon.svg">
+   <!-- stylesheet -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="css/responsive.css">
+   <input type="hidden" name="pageNow" id="pageNow" value="homepage">
+</head>
+
+<body>
+   <div class="loader"></div>
+   <!-- header -->
+   <header>
+      <nav class="navbar flex-column navbar-expand-lg">
+         <div class="top_header w-100">
+            <div class="container gap-3 d-flex flex-sm-row flex-column justify-content-between align-items-center">
+               <a class="navbar-brand" href="#">
+                  <img src="images/logo.svg" alt="">
+               </a>
+               <form action="./blog_search.html" class="search_form">
+                  <div class="input-group">
+                     <select class="form-select bg-light d-md-flex d-none" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected="">All</option>
+                        <option value="1">Stores cate</option>
+                        <option value="2">Categories</option>
+                        <option value="3">Blogs</option>
+                     </select>
+                     <input type="search" class="form-control" placeholder="What do you want to buy today? Search retailer or website name">
+                     <button class="btn search_icon" type="submit">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-1hy7qas">
+                           <circle cx="11" cy="11" r="8"></circle>
+                           <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                     </button>
+                  </div>
+               </form>
+               <div class="social_icons d-lg-flex d-none">
+                  <div class="icon fb">
+                     <i class="fa fa-facebook-f"></i>
+                  </div>
+                  <div class="icon twt">
+                     <i class="fa fa-twitter"></i>
+                  </div>
+                  <div class="icon insta">
+                     <i class="fa fa-instagram"></i>
+                  </div>
+                  <div class="icon google_plus">
+                     <i class="fa fa-google-plus"></i>
+                  </div>
+                  <div class="icon linked_in">
+                     <i class="fa fa-linkedin"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bottom_header w-100">
+            <div class="container d-flex gap-3 justify-content-between">
+               <a href="index.html" class="extra_btn d-lg-none d-flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                  </svg>
+               </a>
+               <ul class="navbar-nav gap-3">
+                  <button class="extra_btn menu_close d-lg-none d-flex">
+                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                     </svg>
+                  </button>
+                  <li class="nav-item">
+                     <a class="nav-link active" href="index.html" data-page="homepage">home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">about</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="store.html" class="nav-link">store</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="contact.html" class="nav-link">contact</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="categories.html" class="nav-link">categories</a>
+                  </li>
+               </ul>
+               <button class="extra_btn menu_toggler d-lg-none d-flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+               </button>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <!-- single store -->
+   <section class="single_store">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="s_str_head">
+                  <picture>
+                     <img src="images/stores/store_3.webp" alt="">
+                  </picture>
+                  <content>
+                     <h2>White House Black Market Promo & Discount Code October 2022</h2>
+                     <p>Be the first one!</p>
+                     <div class="ratings">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" class="active" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                           <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" fill="currentColor"></path>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" class="active" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                           <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" fill="currentColor"></path>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                           <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" fill="currentColor"></path>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                           <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" fill="currentColor"></path>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                           <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" fill="currentColor"></path>
+                        </svg>
+                     </div>
+                  </content>
+               </div>
+               <div class="sngl_str_container">
+                  <div class="single_str_sidebar">
+                     <div class="sidebar_item">
+                        <h3>About AA Breakdown Cover UK :</h3>
+                        <p class="str_abt webkit_box">AA Breakdown Cover UK Voucher codes are the best way to save at https://www.aa-ukbreakdown-cover.htm while sitting &amp; resting on your sofa or bed. Our website brings latest verified and running AA Breakdown Cover UK Voucher codes and discount promotions for you to help you save some time and money. just click on show promo code button on below offers to use aa breakdown cover uk promo codes at merchant checkout page. try other aa breakdown cover uk discount codes if one is not accepted or you can also use pre-activated aa breakdown cover uk deals without a voucher code using get deal button. View Less</p>
+                     </div>
+                     <div class="sidebar_item">
+                        <h3>filter :</h3>
+                        <ul class="filter">
+                           <li>
+                              <input id="checkBox" type="checkbox">
+                              <label class="checkBoxLabel" for="checkBox">Verified By Savingalley</label>
+                           </li>
+                           <li>
+                              <input id="radio1" checked="" type="radio" name="discount">
+                              <label class="radioLabel" for="radio1">All Offers (0)</label>
+                           </li>
+                           <li>
+                              <input id="radio2" type="radio" name="discount">
+                              <label class="radioLabel" for="radio2">Codes (0)</label>
+                           </li>
+                           <li>
+                              <input id="radio3" type="radio" name="discount">
+                              <label class="radioLabel" for="radio3">Deals (0)</label>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="sidebar_item">
+                        <h3>popular stores :</h3>
+                        <div class="side_str">
+                           <a href="#" class="side_str_item">
+                              <div class="side_str_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/stores/store_1.webp" alt="">
+                                 </div>
+                              </div>
+                              <div class="side_str_content">
+                                 <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                                 <p class="side_str_offer">123 offers</p>
+                              </div>
+                           </a>
+                           <a href="#" class="side_str_item">
+                              <div class="side_str_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/stores/store_1.webp" alt="">
+                                 </div>
+                              </div>
+                              <div class="side_str_content">
+                                 <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                                 <p class="side_str_offer">123 offers</p>
+                              </div>
+                           </a>
+                           <a href="#" class="side_str_item">
+                              <div class="side_str_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/stores/store_1.webp" alt="">
+                                 </div>
+                              </div>
+                              <div class="side_str_content">
+                                 <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                                 <p class="side_str_offer">123 offers</p>
+                              </div>
+                           </a><a href="#" class="side_str_item">
+                              <div class="side_str_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/stores/store_1.webp" alt="">
+                                 </div>
+                              </div>
+                              <div class="side_str_content">
+                                 <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                                 <p class="side_str_offer">123 offers</p>
+                              </div>
+                           </a><a href="#" class="side_str_item">
+                              <div class="side_str_img">
+                                 <div class="web_imagebox">
+                                    <img src="images/stores/store_1.webp" alt="">
+                                 </div>
+                              </div>
+                              <div class="side_str_content">
+                                 <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                                 <p class="side_str_offer">123 offers</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="sidebar_item">
+                        <h3>Designerwear's Categories :</h3>
+                        <div class="str_side_cat">
+                           <a href="#" class="str_side_cat_item">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <line x1="5" y1="9" x2="19" y2="9"></line>
+                                 <line x1="5" y1="15" x2="19" y2="15"></line>
+                                 <line x1="11" y1="4" x2="7" y2="20"></line>
+                                 <line x1="17" y1="4" x2="13" y2="20"></line>
+                              </svg>
+                              <div class="str_side_cat_content">
+                                 <h4 class="side_cat_name">abbott lyon</h4>
+                                 <h4 class="side_cat_offer">123 offers</h4>
+                              </div>
+                           </a>
+                           <a href="#" class="str_side_cat_item">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <circle cx="8.5" cy="8.5" r="1" fill="currentColor"></circle>
+                                 <path d="M4 7v3.859c0 .537 .213 1.052 .593 1.432l8.116 8.116a2.025 2.025 0 0 0 2.864 0l4.834 -4.834a2.025 2.025 0 0 0 0 -2.864l-8.117 -8.116a2.025 2.025 0 0 0 -1.431 -.593h-3.859a3 3 0 0 0 -3 3z"></path>
+                              </svg>
+                              <div class="str_side_cat_content">
+                                 <h4 class="side_cat_name">abbott lyon</h4>
+                                 <h4 class="side_cat_offer">123 offers</h4>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="sidebar_item">
+                        <h3>related categories</h3>
+                        <div class="sngle_tab">
+                           <a href="#" class="sngle_tab_item">Accessories</a>
+                           <a href="#" class="sngle_tab_item">Children's Fashion</a>
+                           <a href="#" class="sngle_tab_item">Jewellery &amp; Watches</a>
+                           <a href="#" class="sngle_tab_item">Men's Fashion</a>
+                           <a href="#" class="sngle_tab_item">Women's Fashion</a>
+                           <a href="#" class="sngle_tab_item">Shoes</a>
+                           <a href="#" class="sngle_tab_item">Lingerie</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="single_store_main">
+                     <div class="main_cpn">
+                        <span class="verified">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M7 12l5 5l10 -10"></path>
+                              <path d="M2 12l5 5m5 -5l5 -5"></path>
+                           </svg>
+                           verifed
+                        </span>
+                        <div class="main_cpn_head">
+                           <div class="main_cpn_img">
+                              <img src="images/stores/store_6.webp" alt="">
+                           </div>
+                           <div class="main_cpn_content">
+                              <h4>Up To 70% Off On Factory Outlet</h4>
+                              <p>Get Up To 70% Off On Factory Outlet At Walmart Outlet At Walmart</p>
+                           </div>
+                        </div>
+                        <div class="main_cpn_footer">
+                           <div class="timing">
+                              <div class="cus_badge uses">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                 </svg>
+                                 Uses : 354
+                              </div>
+                              <div class="cus_badge expire">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                    <polyline points="12 7 12 12 15 15"></polyline>
+                                 </svg>
+                                 Expire : 1, sep 2022
+                              </div>
+                              <div class="cus_badge added">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                    <polyline points="12 7 12 12 15 15"></polyline>
+                                 </svg>
+                                 added : 1, sep 2022
+                              </div>
+                           </div>
+                           <div class="main_cpn_btn">
+                              <a href="#" data-bs-toggle="modal" data-bs-target="#cpn_modal" class="cpn_btn" data-btn="Code">
+                                 <p>****1234</p>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="main_cpn">
+                        <span class="verified">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M7 12l5 5l10 -10"></path>
+                              <path d="M2 12l5 5m5 -5l5 -5"></path>
+                           </svg>
+                           verifed
+                        </span>
+                        <div class="main_cpn_head">
+                           <div class="main_cpn_img">
+                              <img src="images/stores/store_6.webp" alt="">
+                           </div>
+                           <div class="main_cpn_content">
+                              <h4>Up To 70% Off On Factory Outlet</h4>
+                              <p>Get Up To 70% Off On Factory Outlet At Walmart Outlet At Walmart</p>
+                           </div>
+                        </div>
+                        <div class="main_cpn_footer">
+                           <div class="timing">
+                              <div class="cus_badge uses">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                 </svg>
+                                 Uses : 354
+                              </div>
+                              <div class="cus_badge expire">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                    <polyline points="12 7 12 12 15 15"></polyline>
+                                 </svg>
+                                 Expire : 1, sep 2022
+                              </div>
+                              <div class="cus_badge added">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                    <polyline points="12 7 12 12 15 15"></polyline>
+                                 </svg>
+                                 added : 1, sep 2022
+                              </div>
+                           </div>
+                           <div class="main_cpn_btn">
+                              <a href="#" data-bs-toggle="modal" data-bs-target="#cpn_modal" class="cpn_btn deal" data-btn="deal">
+                                 <p>****1234</p>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- footer -->
+   <section class="footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="footer_container">
+                  <div class="footer_item">
+                     <a class="navbar-brand" href="#">
+                        <img src="images/logo.svg" alt="">
+                     </a>
+                     <p><b>disclaimer : </b>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Impedit mollitia vitae repudiandae culpa illo molestias rerum, fugit recusandae eius officiis.</p>
+                     <div class="social_icons d-lg-flex d-none">
+                        <div class="icon fb">
+                           <i class="fa fa-facebook-f"></i>
+                        </div>
+                        <div class="icon twt">
+                           <i class="fa fa-twitter"></i>
+                        </div>
+                        <div class="icon insta">
+                           <i class="fa fa-instagram"></i>
+                        </div>
+                        <div class="icon google_plus">
+                           <i class="fa fa-google-plus"></i>
+                        </div>
+                        <div class="icon linked_in">
+                           <i class="fa fa-linkedin"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer_item">
+                     <h4 class="footer_headding">web link</h4>
+                     <ul class="footer_links">
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              home
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              fashion
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              business
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              travel
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              sports
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="footer_item">
+                     <h4 class="footer_headding">latest post</h4>
+                     <ul class="footer_links">
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              home
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              fashion
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              business
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              travel
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              sports
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="footer_item">
+                     <h4 class="footer_headding">recent post</h4>
+                     <ul class="footer_links">
+                        <li>
+                           <a href="#" class="blog footer_layout">
+                              <picture><img src="images/blogs/blog_1.webp" alt="blog image"></picture>
+                              <content>
+                                 <h4 class="webkit_box">21+ Easy Ways To Build An Email List That Will Skyrocket By 552% In 1 Year</h4>
+                              </content>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="blog footer_layout">
+                              <picture><img src="images/blogs/blog_2.webp" alt="blog image"></picture>
+                              <content>
+                                 <h4 class="webkit_box">21+ Easy Ways To Build An Email List That Will Skyrocket By 552% In 1 Year</h4>
+                              </content>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <p class="text-center copy_right">Copyright 2022 © All Rights Reserved..</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- modal -->
+   <div class="modal fade" id="cpn_modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+         <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+               <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M18 6l-12 12m0 -12l12 12"></path>
+               </svg>
+            </button>
+            <div class="modal-header">
+               <div class="modal_title d-flex gap-2 flex-md-row flex-column text-center text-md-start w-100 align-items-center">
+                  <div class="web_imagebox">
+                     <img src="images/stores/store_5.webp" alt="">
+                  </div>
+                  <div class="modal_title_content d-flex flex-column gap-2">
+                     <h5 class="mb-0">10% Rebate On Every Purchase With Dji Credit</h5>
+                     <div class="timing">
+                        <div class="cus_badge uses">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <circle cx="12" cy="7" r="4"></circle>
+                              <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                           </svg>
+                           Uses : 354
+                        </div>
+                        <div class="cus_badge expire">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <circle cx="12" cy="12" r="9"></circle>
+                              <polyline points="12 7 12 12 15 15"></polyline>
+                           </svg>
+                           Expire : 1, sep 2022
+                        </div>
+                        <div class="cus_badge added">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <circle cx="12" cy="12" r="9"></circle>
+                              <polyline points="12 7 12 12 15 15"></polyline>
+                           </svg>
+                           added : 1, sep 2022
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="modal-body d-flex flex-column gap-3">
+               <span class="badge">White House</span>
+               <!-- /.badge -->
+               <div class="details">
+                  <h6 class="fw-bold mb-1 text-capitalize text-black">description :</h6>
+                  <p class="modal_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum numquam, incidunt voluptas, exercitationem rerum voluptatum molestias enim pariatur minima eum!</p>
+               </div>
+               <div class="modal_copy_code">
+                  <form>
+                     <div class="input-group">
+                        <span class="input-group-text copy-btn" id="basic-addon1">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M8 8m0 2a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8a2 2 0 0 1 -2 -2zm8 -2v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2"></path>
+                           </svg>
+                           copy code
+                        </span>
+                        <input type="text" readonly class="form-control copy_code" value="154a5d74654">
+                     </div>
+                  </form>
+                  <a href="#" class="modal_visit_str">visit store</a>
+               </div>
+            </div>
+            <div class="modal-footer">
+               <h5 class="modal-title" id="staticBackdropLabel">note :</h5>
+               <p>Click The Button Above To Copy Code The Code & Paste It At Checkout</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+<!-- JQuery js CDN -->
+<script src="js/jquery.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- swiper js -->
+<script src="js/swiper.bundle.min.js"></script>
+<!-- lazy js -->
+<script src="js/lazy.min.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+
+</html>

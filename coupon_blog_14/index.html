@@ -1,0 +1,1385 @@
+<!doctype html>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+   <title>Blog 11th</title>
+   <!-- Bootstrap CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- swiper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <!-- font-awesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <!-- fav icon -->
+   <link type="image/png" sizes="32x32" rel="icon" href="images/favicon.svg">
+   <!-- style sheet -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+   <!--  HEADER -->
+   <header>
+      <div class="primary_header">
+         <div class="container">
+            <div class="p_header_main">
+               <div class="logo_wrapper">
+                  <a href="#" class="logo">
+                     <img src="./images/logo.svg" alt="">
+                  </a>
+               </div>
+               <nav class="navigation_bar flex_jus_end">
+                  <ul class="gap_20">
+                     <li>
+                        <a href="index.html" class="nav_link active">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor"></path>
+                           </svg>
+                           Home
+                        </a>
+                     </li>
+                     <li>
+                        <a href="about.html" class="nav_link">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor"></path>
+                           </svg>
+                           About
+                        </a>
+                     </li>
+                     <li>
+                        <a href="categories.html" class="nav_link">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor"></path>
+                           </svg>
+                           Categories
+                        </a>
+                     </li>
+                     <li>
+                        <a href="store.html" class="nav_link">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor"></path>
+                           </svg>
+                           stores
+                        </a>
+                     </li>
+                     <li>
+                        <a href="contact.html" class="nav_link">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor"></path>
+                           </svg>
+                           contact
+                        </a>
+                     </li>
+                     <button class="toggler close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                           <path d="M18 6l-12 12"></path>
+                           <path d="M6 6l12 12"></path>
+                        </svg>
+                        <span>close</span>
+                     </button>
+                  </ul>
+               </nav>
+               <div class="header_bottom">
+                  <form action="./blog_search.html" class="search">
+                     <div class="search_wrapper">
+                        <input type="search" placeholder="search....">
+                        <button class="search_btn">
+                           <span class="d-none">search</span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                              <path d="M21 21l-6 -6"></path>
+                           </svg>
+                        </button>
+                     </div>
+                  </form>
+                  <a href="categories.html" class="button no_m">all categories</a>
+               </div>
+               <button class="toggler">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                     <path d="M4 6l16 0"></path>
+                     <path d="M4 12l16 0"></path>
+                     <path d="M4 18l16 0"></path>
+                  </svg>
+               </button>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!--  Hero -->
+   <section class="hero">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="hero_main">
+                  <div class="hero_content">
+                     <a href="single_post.html" class="hero_blog animate">
+                        <figure class="h_b_img ">
+                           <img src="./images/blogs/blog_4.webp" alt="">
+                        </figure>
+                        <content class="h_b_content">
+                           <div class="blog_tags">
+                              <div class="tag">Tecnology</div>
+                           </div>
+                           <h2 class="blog_title webkit_box">tips and techniques for boosting your imagination and innovation</h2>
+                           <p class="blog_desc webkit_box">Best Platform For Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptatum dignissimos tenetur impedit dicta dolores asperiores suscipit, sed iusto hic?</p>
+                        </content>
+                     </a>
+                     <div class="main_heading pop_cat_heading no_m animate">
+                        <h4>popular categories</h4>
+                     </div>
+                     <div class="pop_cat_wrapper animate">
+                        <div class="popular_categories swiper">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide custom_tooltip" data-tooltip="asd" title="Lifestyle">
+                                 <a href="single_categories.html" class="p_c_slide">
+                                    <figure><img src="images/categories/categories_1.webp" alt=""></figure>
+                                    <content>
+                                       <h4 class="cat_title webkit_box">Lifestyle</h4>
+                                       <div class="cat_tag">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                             <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                          </svg>
+                                          <span>10 user</span>
+                                       </div>
+                                    </content>
+                                 </a>
+                              </div>
+                              <div class="swiper-slide" title="Business">
+                                 <a href="single_categories.html" class="p_c_slide">
+                                    <figure><img src="images/categories/categories_2.webp" alt=""></figure>
+                                    <content>
+                                       <h4 class="cat_title webkit_box">Business</h4>
+                                       <div class="cat_tag">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                             <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                          </svg>
+                                          <span>10 user</span>
+                                       </div>
+                                    </content>
+                                 </a>
+                              </div>
+                              <div class="swiper-slide" title="Current Affairs">
+                                 <a href="single_categories.html" class="p_c_slide">
+                                    <figure><img src="images/categories/categories_3.webp" alt=""></figure>
+                                    <content>
+                                       <h4 class="cat_title webkit_box">Current Affairs</h4>
+                                       <div class="cat_tag">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                             <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                          </svg>
+                                          <span>10 user</span>
+                                       </div>
+                                    </content>
+                                 </a>
+                              </div>
+                              <div class="swiper-slide" title="Personal Development">
+                                 <a href="single_categories.html" class="p_c_slide">
+                                    <figure><img src="images/categories/categories_4.webp" alt=""></figure>
+                                    <content>
+                                       <h4 class="cat_title webkit_box">Personal Development</h4>
+                                       <div class="cat_tag">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                             <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                          </svg>
+                                          <span>10 user</span>
+                                       </div>
+                                    </content>
+                                 </a>
+                              </div>
+                              <div class="swiper-slide" title="News and Current Events">
+                                 <a href="single_categories.html" class="p_c_slide">
+                                    <figure><img src="images/categories/categories_5.webp" alt=""></figure>
+                                    <content>
+                                       <h4 class="cat_title webkit_box">News and Current Events</h4>
+                                       <div class="cat_tag">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                             <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                          </svg>
+                                          <span>10 user</span>
+                                       </div>
+                                    </content>
+                                 </a>
+                              </div>
+                              <div class="swiper-slide" title="Tech Talk">
+                                 <a href="single_categories.html" class="p_c_slide">
+                                    <figure><img src="images/categories/categories_6.webp" alt=""></figure>
+                                    <content>
+                                       <h4 class="cat_title webkit_box">Tech Talk</h4>
+                                       <div class="cat_tag">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                             <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                          </svg>
+                                          <span>10 user</span>
+                                       </div>
+                                    </content>
+                                 </a>
+                              </div>
+                              <div class="swiper-slide" title="Personal Growth">
+                                 <a href="single_categories.html" class="p_c_slide">
+                                    <figure><img src="images/categories/categories_7.webp" alt=""></figure>
+                                    <content>
+                                       <h4 class="cat_title webkit_box">Personal Growth</h4>
+                                       <div class="cat_tag">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                             <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                          </svg>
+                                          <span>10 user</span>
+                                       </div>
+                                    </content>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-button-next cat_slide_btn">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M5 12l14 0"></path>
+                              <path d="M13 18l6 -6"></path>
+                              <path d="M13 6l6 6"></path>
+                           </svg>
+                        </div>
+                        <div class="swiper-button-prev cat_slide_btn">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M5 12l14 0"></path>
+                              <path d="M5 12l6 6"></path>
+                              <path d="M5 12l6 -6"></path>
+                           </svg>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="hero_sidebar">
+                     <div class="h_side_item animate h_side_slide swiper">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <a href="single_post.html" class="h_side_blog">
+                                 <h4 class="blog_title webkit_box">The Importance of Mindfulness in Today's Fast-Paced World</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_post.html" class="h_side_blog">
+                                 <h4 class="blog_title webkit_box">The Importance of Mindfulness in Today's Fast-Paced World</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_post.html" class="h_side_blog">
+                                 <h4 class="blog_title webkit_box">The Importance of Mindfulness in Today's Fast-Paced World</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_post.html" class="h_side_blog">
+                                 <h4 class="blog_title webkit_box">The Importance of Mindfulness in Today's Fast-Paced World</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_post.html" class="h_side_blog">
+                                 <h4 class="blog_title webkit_box">The Importance of Mindfulness in Today's Fast-Paced World</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="swiper-slide">
+                              <a href="single_post.html" class="h_side_blog">
+                                 <h4 class="blog_title webkit_box">The Importance of Mindfulness in Today's Fast-Paced World</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="h_side_item animate">
+                        <h4 class="sidebar_heading">latest post</h4>
+                        <div class="h_side_list">
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_1.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Importance of Mindfulness in Today's Fast-Paced World</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_2.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">5 Ways to Improve Your Productivity at Work</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_3.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Benefits of Regular Exercise for Mental Health</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_4.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">How to Build Strong and Lasting Relationships</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_5.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Power of Positive Thinking: How to Harness it for Success</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_6.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">Why Travel is Important for Personal Growth</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_7.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">Tips for Managing Stress and Anxiety in Everyday Life</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_8.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Science of Sleep: How to Get a Good Night's Rest</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_9.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">How to Develop a Growth Mindset for Success</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_10.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Importance of Self-Care: Taking Time for Yourself</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--  Popular blog -->
+   <section class="popular_blogs">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="main_heading animate">
+                  <h4><span>popular blogs</span></h4>
+               </div>
+               <div class="p_b_main">
+                  <a href="single_post.html" class="p_b_blog animate">
+                     <figure class="p_b_img"><img src="./images/blogs/blog_1.webp" alt="blog img"></figure>
+                     <content class="p_b_content">
+                        <div class="blog_tags">
+                           <div class="tag">categories</div>
+                        </div>
+                        <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                        <p class="blog_desc webkit_box p_b_desc">Best Platform For Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptatum dignissimos tenetur impedit dicta dolores asperiores suscipit, sed iusto hic?</p>
+                     </content>
+                  </a>
+                  <a href="single_post.html" class="p_b_blog animate">
+                     <figure class="p_b_img"><img src="./images/blogs/blog_2.webp" alt="blog img"></figure>
+                     <content class="p_b_content">
+                        <div class="blog_tags">
+                           <div class="tag">categories</div>
+                        </div>
+                        <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                        <p class="blog_desc webkit_box p_b_desc">Best Platform For Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptatum dignissimos tenetur impedit dicta dolores asperiores suscipit, sed iusto hic?</p>
+                     </content>
+                  </a>
+                  <a href="single_post.html" class="p_b_blog animate">
+                     <figure class="p_b_img"><img src="./images/blogs/blog_3.webp" alt="blog img"></figure>
+                     <content class="p_b_content">
+                        <div class="blog_tags">
+                           <div class="tag">categories</div>
+                        </div>
+                        <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                        <p class="blog_desc webkit_box p_b_desc">Best Platform For Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptatum dignissimos tenetur impedit dicta dolores asperiores suscipit, sed iusto hic?</p>
+                     </content>
+                  </a>
+                  <a href="single_post.html" class="p_b_blog animate">
+                     <figure class="p_b_img"><img src="./images/blogs/blog_4.webp" alt="blog img"></figure>
+                     <content class="p_b_content">
+                        <div class="blog_tags">
+                           <div class="tag">categories</div>
+                        </div>
+                        <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                        <p class="blog_desc webkit_box p_b_desc">Best Platform For Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptatum dignissimos tenetur impedit dicta dolores asperiores suscipit, sed iusto hic?</p>
+                     </content>
+                  </a>
+                  <a href="single_post.html" class="p_b_blog animate">
+                     <figure class="p_b_img"><img src="./images/blogs/blog_5.webp" alt="blog img"></figure>
+                     <content class="p_b_content">
+                        <div class="blog_tags">
+                           <div class="tag">categories</div>
+                        </div>
+                        <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                        <p class="blog_desc webkit_box p_b_desc">Best Platform For Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptatum dignissimos tenetur impedit dicta dolores asperiores suscipit, sed iusto hic?</p>
+                     </content>
+                  </a>
+                  <a href="single_post.html" class="p_b_blog animate">
+                     <figure class="p_b_img"><img src="./images/blogs/blog_6.webp" alt="blog img"></figure>
+                     <content class="p_b_content">
+                        <div class="blog_tags">
+                           <div class="tag">categories</div>
+                        </div>
+                        <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                        <p class="blog_desc webkit_box p_b_desc">Best Platform For Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptatum dignissimos tenetur impedit dicta dolores asperiores suscipit, sed iusto hic?</p>
+                     </content>
+                  </a>
+                  <a href="single_post.html" class="p_b_blog animate">
+                     <figure class="p_b_img"><img src="./images/blogs/blog_7.webp" alt="blog img"></figure>
+                     <content class="p_b_content">
+                        <div class="blog_tags">
+                           <div class="tag">categories</div>
+                        </div>
+                        <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                        <p class="blog_desc webkit_box p_b_desc">Best Platform For Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptatum dignissimos tenetur impedit dicta dolores asperiores suscipit, sed iusto hic?</p>
+                     </content>
+                  </a>
+                  <a href="single_post.html" class="p_b_blog animate">
+                     <figure class="p_b_img"><img src="./images/blogs/blog_8.webp" alt="blog img"></figure>
+                     <content class="p_b_content">
+                        <div class="blog_tags">
+                           <div class="tag">categories</div>
+                        </div>
+                        <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                        <p class="blog_desc webkit_box p_b_desc">Best Platform For Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptatum dignissimos tenetur impedit dicta dolores asperiores suscipit, sed iusto hic?</p>
+                     </content>
+                  </a>
+                  <a href="single_post.html" class="p_b_blog animate">
+                     <figure class="p_b_img"><img src="./images/blogs/blog_9.webp" alt="blog img"></figure>
+                     <content class="p_b_content">
+                        <div class="blog_tags">
+                           <div class="tag">categories</div>
+                        </div>
+                        <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                        <p class="blog_desc webkit_box p_b_desc">Best Platform For Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptatum dignissimos tenetur impedit dicta dolores asperiores suscipit, sed iusto hic?</p>
+                     </content>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--  feature blogs -->
+   <section class="feature_blogs">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="f_b_container">
+                  <div class="f_b_sidebar">
+                     <div class="main_heading no_m animate">
+                        <h4><span>feature blogs</span></h4>
+                     </div>
+                     <p class="blog_desc animate">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Quo recusandae porro natus? Quibusdam repellat magni maxime repellendus harum laboriosam rerum nobis voluptatibus facere earum fugit, minus commodi voluptate dolore ad.</p>
+                     <button class="button animate">view all categories</button>
+                  </div>
+                  <div class="f_b_main swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <a href="single_post.html" class="f_b_blog animate">
+                              <figure class="f_b_img"><img src="./images/blogs/blog_1.webp" alt=""></figure>
+                              <content class="f_b_content">
+                                 <div class="f_b_content_head">
+                                    <div class="f_b_head">
+                                       <div class="cat_tag">
+                                          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                             <path d="M12 12l3 -2"></path>
+                                             <path d="M12 7v5"></path>
+                                          </svg>
+                                          <span>Febrary : 2/25/2023</span>
+                                       </div>
+                                       <h4 class="blog_title webkit_box">Tips and Techniques for Boosting Your Imagination and Innovation</h4>
+                                       <p class="blog_desc webkit_box">Creativity is a valuable and sought-after skill in today's world, as it allows individuals and organizations to come up with innovative solutions to complex problems. However, many people</p>
+                                    </div>
+                                 </div>
+                                 <div class="f_b_content_body">
+                                    <div class="author">
+                                       <figure><img src="./images/authors/author_1.webp" alt="Author Image" class="author-image"></figure>
+                                       <div class="author-info">
+                                          <h2 class="author-name">John Doe</h2>
+                                          <p class="author-bio">passionate writer</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="single_post.html" class="f_b_blog animate">
+                              <figure class="f_b_img"><img src="./images/blogs/blog_2.webp" alt=""></figure>
+                              <content class="f_b_content">
+                                 <div class="f_b_content_head">
+                                    <div class="f_b_head">
+                                       <div class="cat_tag">
+                                          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                             <path d="M12 12l3 -2"></path>
+                                             <path d="M12 7v5"></path>
+                                          </svg>
+                                          <span>Febrary : 2/25/2023</span>
+                                       </div>
+                                       <h4 class="blog_title webkit_box">Tips and Techniques for Boosting Your Imagination and Innovation</h4>
+                                       <p class="blog_desc webkit_box">Creativity is a valuable and sought-after skill in today's world, as it allows individuals and organizations to come up with innovative solutions to complex problems. However, many people</p>
+                                    </div>
+                                 </div>
+                                 <div class="f_b_content_body">
+                                    <div class="author">
+                                       <figure><img src="./images/authors/author_2.webp" alt="Author Image" class="author-image"></figure>
+                                       <div class="author-info">
+                                          <h2 class="author-name">John Doe</h2>
+                                          <p class="author-bio">passionate writer</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="single_post.html" class="f_b_blog animate">
+                              <figure class="f_b_img"><img src="./images/blogs/blog_3.webp" alt=""></figure>
+                              <content class="f_b_content">
+                                 <div class="f_b_content_head">
+                                    <div class="f_b_head">
+                                       <div class="cat_tag">
+                                          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                             <path d="M12 12l3 -2"></path>
+                                             <path d="M12 7v5"></path>
+                                          </svg>
+                                          <span>Febrary : 2/25/2023</span>
+                                       </div>
+                                       <h4 class="blog_title webkit_box">Tips and Techniques for Boosting Your Imagination and Innovation</h4>
+                                       <p class="blog_desc webkit_box">Creativity is a valuable and sought-after skill in today's world, as it allows individuals and organizations to come up with innovative solutions to complex problems. However, many people</p>
+                                    </div>
+                                 </div>
+                                 <div class="f_b_content_body">
+                                    <div class="author">
+                                       <figure><img src="./images/authors/author_3.webp" alt="Author Image" class="author-image"></figure>
+                                       <div class="author-info">
+                                          <h2 class="author-name">John Doe</h2>
+                                          <p class="author-bio">passionate writer</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="single_post.html" class="f_b_blog animate">
+                              <figure class="f_b_img"><img src="./images/blogs/blog_4.webp" alt=""></figure>
+                              <content class="f_b_content">
+                                 <div class="f_b_content_head">
+                                    <div class="f_b_head">
+                                       <div class="cat_tag">
+                                          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                             <path d="M12 12l3 -2"></path>
+                                             <path d="M12 7v5"></path>
+                                          </svg>
+                                          <span>Febrary : 2/25/2023</span>
+                                       </div>
+                                       <h4 class="blog_title webkit_box">Tips and Techniques for Boosting Your Imagination and Innovation</h4>
+                                       <p class="blog_desc webkit_box">Creativity is a valuable and sought-after skill in today's world, as it allows individuals and organizations to come up with innovative solutions to complex problems. However, many people</p>
+                                    </div>
+                                 </div>
+                                 <div class="f_b_content_body">
+                                    <div class="author">
+                                       <figure><img src="./images/authors/author_4.webp" alt="Author Image" class="author-image"></figure>
+                                       <div class="author-info">
+                                          <h2 class="author-name">John Doe</h2>
+                                          <p class="author-bio">passionate writer</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="single_post.html" class="f_b_blog animate">
+                              <figure class="f_b_img"><img src="./images/blogs/blog_5.webp" alt=""></figure>
+                              <content class="f_b_content">
+                                 <div class="f_b_content_head">
+                                    <div class="f_b_head">
+                                       <div class="cat_tag">
+                                          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                             <path d="M12 12l3 -2"></path>
+                                             <path d="M12 7v5"></path>
+                                          </svg>
+                                          <span>Febrary : 2/25/2023</span>
+                                       </div>
+                                       <h4 class="blog_title webkit_box">Tips and Techniques for Boosting Your Imagination and Innovation</h4>
+                                       <p class="blog_desc webkit_box">Creativity is a valuable and sought-after skill in today's world, as it allows individuals and organizations to come up with innovative solutions to complex problems. However, many people</p>
+                                    </div>
+                                 </div>
+                                 <div class="f_b_content_body">
+                                    <div class="author">
+                                       <figure><img src="./images/authors/author_5.webp" alt="Author Image" class="author-image"></figure>
+                                       <div class="author-info">
+                                          <h2 class="author-name">John Doe</h2>
+                                          <p class="author-bio">passionate writer</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="single_post.html" class="f_b_blog animate">
+                              <figure class="f_b_img"><img src="./images/blogs/blog_6.webp" alt=""></figure>
+                              <content class="f_b_content">
+                                 <div class="f_b_content_head">
+                                    <div class="f_b_head">
+                                       <div class="cat_tag">
+                                          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                             <path d="M12 12l3 -2"></path>
+                                             <path d="M12 7v5"></path>
+                                          </svg>
+                                          <span>Febrary : 2/25/2023</span>
+                                       </div>
+                                       <h4 class="blog_title webkit_box">Tips and Techniques for Boosting Your Imagination and Innovation</h4>
+                                       <p class="blog_desc webkit_box">Creativity is a valuable and sought-after skill in today's world, as it allows individuals and organizations to come up with innovative solutions to complex problems. However, many people</p>
+                                    </div>
+                                 </div>
+                                 <div class="f_b_content_body">
+                                    <div class="author">
+                                       <figure><img src="./images/authors/author_6.webp" alt="Author Image" class="author-image"></figure>
+                                       <div class="author-info">
+                                          <h2 class="author-name">John Doe</h2>
+                                          <p class="author-bio">passionate writer</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="single_post.html" class="f_b_blog animate">
+                              <figure class="f_b_img"><img src="./images/blogs/blog_7.webp" alt=""></figure>
+                              <content class="f_b_content">
+                                 <div class="f_b_content_head">
+                                    <div class="f_b_head">
+                                       <div class="cat_tag">
+                                          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                             <path d="M12 12l3 -2"></path>
+                                             <path d="M12 7v5"></path>
+                                          </svg>
+                                          <span>Febrary : 2/25/2023</span>
+                                       </div>
+                                       <h4 class="blog_title webkit_box">Tips and Techniques for Boosting Your Imagination and Innovation</h4>
+                                       <p class="blog_desc webkit_box">Creativity is a valuable and sought-after skill in today's world, as it allows individuals and organizations to come up with innovative solutions to complex problems. However, many people</p>
+                                    </div>
+                                 </div>
+                                 <div class="f_b_content_body">
+                                    <div class="author">
+                                       <figure><img src="./images/authors/author_7.webp" alt="Author Image" class="author-image"></figure>
+                                       <div class="author-info">
+                                          <h2 class="author-name">John Doe</h2>
+                                          <p class="author-bio">passionate writer</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="single_post.html" class="f_b_blog animate">
+                              <figure class="f_b_img"><img src="./images/blogs/blog_8.webp" alt=""></figure>
+                              <content class="f_b_content">
+                                 <div class="f_b_content_head">
+                                    <div class="f_b_head">
+                                       <div class="cat_tag">
+                                          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                             <path d="M12 12l3 -2"></path>
+                                             <path d="M12 7v5"></path>
+                                          </svg>
+                                          <span>Febrary : 2/25/2023</span>
+                                       </div>
+                                       <h4 class="blog_title webkit_box">Tips and Techniques for Boosting Your Imagination and Innovation</h4>
+                                       <p class="blog_desc webkit_box">Creativity is a valuable and sought-after skill in today's world, as it allows individuals and organizations to come up with innovative solutions to complex problems. However, many people</p>
+                                    </div>
+                                 </div>
+                                 <div class="f_b_content_body">
+                                    <div class="author">
+                                       <figure><img src="./images/authors/author_8.webp" alt="Author Image" class="author-image"></figure>
+                                       <div class="author-info">
+                                          <h2 class="author-name">John Doe</h2>
+                                          <p class="author-bio">passionate writer</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                        <div class="swiper-slide">
+                           <a href="single_post.html" class="f_b_blog animate">
+                              <figure class="f_b_img"><img src="./images/blogs/blog_9.webp" alt=""></figure>
+                              <content class="f_b_content">
+                                 <div class="f_b_content_head">
+                                    <div class="f_b_head">
+                                       <div class="cat_tag">
+                                          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                             <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                             <path d="M12 12l3 -2"></path>
+                                             <path d="M12 7v5"></path>
+                                          </svg>
+                                          <span>Febrary : 2/25/2023</span>
+                                       </div>
+                                       <h4 class="blog_title webkit_box">Tips and Techniques for Boosting Your Imagination and Innovation</h4>
+                                       <p class="blog_desc webkit_box">Creativity is a valuable and sought-after skill in today's world, as it allows individuals and organizations to come up with innovative solutions to complex problems. However, many people</p>
+                                    </div>
+                                 </div>
+                                 <div class="f_b_content_body">
+                                    <div class="author">
+                                       <figure><img src="./images/authors/author_9.webp" alt="Author Image" class="author-image"></figure>
+                                       <div class="author-info">
+                                          <h2 class="author-name">John Doe</h2>
+                                          <p class="author-bio">passionate writer</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="swiper-button-next arrows"></div>
+                     <div class="swiper-button-prev arrows"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- latest post -->
+   <section class="latest_post">
+      <div class="container">
+         <div class="roe">
+            <div class="col-12">
+               <div class="l_p_container">
+                  <div class="l_p_main">
+                     <div class="main_heading animate">
+                        <h4>latest post</h4>
+                     </div>
+                     <div class="l_p_wrapper">
+                        <a href="#" class="l_p_post animate">
+                           <div class="l_p_item l_p_item_img">
+                              <figure><img src="images/blogs/blog_1.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>12 user</span>
+                                 </div>
+                              </content>
+                           </div>
+                           <div class="l_p_item l_p_item_date">
+                              <div class="post_date"><span>20 feb</span><span class="year">2023</span></div>
+                           </div>
+                        </a>
+                        <a href="#" class="l_p_post animate">
+                           <div class="l_p_item l_p_item_img">
+                              <figure><img src="images/blogs/blog_2.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>12 user</span>
+                                 </div>
+                              </content>
+                           </div>
+                           <div class="l_p_item l_p_item_date">
+                              <div class="post_date"><span>20 feb</span><span class="year">2023</span></div>
+                           </div>
+                        </a>
+                        <a href="#" class="l_p_post animate">
+                           <div class="l_p_item l_p_item_img">
+                              <figure><img src="images/blogs/blog_3.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>12 user</span>
+                                 </div>
+                              </content>
+                           </div>
+                           <div class="l_p_item l_p_item_date">
+                              <div class="post_date"><span>20 feb</span><span class="year">2023</span></div>
+                           </div>
+                        </a>
+                        <a href="#" class="l_p_post animate">
+                           <div class="l_p_item l_p_item_img">
+                              <figure><img src="images/blogs/blog_4.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>12 user</span>
+                                 </div>
+                              </content>
+                           </div>
+                           <div class="l_p_item l_p_item_date">
+                              <div class="post_date"><span>20 feb</span><span class="year">2023</span></div>
+                           </div>
+                        </a>
+                        <a href="#" class="l_p_post animate">
+                           <div class="l_p_item l_p_item_img">
+                              <figure><img src="images/blogs/blog_5.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>12 user</span>
+                                 </div>
+                              </content>
+                           </div>
+                           <div class="l_p_item l_p_item_date">
+                              <div class="post_date"><span>20 feb</span><span class="year">2023</span></div>
+                           </div>
+                        </a>
+                        <a href="#" class="l_p_post animate">
+                           <div class="l_p_item l_p_item_img">
+                              <figure><img src="images/blogs/blog_6.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>12 user</span>
+                                 </div>
+                              </content>
+                           </div>
+                           <div class="l_p_item l_p_item_date">
+                              <div class="post_date"><span>20 feb</span><span class="year">2023</span></div>
+                           </div>
+                        </a>
+                        <a href="#" class="l_p_post animate">
+                           <div class="l_p_item l_p_item_img">
+                              <figure><img src="images/blogs/blog_7.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>12 user</span>
+                                 </div>
+                              </content>
+                           </div>
+                           <div class="l_p_item l_p_item_date">
+                              <div class="post_date"><span>20 feb</span><span class="year">2023</span></div>
+                           </div>
+                        </a>
+                        <a href="#" class="l_p_post animate">
+                           <div class="l_p_item l_p_item_img">
+                              <figure><img src="images/blogs/blog_8.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">We have meetings, the first video engagement platform to manage</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>12 user</span>
+                                 </div>
+                              </content>
+                           </div>
+                           <div class="l_p_item l_p_item_date">
+                              <div class="post_date"><span>20 feb</span><span class="year">2023</span></div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="l_p_sidebar">
+                     <div class="l_p_side_item animate">
+                        <h4 class="sidebar_heading">featured blogs</h4>
+                        <div class="h_side_list">
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_1.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Importance of Mindfulness in Today's Fast-Paced World</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_2.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">5 Ways to Improve Your Productivity at Work</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_3.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Benefits of Regular Exercise for Mental Health</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_4.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">How to Build Strong and Lasting Relationships</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_5.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Power of Positive Thinking: How to Harness it for Success</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_6.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">Why Travel is Important for Personal Growth</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_7.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">Tips for Managing Stress and Anxiety in Everyday Life</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_8.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Science of Sleep: How to Get a Good Night's Rest</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_9.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">How to Develop a Growth Mindset for Success</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_10.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Importance of Self-Care: Taking Time for Yourself</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="l_p_side_item animate">
+                        <h4 class="sidebar_heading">cloud tags</h4>
+                        <div class="cloud_tabs">
+                           <a href="single_categories.html">Investment</a>
+                           <a href="single_categories.html">Corporate</a>
+                           <a href="single_categories.html">Blog</a>
+                           <a href="single_categories.html">Business</a>
+                           <a href="single_categories.html">Finance</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--  Footer -->
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="footer">
+                  <div class="ftr_item ftr_profile">
+                     <a href="index.html" class="logo_wrapper">
+                        <span class="logo">
+                           <img src="./images/logo.svg" alt="">
+                        </span>
+                     </a>
+                     <p class="ftr_desclaimer">
+                        Populo tritani laboramus rnei, no eum i uvaret ceteros euripidis, ne alia sadißcing mei- Te inciderint cotidieque pro, ei iisque docendi qui.
+                     </p>
+                     <div class="social_icons">
+                        <div class="icon fb">
+                           <i class="fa fa-facebook-f"></i>
+                        </div>
+                        <div class="icon twt">
+                           <i class="fa fa-twitter"></i>
+                        </div>
+                        <div class="icon insta">
+                           <i class="fa fa-instagram"></i>
+                        </div>
+                        <div class="icon google_plus">
+                           <i class="fa fa-google-plus"></i>
+                        </div>
+                        <div class="icon linked_in">
+                           <i class="fa fa-linkedin"></i>
+                        </div>
+                     </div>
+                     <div class="ftr_menu">
+                        <a href="index.html" class="ftr_menu_link">home</a>
+                        <a href="store.html" class="ftr_menu_link">store</a>
+                        <a href="about.html" class="ftr_menu_link">about</a>
+                        <a href="categories.html" class="ftr_menu_link">categories</a>
+                        <a href="contact.html" class="ftr_menu_link">contact</a>
+                     </div>
+                  </div>
+                  <div class="ftr_item subscribe_area">
+                     <h4 class="ftr_heading no_m">subscribe area</h4>
+                     <p class="subs_desc">Sign up for our weekly email newsletter with the best money saving coupons.</p>
+                     <form class="subscribe">
+                        <div class="subs_wrapper">
+                           <input type="email" required placeholder="Enter The Email...">
+                           <button class="button no_m">
+                              subscribe
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-send" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M10 14l11 -11"></path>
+                                 <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"></path>
+                              </svg>
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="ftr_item ftr_links">
+                     <div class="ftr_posts">
+                        <h4 class="ftr_heading">popular posts</h4>
+                        <div class="h_side_list">
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_1.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Importance of Mindfulness in Today's Fast-Paced World</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_2.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">5 Ways to Improve Your Productivity at Work</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_3.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">The Benefits of Regular Exercise for Mental Health</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_post.html" class="h_side_list_item">
+                              <figure><img src="images/blogs/blog_4.webp" alt=""></figure>
+                              <content>
+                                 <h4 class="blog_title webkit_box">How to Build Strong and Lasting Relationships</h4>
+                                 <div class="cat_tag">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                                       <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                                    </svg>
+                                    <span>10 user</span>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="copyright">
+         <div class="container">
+            <p>
+               A copyright notice in the footer of a website indicates that the content is protected by copyright laws and who owns the rights.
+            </p>
+         </div>
+      </div>
+   </footer>
+</body>
+<!-- JQuery js CDN -->
+<script src="js/jquery.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- swiper js -->
+<script src="js/swiper.bundle.min.js"></script>
+<!-- lazy js -->
+<script src="js/lazy.min.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+
+</html>

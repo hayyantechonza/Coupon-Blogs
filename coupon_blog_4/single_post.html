@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+   <title>Discount Dash</title>
+   <!-- Bootstrap CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- swiper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <!-- favicon -->
+   <link type="image/png" sizes="32x32" rel="icon" href="./images/logo/favicons/favicon_white.svg">
+   <!-- style sheet -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+   <!-- header -->
+   <header>
+      <div class="header">
+         <div class="logo_wrapper">
+            <div class="container">
+               <a href="index.html" class="logo">
+                  <img src="./images/logo/svg/logo.svg" alt="Logo">
+               </a>
+            </div>
+         </div>
+         <div class="top_header header_column">
+            <div class="container">
+               <div class="t_header header_child">
+                  <ul class="menu_navbar">
+                     <li>
+                        <form action="./blog_search.html" class="search res_search">
+                           <div class="search_wrapper">
+                              <input type="search" class="input" placeholder="search....">
+                              <button class="search_btn">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                                    <path d="M21 21l-6 -6"></path>
+                                 </svg>
+                              </button>
+                           </div>
+                           <div class="dropdown_search">
+                              <div class="dropdown_search_items">
+                                 <h4 class="search_heading">Enter Keywords To Search</h4>
+                                 <ul class="search-list">
+                                    <li class="search-item">
+                                       <a href="#">
+                                          <p class="text">ALA<br><span>(13 offers)</span></p>
+                                       </a>
+                                    </li>
+                                    <li class="search-item">
+                                       <a href="#">
+                                          <p class="text">ALA<br><span>(13 offers)</span></p>
+                                       </a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </form>
+                     </li>
+                     <li>
+                        <a href="index.html" class="nav_link active">home</a>
+                     </li>
+                     <li>
+                        <a href="store.html" class="nav_link">store</a>
+                     </li>
+                     <li>
+                        <a href="about.html" class="nav_link">about</a>
+                     </li>
+                     <li>
+                        <a href="categories.html" class="nav_link">Categories</a>
+                     </li>
+                     <li>
+                        <a href="contact.html" class="contact_btn white button no_m">
+                           <span>get in touch</span>
+                        </a>
+                     </li>
+                  </ul>
+                  <button class="toggler">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 8l16 0"></path>
+                        <path d="M4 16l12 0"></path>
+                     </svg>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="bottom_header header_column">
+            <div class="container">
+               <div class="b_header header_child">
+                  <form action="./blog_search.html" class="search">
+                     <div class="search_wrapper">
+                        <input type="search" class="input" placeholder="search....">
+                        <button class="search_btn">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                              <path d="M21 21l-6 -6"></path>
+                           </svg>
+                        </button>
+                     </div>
+                     <div class="dropdown_search">
+                        <div class="dropdown_search_items">
+                           <h4 class="search_heading">Enter Keywords To Search</h4>
+                           <ul class="search-list">
+                              <li class="search-item">
+                                 <a href="#">
+                                    <p class="text">ALA<br><span>(13 offers)</span></p>
+                                 </a>
+                              </li>
+                              <li class="search-item">
+                                 <a href="#">
+                                    <p class="text">ALA<br><span>(13 offers)</span></p>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- main -->
+   <main>
+      <!-- main blog -->
+      <section class="single_post">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="s_p_main">
+                     <div class="s_p_head">
+                        <p class="blog_categories">Travel</p>
+                        <h2 class="blog_tile">The Ultimate Guide To Planning Your Dream Vacation</h2>
+                        <p class="blog_description">Discover the essential steps and tips for planning your dream vacation. From choosing the perfect destination to creating an itinerary and managing your travel budget, this comprehensive guide will help you turn your travel dreams into a reality.</p>
+                        <figure class="blog_img">
+                           <img src="images/blogs/blog_1.webp" alt="blog image">
+                        </figure>
+                     </div>
+                     <div class="s_p_wrapper">
+                        <div class="s_p_body">
+                           <h3>Choose your destination</h3>
+                           <p>The first step is to choose your destination. This is the most important decision you'll make, so take your time and consider all of your options. What are you interested in? Do you want to relax on a beach, explore a new city, or go on an adventure? Once you know what you're looking for, you can start to narrow down your choices</p>
+                           <figure>
+                              <img src="images/categories/categories_1.webp" alt="">
+                           </figure>
+                           <h3>Set a budget</h3>
+                           <p>Once you've chosen your destination, it's time to set a budget. This will help you narrow down your options and make sure you don't overspend. Be sure to factor in the cost of transportation, accommodation, food, activities, and souvenirs.</p>
+                           <h3>Book your flights and accommodation</h3>
+                           <p>Once you have a budget, it's time to start booking your flights and accommodation. This is usually the most expensive part of a vacation, so it's important to shop around and find the best deals. You can use travel websites like Kayak or Skyscanner to compare prices.</p>
+
+                           <figure>
+                              <img src="images/categories/categories_2.webp" alt="">
+                           </figure>
+                           <h3>Plan your itinerary</h3>
+                           <p>Once you have your flights and accommodation booked, it's time to start planning your itinerary. This is where you'll decide what you want to do on your vacation. Make a list of all the activities and attractions that interest you, and then prioritize them based on your interests and budget.</p>
+
+                           <figure>
+                              <img src="images/categories/categories_3.webp" alt="">
+                           </figure>
+                           <h5>Here are some additional tips for planning your dream vacation:</h5>
+                           <ul>
+                              <li>Be flexible with your dates. This will help you find the best deals on flights and accommodation.</li>
+                              <li>Consider traveling during the off-season. This can save you a lot of money.</li>
+                              <li>Use social media to research your destination. There are many travel bloggers and influencers who can share their tips and recommendations.</li>
+                              <li>Don't forget to book your travel insurance!</li>
+                           </ul>
+                           <h3>Choose your destination</h3>
+                           <p>The first step is to choose your destination. This is the most important decision you'll make, so take your time and consider all of your options. What are you interested in? Do you want to relax on a beach, explore a new city, or go on an adventure? Once you know what you're looking for, you can start to narrow down your choices</p>
+                           <h3>Set a budget</h3>
+                           <p>Once you've chosen your destination, it's time to set a budget. This will help you narrow down your options and make sure you don't overspend. Be sure to factor in the cost of transportation, accommodation, food, activities, and souvenirs.</p>
+
+                           <figure>
+                              <img src="images/categories/categories_4.webp" alt="">
+                           </figure>
+                           <h3>Book your flights and accommodation</h3>
+                           <p>Once you have a budget, it's time to start booking your flights and accommodation. This is usually the most expensive part of a vacation, so it's important to shop around and find the best deals. You can use travel websites like Kayak or Skyscanner to compare prices.</p>
+                        </div>
+                        <div class="s_p_sidebar">
+                           <div class="s_p_side_item">
+                              <h2 class="side_heading">search</h2>
+                              <form action="./blog_search.html" class="search">
+                                 <div class="search_wrapper">
+                                    <input type="search" class="input" placeholder="search....">
+                                    <button class="search_btn">
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                          <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                                          <path d="M21 21l-6 -6"></path>
+                                       </svg>
+                                    </button>
+                                 </div>
+                              </form>
+                           </div>
+                           <div class="s_p_side_item">
+                              <h2 class="side_heading">popular stores</h2>
+                              <div class="str_pop_store">
+                                 <a href="single_store.html" class="str_pop_str">
+                                    <figure class="str_pop_str_img"><img src="./images/stores/store_1.webp" alt=""></figure>
+                                    <div class="str_pop_str_content">
+                                       <h2 class="name">abbott lyon</h2>
+                                       <p class="offer">123 offers</p>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html" class="str_pop_str">
+                                    <figure class="str_pop_str_img"><img src="./images/stores/store_2.webp" alt=""></figure>
+                                    <div class="str_pop_str_content">
+                                       <h2 class="name">abbott lyon</h2>
+                                       <p class="offer">123 offers</p>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html" class="str_pop_str">
+                                    <figure class="str_pop_str_img"><img src="./images/stores/store_3.webp" alt=""></figure>
+                                    <div class="str_pop_str_content">
+                                       <h2 class="name">abbott lyon</h2>
+                                       <p class="offer">123 offers</p>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html" class="str_pop_str">
+                                    <figure class="str_pop_str_img"><img src="./images/stores/store_4.webp" alt=""></figure>
+                                    <div class="str_pop_str_content">
+                                       <h2 class="name">abbott lyon</h2>
+                                       <p class="offer">123 offers</p>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html" class="str_pop_str">
+                                    <figure class="str_pop_str_img"><img src="./images/stores/store_5.webp" alt=""></figure>
+                                    <div class="str_pop_str_content">
+                                       <h2 class="name">abbott lyon</h2>
+                                       <p class="offer">123 offers</p>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html" class="str_pop_str">
+                                    <figure class="str_pop_str_img"><img src="./images/stores/store_6.webp" alt=""></figure>
+                                    <div class="str_pop_str_content">
+                                       <h2 class="name">abbott lyon</h2>
+                                       <p class="offer">123 offers</p>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html" class="str_pop_str">
+                                    <figure class="str_pop_str_img"><img src="./images/stores/store_7.webp" alt=""></figure>
+                                    <div class="str_pop_str_content">
+                                       <h2 class="name">abbott lyon</h2>
+                                       <p class="offer">123 offers</p>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html" class="str_pop_str">
+                                    <figure class="str_pop_str_img"><img src="./images/stores/store_8.webp" alt=""></figure>
+                                    <div class="str_pop_str_content">
+                                       <h2 class="name">abbott lyon</h2>
+                                       <p class="offer">123 offers</p>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html" class="str_pop_str">
+                                    <figure class="str_pop_str_img"><img src="./images/stores/store_9.webp" alt=""></figure>
+                                    <div class="str_pop_str_content">
+                                       <h2 class="name">abbott lyon</h2>
+                                       <p class="offer">123 offers</p>
+                                    </div>
+                                 </a>
+                                 <a href="single_store.html" class="str_pop_str">
+                                    <figure class="str_pop_str_img"><img src="./images/stores/store_10.webp" alt=""></figure>
+                                    <div class="str_pop_str_content">
+                                       <h2 class="name">abbott lyon</h2>
+                                       <p class="offer">123 offers</p>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="s_p_side_item">
+                              <h2 class="side_heading">cloud tags</h2>
+                              <div class="tag_clouds">
+                                 <a href="single_store.html">amazon</a>
+                                 <a href="single_store.html">walmart</a>
+                                 <a href="single_store.html">target</a>
+                                 <a href="single_store.html">best buy</a>
+                                 <a href="single_store.html">apple</a>
+                                 <a href="single_store.html">microsoft</a>
+                                 <a href="single_store.html">nike</a>
+                                 <a href="single_store.html">adidas</a>
+                                 <a href="single_store.html">starbucks</a>
+                                 <a href="single_store.html">costco</a>
+                                 <a href="single_store.html">home depot</a>
+                                 <a href="single_store.html">sephora</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- related blogs -->
+      <section class="related_blogs">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <div class="main_heading">
+                     <h2 class="heading">related post</h2>
+                  </div>
+                  <div class="r_b_main swiper">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div class="s_c_card">
+                              <figure class="s_c_img"><img src="images/blogs/blog_1.webp" alt="categories image"></figure>
+                              <div class="s_c_content">
+                                 <a href="single_post.html" class="line_clamp_2 s_c_heading webkit_box">The Ultimate Guide to Planning Your Dream Vacation</a>
+                                 <p class="line_clamp_2 s_c_description webkit_box">Discover the essential steps and tips for planning your dream vacation. From choosing the perfect destination to creating an itinerary and managing your travel budget, this comprehensive guide will help you turn your travel dreams into a reality.</p>
+                                 <a href="single_categories.html" class="s_c_cat">Travel</a>
+                                 <span>01</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="s_c_card">
+                              <figure class="s_c_img"><img src="images/blogs/blog_2.webp" alt="categories image"></figure>
+                              <div class="s_c_content">
+                                 <a href="single_post.html" class="line_clamp_2 s_c_heading webkit_box">Achieving Wellness Goals</a>
+                                 <p class="line_clamp_2 s_c_description webkit_box">Discover tips and insights on maintaining a healthy lifestyle. From exercise routines and nutrition advice to mental well-being, we cover all aspects of health and fitness to help you lead a balanced life.</p>
+                                 <a href="single_categories.html" class="s_c_cat">Health & Fitness</a>
+                                 <span>02</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="s_c_card">
+                              <figure class="s_c_img"><img src="images/blogs/blog_3.webp" alt="categories image"></figure>
+                              <div class="s_c_content">
+                                 <a href="single_post.html" class="line_clamp_2 s_c_heading webkit_box">Wanderlust Adventures</a>
+                                 <p class="line_clamp_2 s_c_description webkit_box">Embark on virtual journeys to fascinating destinations around the globe. Explore breathtaking landscapes, uncover hidden gems, and learn about different cultures and travel tips that will inspire your next adventure.</p>
+                                 <a href="single_categories.html" class="s_c_cat">Travel</a>
+                                 <span>03</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="s_c_card">
+                              <figure class="s_c_img"><img src="images/blogs/blog_4.webp" alt="categories image"></figure>
+                              <div class="s_c_content">
+                                 <a href="single_post.html" class="line_clamp_2 s_c_heading webkit_box">Style Inspiration for Every Season</a>
+                                 <p class="line_clamp_2 s_c_description webkit_box">Dive into the world of fashion and find inspiration for your wardrobe. Stay updated with the latest trends, discover styling tips, and learn about sustainable fashion choices that reflect your unique personality and sense of style.</p>
+                                 <a href="single_categories.html" class="s_c_cat">Fashion</a>
+                                 <span>04</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="s_c_card">
+                              <figure class="s_c_img"><img src="images/blogs/blog_5.webp" alt="categories image"></figure>
+                              <div class="s_c_content">
+                                 <a href="single_post.html" class="line_clamp_2 s_c_heading webkit_box">Delicious Culinary Adventures</a>
+                                 <p class="line_clamp_2 s_c_description webkit_box">Indulge your taste buds in a culinary exploration. Discover mouthwatering recipes, explore diverse cuisines, and learn cooking techniques from experts. From comfort food to gourmet delights, let your love for food take center stage.</p>
+                                 <a href="single_categories.html" class="s_c_cat">Food</a>
+                                 <span>05</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="s_c_card">
+                              <figure class="s_c_img"><img src="images/blogs/blog_6.webp" alt="categories image"></figure>
+                              <div class="s_c_content">
+                                 <a href="single_post.html" class="line_clamp_2 s_c_heading webkit_box">Unlocking Your Potential</a>
+                                 <p class="line_clamp_2 s_c_description webkit_box">Embark on a journey of self-discovery and personal growth. Gain insights on building resilience, improving productivity, and developing essential life skills. Explore strategies and techniques to unlock your full potential and lead a more fulfilling life.</p>
+                                 <a href="single_categories.html" class="s_c_cat">Personal Development</a>
+                                 <span>06</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="s_c_card">
+                              <figure class="s_c_img"><img src="images/blogs/blog_7.webp" alt="categories image"></figure>
+                              <div class="s_c_content">
+                                 <a href="single_post.html" class="line_clamp_2 s_c_heading webkit_box">Pop Culture Extravaganza</a>
+                                 <p class="line_clamp_2 s_c_description webkit_box">Immerse yourself in the world of entertainment. Stay updated with the latest movies, TV shows, music, and celebrity news. Discover thought-provoking reviews, entertaining interviews, and captivating insights into the ever-evolving landscape of pop culture.</p>
+                                 <a href="single_categories.html" class="s_c_cat">Entertainment</a>
+                                 <span>07</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="s_c_card">
+                              <figure class="s_c_img"><img src="images/blogs/blog_8.webp" alt="categories image"></figure>
+                              <div class="s_c_content">
+                                 <a href="single_post.html" class="line_clamp_2 s_c_heading webkit_box">Mastering Your Finances</a>
+                                 <p class="line_clamp_2 s_c_description webkit_box">Enhance your financial literacy and learn how to make informed decisions about money. Explore topics such as budgeting, investing, saving strategies, and smart financial planning to achieve your short-term and long-term financial goals.</p>
+                                 <a href="single_categories.html" class="s_c_cat">Finance</a>
+                                 <span>08</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="s_c_card">
+                              <figure class="s_c_img"><img src="images/blogs/blog_9.webp" alt="categories image"></figure>
+                              <div class="s_c_content">
+                                 <a href="single_post.html" class="line_clamp_2 s_c_heading webkit_box">Creating Beautiful Spaces</a>
+                                 <p class="line_clamp_2 s_c_description webkit_box">Unleash your creativity and find inspiration for home decoration and design. Explore interior design trends, DIY projects, organization tips, and advice on creating functional and aesthetically pleasing living spaces that reflect your personal style.</p>
+                                 <a href="single_categories.html" class="s_c_cat">Home & Decor</a>
+                                 <span>09</span>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="s_c_card">
+                              <figure class="s_c_img"><img src="images/blogs/blog_10.webp" alt="categories image"></figure>
+                              <div class="s_c_content">
+                                 <a href="single_post.html" class="line_clamp_2 s_c_heading webkit_box">Sustainable Living for a Better Future</a>
+                                 <p class="line_clamp_2 s_c_description webkit_box">Discover eco-friendly practices and explore ways to live a more sustainable lifestyle. Learn about green initiatives, renewable energy, reducing waste, ethical consumption, and practical tips for making a positive impact on the environment.</p>
+                                 <a href="single_categories.html" class="s_c_cat">Environment</a>
+                                 <span>10</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <!-- footer -->
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="footer">
+                  <div class="ftr_side">
+                     <a href="index.html" class="logo ftr_logo">
+                        <img src="./images/logo/svg/logo_white.svg" alt="Logo">
+                     </a>
+                     <div class="ftr_disclaimer">
+                        <p>Disclaimer: "By utilizing our coupon links on Discount Dash, please be aware that we may earn a commission from your purchases."</p>
+                     </div>
+                     <div class="ftr_social_icons">
+                        <h2 class="ftr_heading">social links</h2>
+                        <div class="social_icons">
+                           <div class="icon facebook">
+                              <figure>
+                                 <img src="images/socials/facebook.svg" alt="">
+                              </figure>
+                           </div>
+                           <div class="icon twitter">
+                              <i class="fa fa-twitter"></i>
+                              <figure>
+                                 <img src="images/socials/twitter.svg" alt="">
+                              </figure>
+                           </div>
+                           <div class="icon instagram">
+                              <i class="fa fa-instagram"></i>
+                              <figure>
+                                 <img src="images/socials/instagram.svg" alt="">
+                              </figure>
+                           </div>
+                           <div class="icon google_plus">
+                              <i class="fa fa-google-plus"></i>
+                              <figure>
+                                 <img src="images/socials/google_plus.svg" alt="">
+                              </figure>
+                           </div>
+                           <div class="icon linkedin">
+                              <i class="fa fa-linkedin"></i>
+                              <figure>
+                                 <img src="images/socials/linkedin.svg" alt="">
+                              </figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="ftr_main">
+                     <div class="ftr_main_head">
+                        <div class="ftr_quick_links">
+                           <h2 class="ftr_heading">quick links :</h2>
+                           <div class="ftr_quick_links_wrapper">
+                              <a href="index.html" class="ftr_quick_link">home</a>
+                              <a href="about.html" class="ftr_quick_link">about</a>
+                              <a href="store.html" class="ftr_quick_link">store</a>
+                              <a href="categories.html" class="ftr_quick_link">categories</a>
+                              <a href="contact.html" class="ftr_quick_link">contact</a>
+                           </div>
+                        </div>
+                        <a href="contact.html" class="button no_m">get in touch</a>
+                     </div>
+                     <div class="ftr_main_body">
+                        <div class="ftr_links">
+                           <h2 class="ftr_heading">Popular Stores</h2>
+                           <div class="ftr_links_wrapper">
+                              <a href="single_store.html" class="ftr_link">Amazon</a>
+                              <a href="single_store.html" class="ftr_link">Target</a>
+                              <a href="single_store.html" class="ftr_link">Walmart</a>
+                              <a href="single_store.html" class="ftr_link">Macy's</a>
+                              <a href="single_store.html" class="ftr_link">Best Buy</a>
+                           </div>
+                        </div>
+                        <div class="ftr_links">
+                           <h2 class="ftr_heading">More Discounts</h2>
+                           <div class="ftr_links_wrapper">
+                              <a href="about.html" class="ftr_link">About</a>
+                              <a href="privacy_policy.html" class="ftr_link">Privacy Policy</a>
+                              <a href="terms_conditions.html" class="ftr_link">Terms & Conditions</a>
+                              <a href="contact_us.html" class="ftr_link">Contact Us</a>
+                           </div>
+                        </div>
+                        <div class="ftr_links">
+                           <h2 class="ftr_heading">Categories</h2>
+                           <div class="ftr_links_wrapper">
+                              <a href="amazon.html" class="ftr_link">Amazon</a>
+                              <a href="target.html" class="ftr_link">Target</a>
+                              <a href="walmart.html" class="ftr_link">Walmart</a>
+                              <a href="macys.html" class="ftr_link">Macy's</a>
+                              <a href="bestbuy.html" class="ftr_link">Best Buy</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="ftr_main_footer">
+                        <p>&copy; <span id="currentYear"></span> Hayyan. All rights reserved. Unauthorized use or reproduction of this text is prohibited without prior written consent from Hayyan.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- JQuery js CDN -->
+   <script src="js/jquery.js"></script>
+   <!-- bootstrap js -->
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <!-- swiper js -->
+   <script src="js/swiper.bundle.min.js"></script>
+   <!-- swipe js -->
+   <script src="js/swipe.js"></script>
+   <!-- swipe js -->
+   <script src="js/lordicon.js"></script>
+   <!-- custom js -->
+   <script src="js/main.js"></script>
+</body>
+
+</html>

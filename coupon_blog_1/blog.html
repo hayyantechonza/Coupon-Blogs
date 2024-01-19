@@ -1,0 +1,509 @@
+<!doctype html>
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+   <title>Blog 13th</title>
+   <!-- Bootstrap CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- swiper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <!-- font-awesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <!-- fav icon -->
+   <link type="image/png" sizes="32x32" rel="icon" href="images/favicon.svg">
+   <!-- style sheet -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+   <!--  header -->
+   <header>
+      <section class="top_header">
+         <div class="container">
+            <div class="t_header_main">
+               <div class="hedr_socials">
+                  <div class="icon fb">
+                     <i class="fa fa-facebook-f"></i>
+                  </div>
+                  <div class="icon twt">
+                     <i class="fa fa-twitter"></i>
+                  </div>
+                  <div class="icon insta">
+                     <i class="fa fa-instagram"></i>
+                  </div>
+                  <div class="icon google_plus">
+                     <i class="fa fa-google-plus"></i>
+                  </div>
+                  <div class="icon linked_in">
+                     <i class="fa fa-linkedin"></i>
+                  </div>
+               </div>
+               <div class="logo_main">
+                  <a href="#" class="logo">
+                     <img src="./images/logo.svg" alt="">
+                  </a>
+               </div>
+               <div class="subs_btn_main">
+                  <a href="#" class="button no_m sm">
+                     <span>20% off offers</span>
+                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-discount-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M9 15l6 -6"></path>
+                        <circle cx="9.5" cy="9.5" r=".5" fill="currentColor"></circle>
+                        <circle cx="14.5" cy="14.5" r=".5" fill="currentColor"></circle>
+                        <path d="M5 7.2a2.2 2.2 0 0 1 2.2 -2.2h1a2.2 2.2 0 0 0 1.55 -.64l.7 -.7a2.2 2.2 0 0 1 3.12 0l.7 .7a2.2 2.2 0 0 0 1.55 .64h1a2.2 2.2 0 0 1 2.2 2.2v1a2.2 2.2 0 0 0 .64 1.55l.7 .7a2.2 2.2 0 0 1 0 3.12l-.7 .7a2.2 2.2 0 0 0 -.64 1.55v1a2.2 2.2 0 0 1 -2.2 2.2h-1a2.2 2.2 0 0 0 -1.55 .64l-.7 .7a2.2 2.2 0 0 1 -3.12 0l-.7 -.7a2.2 2.2 0 0 0 -1.55 -.64h-1a2.2 2.2 0 0 1 -2.2 -2.2v-1a2.2 2.2 0 0 0 -.64 -1.55l-.7 -.7a2.2 2.2 0 0 1 0 -3.12l.7 -.7a2.2 2.2 0 0 0 .64 -1.55v-1"></path>
+                     </svg>
+                  </a>
+                  <a href="#" class="button no_m sm">
+                     <span>free delivery</span>
+                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck-delivery" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                        <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                        <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5"></path>
+                        <path d="M3 9l4 0"></path>
+                     </svg>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="header_bottom">
+         <div class="container">
+            <div class="b_header_main">
+               <ul class="navigation">
+                  <li><a href="index.html" class="nav_link active">blog home</a></li>
+                  <li><a href="coupon.html" class="nav_link">coupon home</a></li>
+                  <li><a href="about.html" class="nav_link">about</a></li>
+                  <li><a href="categories.html" class="nav_link">categories</a></li>
+                  <li><a href="store.html" class="nav_link">stores</a></li>
+                  <li><a href="contact.html" class="nav_link">contact</a></li>
+                  <li><a href="blog.html" class="nav_link">Blogs</a></li>
+               </ul>
+               <div class="search">
+                  <button class="search_btn">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                        <path d="M21 21l-6 -6"></path>
+                     </svg>
+                  </button>
+                  <form class="search_form">
+                     <div class="search_head">
+                        <h3>search here</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="search_close" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                           <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                           <path d="M18 6l-12 12"></path>
+                           <path d="M6 6l12 12"></path>
+                        </svg>
+                     </div>
+                     <div class="search_wrapper">
+                        <input type="search" placeholder="search...">
+                        <button class="form_search_icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                              <path d="M21 21l-6 -6"></path>
+                           </svg>
+                        </button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </section>
+   </header>
+   <!-- blog -->
+   <section class="blog">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <h2 class="heading">all blogs</h2>
+               <div class="blog_container">
+                  <div class="t_p_banner">
+                     <div class="blog_tag webkit_box">Personal Growth & Development</div>
+                     <figure class="overlay">
+                        <img src="./images/banners/banner_10.webp" alt="">
+                     </figure>
+                     <content>
+                        <a href="single_post.html">
+                           <h2 class="blog_title webkit_box">Crysis 2 Shooter: Improve CGI and Animations</h2>
+                        </a>
+                        <div class="author">
+                           powered by <span>David Bowie</span>
+                        </div>
+                     </content>
+                  </div>
+                  <div class="t_p_banner">
+                     <div class="blog_tag webkit_box">Change & Transformation</div>
+                     <figure class="overlay">
+                        <img src="./images/blogs/blog_2.webp" alt="">
+                     </figure>
+                     <content>
+                        <a href="single_post.html">
+                           <h2 class="blog_title webkit_box">Cultivating Gratitude: 50 Ways to Appreciate Life's Blessings</h2>
+                        </a>
+                        <div class="author">
+                           powered by <span>Dr. Smith</span>
+                        </div>
+                     </content>
+                  </div>
+                  <div class="t_p_banner">
+                     <div class="blog_tag webkit_box">Self-Improvement</div>
+                     <figure class="overlay">
+                        <img src="./images/blogs/blog_3.webp" alt="">
+                     </figure>
+                     <content>
+                        <a href="single_post.html">
+                           <h2 class="blog_title webkit_box">The Power of Positive Thinking: Transform Your Life Today</h2>
+                        </a>
+                        <div class="author">
+                           powered by <span>John Doe</span>
+                        </div>
+                     </content>
+                  </div>
+                  <div class="t_p_banner">
+                     <div class="blog_tag webkit_box">Relationships</div>
+                     <figure class="overlay">
+                        <img src="./images/blogs/blog_4.webp" alt="">
+                     </figure>
+                     <content>
+                        <a href="single_post.html">
+                           <h2 class="blog_title webkit_box">Building Strong Relationships: 50 Secrets to Successful Connections</h2>
+                        </a>
+                        <div class="author">
+                           powered by <span>John Doe</span>
+                        </div>
+                     </content>
+                  </div>
+                  <div class="t_p_banner">
+                     <div class="blog_tag webkit_box">Personal Growth & Development</div>
+                     <figure class="overlay">
+                        <img src="./images/blogs/blog_5.webp" alt="">
+                     </figure>
+                     <content>
+                        <a href="single_post.html">
+                           <h2 class="blog_title webkit_box">Unlocking Your Creativity: 50 Techniques to Ignite Your Imagination</h2>
+                        </a>
+                        <div class="author">
+                           powered by <span>Jane Smith</span>
+                        </div>
+                     </content>
+                  </div>
+                  <div class="t_p_banner">
+                     <div class="blog_tag webkit_box">Change & Transformation</div>
+                     <figure class="overlay">
+                        <img src="./images/blogs/blog_6.webp" alt="">
+                     </figure>
+                     <content>
+                        <a href="single_post.html">
+                           <h2 class="blog_title webkit_box">Breaking Bad Habits: 50 Strategies for Overcoming Self-Sabotage</h2>
+                        </a>
+                        <div class="author">
+                           powered by <span>David Bowie</span>
+                        </div>
+                     </content>
+                  </div>
+                  <div class="t_p_banner">
+                     <div class="blog_tag webkit_box">Personal Growth & Development</div>
+                     <figure class="overlay">
+                        <img src="./images/blogs/blog_7.webp" alt="">
+                     </figure>
+                     <content>
+                        <a href="single_post.html">
+                           <h2 class="blog_title webkit_box">Navigating Life's Challenges: 50 Ways to Overcome Adversity</h2>
+                        </a>
+                        <div class="author">
+                           powered by <span>Jane Smith</span>
+                        </div>
+                     </content>
+                  </div>
+                  <div class="t_p_banner">
+                     <div class="blog_tag webkit_box">Health & Wellness</div>
+                     <figure class="overlay">
+                        <img src="./images/blogs/blog_8.webp" alt="">
+                     </figure>
+                     <content>
+                        <a href="single_post.html">
+                           <h2 class="blog_title webkit_box">Living a Healthy Lifestyle: 50 Habits for a Better You</h2>
+                        </a>
+                        <div class="author">
+                           powered by <span>Jane Smith</span>
+                        </div>
+                     </content>
+                  </div>
+                  <div class="t_p_banner">
+                     <div class="blog_tag webkit_box">Happiness & Well-Being</div>
+                     <figure class="overlay">
+                        <img src="./images/blogs/blog_9.webp" alt="">
+                     </figure>
+                     <content>
+                        <a href="single_post.html">
+                           <h2 class="blog_title webkit_box">The Science of Happiness: 50 Ways to Boost Your Mood</h2>
+                        </a>
+                        <div class="author">
+                           powered by <span>Emma Johnson</span>
+                        </div>
+                     </content>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- footer -->
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="footer">
+                  <div class="blogs_area">
+                     <div class="str_blog_list">
+                        <h2 class="sidebar_heading">recent post</h2>
+                        <div class="p_c_side">
+                           <a href="single_categories.html" class="p_c_side_cat">
+                              <figure>
+                                 <img src="images/categories/categories_1.webp" alt="">
+                              </figure>
+                              <content>
+                                 <h2 class="blog_title webkit_box">The Power of Positive Thinking: Transform Your Life Today</h2>
+                                 <div class="author">
+                                    powered by <span>Jane Doe</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="p_c_side_cat">
+                              <figure>
+                                 <img src="images/categories/categories_2.webp" alt="">
+                              </figure>
+                              <content>
+                                 <h2 class="blog_title webkit_box">Mastering the Art of Productivity: 50 Tips for a More Efficient Day</h2>
+                                 <div class="author">
+                                    powered by <span>David Bowie</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="p_c_side_cat">
+                              <figure>
+                                 <img src="images/categories/categories_3.webp" alt="">
+                              </figure>
+                              <content>
+                                 <h2 class="blog_title webkit_box">Unlocking Your Creativity: 50 Techniques to Ignite Your Imagination</h2>
+                                 <div class="author">
+                                    powered by <span>Jane Doe</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="p_c_side_cat">
+                              <figure>
+                                 <img src="images/categories/categories_4.webp" alt="">
+                              </figure>
+                              <content>
+                                 <h2 class="blog_title webkit_box">Living a Healthy Lifestyle: 50 Habits for a Better You</h2>
+                                 <div class="author">
+                                    powered by <span>Dr. Smith</span>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="str_blog_list">
+                        <h2 class="sidebar_heading">popular blogs</h2>
+                        <div class="p_c_side">
+                           <a href="single_categories.html" class="p_c_side_cat">
+                              <figure>
+                                 <img src="images/categories/categories_5.webp" alt="">
+                              </figure>
+                              <content>
+                                 <h2 class="blog_title webkit_box">The Power of Positive Thinking: Transform Your Life Today</h2>
+                                 <div class="author">
+                                    powered by <span>Jane Doe</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="p_c_side_cat">
+                              <figure>
+                                 <img src="images/categories/categories_6.webp" alt="">
+                              </figure>
+                              <content>
+                                 <h2 class="blog_title webkit_box">Mastering the Art of Productivity: 50 Tips for a More Efficient Day</h2>
+                                 <div class="author">
+                                    powered by <span>David Bowie</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="p_c_side_cat">
+                              <figure>
+                                 <img src="images/categories/categories_7.webp" alt="">
+                              </figure>
+                              <content>
+                                 <h2 class="blog_title webkit_box">Unlocking Your Creativity: 50 Techniques to Ignite Your Imagination</h2>
+                                 <div class="author">
+                                    powered by <span>Jane Doe</span>
+                                 </div>
+                              </content>
+                           </a>
+                           <a href="single_categories.html" class="p_c_side_cat">
+                              <figure>
+                                 <img src="images/categories/categories_8.webp" alt="">
+                              </figure>
+                              <content>
+                                 <h2 class="blog_title webkit_box">Living a Healthy Lifestyle: 50 Habits for a Better You</h2>
+                                 <div class="author">
+                                    powered by <span>Dr. Smith</span>
+                                 </div>
+                              </content>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="subs_links">
+                     <div class="links_area">
+                        <div class="ftr_links">
+                           <h2 class="sidebar_heading">quick links</h2>
+                           <ul class="ftr_link_list">
+                              <li>
+                                 <a href="#" class="ftr_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M7 7l5 5l-5 5"></path>
+                                       <path d="M13 7l5 5l-5 5"></path>
+                                    </svg>
+                                    Home
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="ftr_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M7 7l5 5l-5 5"></path>
+                                       <path d="M13 7l5 5l-5 5"></path>
+                                    </svg>
+                                    About
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="ftr_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M7 7l5 5l-5 5"></path>
+                                       <path d="M13 7l5 5l-5 5"></path>
+                                    </svg>
+                                    All Stores
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="ftr_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M7 7l5 5l-5 5"></path>
+                                       <path d="M13 7l5 5l-5 5"></path>
+                                    </svg>
+                                    privicy policy
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="ftr_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M7 7l5 5l-5 5"></path>
+                                       <path d="M13 7l5 5l-5 5"></path>
+                                    </svg>
+                                    Contact
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="ftr_links">
+                           <h2 class="sidebar_heading">brows categoies</h2>
+                           <ul class="ftr_link_list">
+                              <li>
+                                 <a href="#" class="ftr_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M7 7l5 5l-5 5"></path>
+                                       <path d="M13 7l5 5l-5 5"></path>
+                                    </svg>
+                                    Amazon
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="ftr_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M7 7l5 5l-5 5"></path>
+                                       <path d="M13 7l5 5l-5 5"></path>
+                                    </svg>
+                                    Target
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="ftr_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M7 7l5 5l-5 5"></path>
+                                       <path d="M13 7l5 5l-5 5"></path>
+                                    </svg>
+                                    Walmart
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="ftr_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M7 7l5 5l-5 5"></path>
+                                       <path d="M13 7l5 5l-5 5"></path>
+                                    </svg>
+                                    Macy's
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#" class="ftr_link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                       <path d="M7 7l5 5l-5 5"></path>
+                                       <path d="M13 7l5 5l-5 5"></path>
+                                    </svg>
+                                    Best Buy
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="sub_area">
+                        <h2 class="sidebar_heading">subscribe</h2>
+                        <p class="subs_desc">Sign up for our weekly email newsletter with the best money saving coupons.</p>
+                        <form class="subscribe">
+                           <div class="subs_wrapper">
+                              <input type="email" required="" placeholder="Enter The Email...">
+                              <button class="button no_m">
+                                 subscribe
+                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-send" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M10 14l11 -11"></path>
+                                    <path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5"></path>
+                                 </svg>
+                              </button>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+</body>
+<!-- JQuery js CDN -->
+<script src="js/jquery.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- swiper js -->
+<script src="js/swiper.bundle.min.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+
+</html>

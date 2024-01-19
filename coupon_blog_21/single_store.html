@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Tinyblogz - The Blog That Will Help You Think Outside the Box</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- tabler Icons -->
+  <link rel="stylesheet" href="css/tabler-icons.min.css">
+  <!-- favicon -->
+  <link rel="icon" href="./images/logo/favicon.svg">
+  <!-- style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!--============================
+  =            Header            =
+  =============================-->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header_main">
+            <a href="index.html" class="logo">
+              <img src="images/logo/logo.svg" alt="">
+            </a>
+            <ul class="menu none_768">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="store.html" class="active">Store</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="categories.html">Categories</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- Search form -->
+            <form class="search">
+              <div class="search_wrapper">
+                <i class="ti ti-search"></i>
+                <input type="text" placeholder="search blogs &amp; categories...">
+                <button class="btn">
+                  <span>search</span>
+                </button>
+              </div>
+              <div class="search_result">
+                <div class="search_result_head">
+                  <h4>enter the keyword</h4>
+                  <a href="categories.html" class="btn"><span>view all</span></a>
+                </div>
+                <div class="search_result_body">
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_1.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_2.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_3.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_4.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_5.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                  <a href="single_post.html" class="search_result_item">
+                    <figure class="search_result_img"><img src="images/blogs/blog_6.webp" alt=""></figure>
+                    <div class="search_result_content">
+                      <div class="blog_meta">
+                        <div class="blog_meta_item"><span>7/15/2023</span></div>
+                      </div>
+                      <h4 class="search_result_title">Mastering the Art of Time Management Tips for Efficient Work</h4>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </form>
+
+            <button class="btn" id="searchToggle">
+              <i class="ti ti-search"></i>
+            </button>
+<button class="menu_btn flex_768">
+              <i class="ti ti-menu-2"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--====  End of Header  ====-->
+  <!--==========================
+  =            Main            =
+  ===========================-->
+  <main>
+    <section class="single_store_header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="single_store_head">
+              <figure class="single_str_main_img">
+                <img src="images/stores/store_1.webp" alt="">
+              </figure>
+              <div class="str_head_main">
+                <div class="str_head_title">
+                  <div class="str_head_title_wrapper">
+                    <h2 class="str_main_title">food &amp; drink promo &amp; coupon code 2023</h2>
+                    <p class="single_str_desc webkit_box">Find the highest quality accessories for men and women at Abbott Lyon. Whether you’re looking for that special gift or you just want to treat yourself.</p>
+                  </div>
+                  <a href="#" class="button no_m">
+                    <span>visit store</span>
+                  </a>
+                </div>
+                <div class="str_head_footer">
+                  <div class="str_details">
+                    <div class="str_detail">
+                      <span>21</span>
+                      <p>offers</p>
+                    </div>
+                    <div class="str_detail">
+                      <span>25</span>
+                      <p>verified</p>
+                    </div>
+                  </div>
+                  <div class="rating_wrapper">
+                    <div class="rate_score">5 Rating, 2 Votes</div>
+                    <div class="rating">
+                      <a href="#" class="rated"><i class="ti ti-star-filled"></i></a>
+                      <a href="#" class="rated"><i class="ti ti-star-filled"></i></a>
+                      <a href="#"><i class="ti ti-star-filled"></i></a>
+                      <a href="#"><i class="ti ti-star-filled"></i></a>
+                      <a href="#"><i class="ti ti-star-filled"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  store -->
+    <section class="single_store bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="single_store_main">
+              <div class="str_main_cpns">
+                <div class="titles-profile">
+                  <div class="singlestore-mainpanel">
+                    <div class="coupon-img">
+                      <a href="javascript:void(0)" class="cpn_img">
+                        <img class="lazy" src="images/stores/store_1.webp">
+                      </a>
+                    </div>
+                    <div class="coupon-body">
+                      <div class="coupon-title">Up to 50% Off Exclusive Offers &amp; Promotions</div>
+                      <div class="title-desc webkit_box">Dreaming of a 15% discount on your favorite products? You're at the right place! enter the discount code provided above at checkout and score 15% saving on all your orders placed at lavish alice. Yes it's as simple as that! Hurry up and save now!</div>
+                    </div>
+                    <div class="coupon_sidebar">
+                      <a href="#" class="cpn_btn" data-bs-toggle="modal" data-bs-target="#cpn_modal">
+                        <p>Get Code</p>
+                        <p>***22</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="addnexpiry">
+                    <div class="expiry">
+                      <i class="ti ti-clock-hour-2"></i>
+                      <span>Exp: 30, Jun 23</span>
+                    </div>
+                    <div class="added">
+                      <i class="ti ti-clock-hour-2"></i>
+                      <span>18 Nov 2022</span>
+                    </div>
+                    <div class="coupon-verified hide-at-768">
+                      <i class="ti ti-check"></i> Verified
+                    </div>
+                  </div>
+                </div>
+                <div class="titles-profile">
+                  <div class="singlestore-mainpanel">
+                    <div class="coupon-img">
+                      <a href="javascript:void(0)" class="cpn_img">
+                        <img class="lazy" src="images/stores/store_1.webp">
+                      </a>
+                    </div>
+                    <div class="coupon-body">
+                      <div class="coupon-title">Up to 50% Off Exclusive Offers &amp; Promotions</div>
+                      <div class="title-desc webkit_box">Dreaming of a 15% discount on your favorite products? You're at the right place! enter the discount code provided above at checkout and score 15% saving on all your orders placed at lavish alice. Yes it's as simple as that! Hurry up and save now!</div>
+                    </div>
+                    <div class="coupon_sidebar">
+                      <a href="#" class="cpn_btn" data-bs-toggle="modal" data-bs-target="#cpn_modal">
+                        <p>Get Code</p>
+                        <p>***22</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="addnexpiry">
+                    <div class="expiry">
+                      <i class="ti ti-clock-hour-2"></i>
+                      <span>Exp: 30, Jun 23</span>
+                    </div>
+                    <div class="added">
+                      <i class="ti ti-clock-hour-2"></i>
+                      <span>18 Nov 2022</span>
+                    </div>
+                    <div class="coupon-verified hide-at-768">
+                      <i class="ti ti-check"></i> Verified
+                    </div>
+                  </div>
+                </div>
+                <div class="titles-profile">
+                  <div class="singlestore-mainpanel">
+                    <div class="coupon-img">
+                      <a href="javascript:void(0)" class="cpn_img">
+                        <img class="lazy" src="images/stores/store_1.webp">
+                      </a>
+                    </div>
+                    <div class="coupon-body">
+                      <div class="coupon-title">Up to 50% Off Exclusive Offers &amp; Promotions</div>
+                      <div class="title-desc webkit_box">Dreaming of a 15% discount on your favorite products? You're at the right place! enter the discount code provided above at checkout and score 15% saving on all your orders placed at lavish alice. Yes it's as simple as that! Hurry up and save now!</div>
+                    </div>
+                    <div class="coupon_sidebar">
+                      <a href="#" class="cpn_btn" data-bs-toggle="modal" data-bs-target="#cpn_modal">
+                        <p>Get Code</p>
+                        <p>***22</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="addnexpiry">
+                    <div class="expiry">
+                      <i class="ti ti-clock-hour-2"></i>
+                      <span>Exp: 30, Jun 23</span>
+                    </div>
+                    <div class="added">
+                      <i class="ti ti-clock-hour-2"></i>
+                      <span>18 Nov 2022</span>
+                    </div>
+                    <div class="coupon-verified hide-at-768">
+                      <i class="ti ti-check"></i> Verified
+                    </div>
+                  </div>
+                </div>
+                <div class="titles-profile">
+                  <div class="singlestore-mainpanel">
+                    <div class="coupon-img">
+                      <a href="javascript:void(0)" class="cpn_img">
+                        <img class="lazy" src="images/stores/store_1.webp">
+                      </a>
+                    </div>
+                    <div class="coupon-body">
+                      <div class="coupon-title">Up to 50% Off Exclusive Offers &amp; Promotions</div>
+                      <div class="title-desc webkit_box">Dreaming of a 15% discount on your favorite products? You're at the right place! enter the discount code provided above at checkout and score 15% saving on all your orders placed at lavish alice. Yes it's as simple as that! Hurry up and save now!</div>
+                    </div>
+                    <div class="coupon_sidebar">
+                      <a href="#" class="cpn_btn" data-bs-toggle="modal" data-bs-target="#cpn_modal">
+                        <p>Get Code</p>
+                        <p>***22</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="addnexpiry">
+                    <div class="expiry">
+                      <i class="ti ti-clock-hour-2"></i>
+                      <span>Exp: 30, Jun 23</span>
+                    </div>
+                    <div class="added">
+                      <i class="ti ti-clock-hour-2"></i>
+                      <span>18 Nov 2022</span>
+                    </div>
+                    <div class="coupon-verified hide-at-768">
+                      <i class="ti ti-check"></i> Verified
+                    </div>
+                  </div>
+                </div>
+                <div class="titles-profile">
+                  <div class="singlestore-mainpanel">
+                    <div class="coupon-img">
+                      <a href="javascript:void(0)" class="cpn_img">
+                        <img class="lazy" src="images/stores/store_1.webp">
+                      </a>
+                    </div>
+                    <div class="coupon-body">
+                      <div class="coupon-title">Up to 50% Off Exclusive Offers &amp; Promotions</div>
+                      <div class="title-desc webkit_box">Dreaming of a 15% discount on your favorite products? You're at the right place! enter the discount code provided above at checkout and score 15% saving on all your orders placed at lavish alice. Yes it's as simple as that! Hurry up and save now!</div>
+                    </div>
+                    <div class="coupon_sidebar">
+                      <a href="#" class="cpn_btn" data-bs-toggle="modal" data-bs-target="#cpn_modal">
+                        <p>Get Code</p>
+                        <p>***22</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="addnexpiry">
+                    <div class="expiry">
+                      <i class="ti ti-clock-hour-2"></i>
+                      <span>Exp: 30, Jun 23</span>
+                    </div>
+                    <div class="added">
+                      <i class="ti ti-clock-hour-2"></i>
+                      <span>18 Nov 2022</span>
+                    </div>
+                    <div class="coupon-verified hide-at-768">
+                      <i class="ti ti-check"></i> Verified
+                    </div>
+                  </div>
+                </div>
+                <div class="titles-profile">
+                  <div class="singlestore-mainpanel">
+                    <div class="coupon-img">
+                      <a href="javascript:void(0)" class="cpn_img">
+                        <img class="lazy" src="images/stores/store_1.webp">
+                      </a>
+                    </div>
+                    <div class="coupon-body">
+                      <div class="coupon-title">Up to 50% Off Exclusive Offers &amp; Promotions</div>
+                      <div class="title-desc webkit_box">Dreaming of a 15% discount on your favorite products? You're at the right place! enter the discount code provided above at checkout and score 15% saving on all your orders placed at lavish alice. Yes it's as simple as that! Hurry up and save now!</div>
+                    </div>
+                    <div class="coupon_sidebar">
+                      <a href="#" class="cpn_btn" data-bs-toggle="modal" data-bs-target="#cpn_modal">
+                        <p>Get Code</p>
+                        <p>***22</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="addnexpiry">
+                    <div class="expiry">
+                      <i class="ti ti-clock-hour-2"></i>
+                      <span>Exp: 30, Jun 23</span>
+                    </div>
+                    <div class="added">
+                      <i class="ti ti-clock-hour-2"></i>
+                      <span>18 Nov 2022</span>
+                    </div>
+                    <div class="coupon-verified hide-at-768">
+                      <i class="ti ti-check"></i> Verified
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single_str_sidebar">
+                <div class="sidebar_item">
+                  <h3 class="sidebar_heading">filter coupons</h3>
+                  <div class="filter_check_list">
+                    <label class="checkbox path">
+                      <input type="checkbox" checked>
+                      <svg viewBox="0 0 21 21">
+                        <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                      </svg>
+                      <span>All coupons (30)</span>
+                    </label>
+                    <label class="checkbox path">
+                      <input type="checkbox">
+                      <svg viewBox="0 0 21 21">
+                        <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                      </svg>
+                      <span>deal coupons (20)</span>
+                    </label>
+                    <label class="checkbox path">
+                      <input type="checkbox">
+                      <svg viewBox="0 0 21 21">
+                        <path d="M5,10.75 L8.5,14.25 L19.4,2.3 C18.8333333,1.43333333 18.0333333,1 17,1 L4,1 C2.35,1 1,2.35 1,4 L1,17 C1,18.65 2.35,20 4,20 L17,20 C18.65,20 20,18.65 20,17 L20,7.99769186"></path>
+                      </svg>
+                      <span>All code coupons (10)</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="sidebar_item">
+                  <h3 class="sidebar_heading">popular stores :</h3>
+                  <div class="side_str">
+                    <a href="#" class="side_str_item">
+                      <div class="side_str_img">
+                        <div class="web_imagebox"><img src="images/stores/store_1.webp" alt="" class="lazy"></div>
+                      </div>
+                      <div class="side_str_content">
+                        <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                        <p class="side_str_offer">123 offers</p>
+                      </div>
+                    </a>
+                    <a href="#" class="side_str_item">
+                      <div class="side_str_img">
+                        <div class="web_imagebox"><img src="images/stores/store_2.webp" alt="" class="lazy"></div>
+                      </div>
+                      <div class="side_str_content">
+                        <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                        <p class="side_str_offer">123 offers</p>
+                      </div>
+                    </a>
+                    <a href="#" class="side_str_item">
+                      <div class="side_str_img">
+                        <div class="web_imagebox"><img src="images/stores/store_3.webp" alt="" class="lazy"></div>
+                      </div>
+                      <div class="side_str_content">
+                        <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                        <p class="side_str_offer">123 offers</p>
+                      </div>
+                    </a>
+                    <a href="#" class="side_str_item">
+                      <div class="side_str_img">
+                        <div class="web_imagebox"><img src="images/stores/store_4.webp" alt="" class="lazy"></div>
+                      </div>
+                      <div class="side_str_content">
+                        <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                        <p class="side_str_offer">123 offers</p>
+                      </div>
+                    </a>
+                    <a href="#" class="side_str_item">
+                      <div class="side_str_img">
+                        <div class="web_imagebox"><img src="images/stores/store_5.webp" alt="" class="lazy"></div>
+                      </div>
+                      <div class="side_str_content">
+                        <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                        <p class="side_str_offer">123 offers</p>
+                      </div>
+                    </a>
+                    <a href="#" class="side_str_item">
+                      <div class="side_str_img">
+                        <div class="web_imagebox"><img src="images/stores/store_6.webp" alt="" class="lazy"></div>
+                      </div>
+                      <div class="side_str_content">
+                        <h4 class="side_str_name webkit_box">abbott lyon</h4>
+                        <p class="side_str_offer">123 offers</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="sidebar_item">
+                  <h3 class="sidebar_heading">Designerwear's Categories :</h3>
+                  <div class="str_side_cat">
+                    <a href="#" class="str_side_cat_item">
+                      <svg width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="5" y1="9" x2="19" y2="9"></line>
+                        <line x1="5" y1="15" x2="19" y2="15"></line>
+                        <line x1="11" y1="4" x2="7" y2="20"></line>
+                        <line x1="17" y1="4" x2="13" y2="20"></line>
+                      </svg>
+                      <div class="str_side_cat_content">
+                        <h4 class="side_cat_name">abbott lyon</h4>
+                        <h4 class="side_cat_offer">123 offers</h4>
+                      </div>
+                    </a>
+                    <a href="#" class="str_side_cat_item">
+                      <svg width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <circle cx="8.5" cy="8.5" r="1" fill="currentColor"></circle>
+                        <path d="M4 7v3.859c0 .537 .213 1.052 .593 1.432l8.116 8.116a2.025 2.025 0 0 0 2.864 0l4.834 -4.834a2.025 2.025 0 0 0 0 -2.864l-8.117 -8.116a2.025 2.025 0 0 0 -1.431 -.593h-3.859a3 3 0 0 0 -3 3z"></path>
+                      </svg>
+                      <div class="str_side_cat_content">
+                        <h4 class="side_cat_name">abbott lyon</h4>
+                        <h4 class="side_cat_offer">123 offers</h4>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="sidebar_item">
+                  <h3 class="sidebar_heading">related categories</h3>
+                  <div class="sngle_tab">
+                    <a href="#" class="sngle_tab_item">Accessories</a>
+                    <a href="#" class="sngle_tab_item">Children's Fashion</a>
+                    <a href="#" class="sngle_tab_item">Jewellery &amp; Watches</a>
+                    <a href="#" class="sngle_tab_item">Men's Fashion</a>
+                    <a href="#" class="sngle_tab_item">Women's Fashion</a>
+                    <a href="#" class="sngle_tab_item">Shoes</a>
+                    <a href="#" class="sngle_tab_item">Lingerie</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--====  End of Main  ====-->
+  <!--============================
+  =            Footer            =
+  =============================-->
+  <footer>
+    <div class="footer_top">
+      <div class="container">
+        <div class="footer_top_main">
+          <div class="footer_column footer_profile">
+            <a href="index.html" class="logo">
+              <img src="images/logo/logo.svg" alt="">
+            </a>
+            <p>A super modern theme following the latest trends with premium Membership and fully compatible with Ghost.</p>
+            <form class="subscribe_form">
+              <div class="subs_wrapper">
+                <input type="email" placeholder="enter the email...">
+                <button class="subs_btn">
+                  <span>Subscribe</span>
+                </button>
+              </div>
+            </form>
+            <div class="social_icons">
+              <div class="icon facebook">
+                <figure>
+                  <img src="images/socials/facebook.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon twitter">
+                <i class="fa fa-twitter"></i>
+                <figure>
+                  <img src="images/socials/twitter.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon instagram">
+                <i class="fa fa-instagram"></i>
+                <figure>
+                  <img src="images/socials/instagram.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon google_plus">
+                <i class="fa fa-google-plus"></i>
+                <figure>
+                  <img src="images/socials/google_plus.svg" alt="">
+                </figure>
+              </div>
+              <div class="icon linkedin">
+                <i class="fa fa-linkedin"></i>
+                <figure>
+                  <img src="images/socials/linkedin.svg" alt="">
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="footer_column quick_links">
+            <h2 class="ftr_heading">Quick links</h2>
+            <ul class="ftr_link_list">
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Home</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span>Privacy Policy</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Terms & Conditions</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Plans</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Meet the Authors</a></li>
+              <li><a href="#"><span class="ti ti-chevron-right"></span> Tag Archive</a></li>
+            </ul>
+          </div>
+          <div class="footer_column quick_links">
+            <h2 class="ftr_heading">Latest Articles</h2>
+            <ul class="ftr_link_list">
+              <li>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/blogs/blog_2.webp" alt="category image 2"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">The Latest Trends in Summer Fashion</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/blogs/blog_3.webp" alt="category image 2"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">The Latest Trends in Summer Fashion</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="container">
+        <div class="copyRight">
+          <p>© 2023 Hayyan Ali. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--====  End of Footer  ====-->
+  <!--===========================
+  =            Modal            =
+  ============================-->
+  <div class="modal fade" id="cpn_modal">
+    <div class="modal-dialog centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">200 Rs. Cashback Selected Household Products</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal_img_main">
+            <figure class="modal_img">
+              <img src="images/stores/store_1.webp" alt="">
+            </figure>
+          </div>
+          <div class="modal_content">
+            <div class="cpn_tags">
+              <div class="cpn_tag expire">
+                <i class="ti ti-clock-hour-7"></i>
+                <span>No Expiry Date</span>
+              </div>
+              <div class="cpn_tag update">
+                <i class="ti ti-clock-hour-7"></i>
+                <span>Updated: 08 Jun</span>
+              </div>
+              <div class="cpn_tag uses">
+                <i class="ti ti-clock-hour-7"></i>
+                <span>13 Uses</span>
+              </div>
+            </div>
+            <p class="title-desc webkit_box">Looking for a great deal on top brands? Look no further! We're offering up to 40% off on a wide selection of clothing, shoes, accessories, and more from your favorite brands.</p>
+            <div class="copy_wrapper">
+              <input class="copy" type="text" readonly="" value="2&amp;GI@76">
+              <button class="copy_btn btn">
+                <span>copy</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p class="modal_note">Tyre Pros's Website Has Been Opened In A New Tab / Window. Simply Copy And Paste The Code PRO10 And Enter It At Checkout.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--====  End of Modal  ====-->
+  <!-- JQuery js CDN -->
+  <script src="js/jquery.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/swiper.bundle.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

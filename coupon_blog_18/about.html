@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Tiny Blogz | The Ultimate Coupon and Blogging Hub</title>
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- swiper -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- tabler Icons -->
+  <link rel="stylesheet" href="css/tabler-icons.min.css">
+  <!-- favicon -->
+  <link type="image/png" sizes="32x32" rel="icon" href="./images/logo/favicon.svg">
+  <!-- style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- responsive -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!-- search modal -->
+  <div class="modal fade" id="search_modal" data-search="false">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <form class="search">
+            <div class="search_wrapper">
+              <i class="ti ti-search"></i>
+              <input type="text" id="search_input" placeholder="Start typing to search blogs...">
+            </div>
+          </form>
+        </div>
+        <div class="modal-body">
+          <div class="search_items">
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">The Ultimate Guide to Statement Jewelry</h4>
+                <span>Views 12</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Tips for Creating a Cozy Home Atmosphere</h4>
+                <span>Views 8</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Exploring the Best Hiking Trails in the Mountains</h4>
+                <span>Views 20</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Delicious and Easy Breakfast Recipes</h4>
+                <span>Views 15</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Mastering the Art of Interior Design</h4>
+                <span>Views 10</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Essential Tips for Effective Time Management</h4>
+                <span>Views 18</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Exploring the Fascinating World of Underwater Photography</h4>
+                <span>Views 25</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Healthy and Delicious Smoothie Recipes</h4>
+                <span>Views 14</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">Tips for Growing Your Own Organic Vegetable Garden</h4>
+                <span>Views 22</span>
+              </div>
+            </a>
+            <a href="single_post.html" class="search_item">
+              <i class="ti ti-article"></i>
+              <div class="search_item_content">
+                <h4 class="webkit_box">The Importance of Regular Exercise and Fitness</h4>
+                <span>Views 30</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <p>Copyright 2022 © All Rights Reserved. - Created & Managed By : Hayyan ©</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header -->
+  <header>
+    <div class="container">
+      <div class="header_main">
+        <div class="logo_main">
+          <a href="index.html" class="logo">
+            <img src="images/logo/svg/logo-no-background.svg" alt="logo">
+          </a>
+        </div>
+        <nav>
+          <a href="index.html" class="logo">
+            <img src="images/logo/svg/logo-no-background.svg" alt="logo">
+          </a>
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <a href="contact.html" class="btn contact_btn">
+            <span>contact</span>
+          </a>
+        </nav>
+        <div class="header_right">
+          <button class="btn search_modal_btn" data-bs-toggle="modal" data-bs-target="#search_modal">
+            <i class="ti ti-search"></i>
+            <span>search</span>
+          </button>
+          <button class="btn menu_btn">
+            <i class="ti ti-menu-2"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- MAIN -->
+  <main>
+    <section class="bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="heading no_m">about us</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="about_main">
+              <h2>Welcome to tiny blogz</h2>
+              <p>Nowadays, people tend to prefer online shopping for its convenience and avoidance of various problems. However, most brands are expensive, making them accessible only to elites. At tiny blogz, we aim to solve this problem by making luxurious and high-quality online brands affordable to everyone.</p>
+              <p>Savingrebate.com is an online community that helps shoppers save money and make smart purchases. We provide incredible discounts, coupons, offers, deals, and promotions for a wide range of products. Our experts guarantee that we only list products with the lowest prices offered by renowned companies.</p>
+              <p>At tiny blogz, we understand the value of finding the best deals online. Our website features a variety of coupons, products, sales, reviews, and online discounts. Our dedicated staff updates the site throughout the day to ensure you have access to the latest savings opportunities.</p>
+              <p>We take pride in our credible services, and our customers are at the heart of everything we do. We strive to establish a bond of trust and love with our clients by providing them with the best coupons and offers. Our team works effortlessly to bring you new and improved discounts for your convenience and comfort.</p>
+              <p>With Savingrebate, you can shop at your convenience without worrying about the price. By purchasing coupon codes, offers, and promotional deals from tiny blogz, you can enjoy discounts on any product you desire. We offer coupons for major brands, recognized labels, and premium products, ensuring you can save on your favorite items.</p>
+              <h3>Our Team</h3>
+              <p>At tiny blogz, we have a dedicated team of experts who work tirelessly to bring you the best deals and discounts. Our team curates a wide range of coupons, offers, and promotional deals from renowned companies to ensure that you have access to the lowest prices.</p>
+              <h3>Our Blog</h3>
+              <p>Stay informed and make smart purchasing decisions with our informative blog. Our blog section covers a variety of topics related to online shopping, money-saving tips, product reviews, and more. We provide valuable insights to help you make the most out of your shopping experience.</p>
+              <h3>How It Works</h3>
+              <p>tiny blogz provides a simple and convenient way to save money while shopping online. Simply browse through our collection of discount codes, coupons, and offers. When you find a deal you like, click on it to reveal the code or activate the offer. Apply the code or follow the provided link to enjoy instant savings on your purchase.</p>
+              <p>At tiny blogz, we take pride in providing the best deals and discounts for our customers. Our goal is to make luxury and high-quality brands accessible to everyone. Shop with confidence and enjoy incredible savings with tiny blogz.</p>
+              <h2>Privacy Policy</h2>
+              <p>Welcome to tiny blogz. This Privacy Policy governs the manner in which tiny blogz collects, uses, maintains, and discloses information collected from users (referred to as "you" or "user") of the tiny blogz website.</p>
+              <h3>What Information Do We Collect?</h3>
+              <p>We collect information from you when you register on our site or subscribe to our newsletter. This may include your name, email address, or zip code. We protect all data, especially personally identifiable information (PII), and use it to improve your experience on our website.</p>
+              <p>You may choose to visit our site anonymously if you prefer.</p>
+              <h3>How Do We Use Your Information?</h3>
+              <p>Any information we collect from you may be used in the following ways:</p>
+              <ul>
+                <li>Personalize your experience and respond to your individual needs.</li>
+                <li>Improve our website based on the information and feedback we receive from you.</li>
+              </ul>
+              <h3>How Do We Protect Your Information?</h3>
+              <p>We implement various security measures to ensure the safety of your personal information. We use secure computing practices to protect your data from unauthorized access or disclosure.</p>
+              <h3>Do We Use Cookies?</h3>
+              <p>Yes. We use cookies, which are small files transferred to your computer's hard drive, to enhance your browsing experience. Cookies help us understand your preferences, compile aggregate data about site traffic, and provide better site experiences and tools in the future. We may also work with third-party service providers to analyze our site visitors, but they are not allowed to use the information collected on our behalf except to improve our business.</p>
+              <h3>Do We Disclose Any Information To Outside Parties?</h3>
+              <p>We do not sell or trade your personally identifiable information (PII) without providing you advance notice. However, we may share your PII data with trusted third parties who assist us in operating our website, conducting our business, or servicing you. We may also release your information when required by law, to enforce our site policies, or to protect ours or others' rights, property, or safety. Non-PII visitor information may be provided to other parties for marketing, advertising, or other uses. We may also share hashed or obfuscated email addresses with third parties for marketing purposes while ensuring your PII remains confidential.</p>
+              <h3>Third-Party Links</h3>
+              <p>Occasionally, we may include or offer third-party products or services on our website. These third-party sites have separate and independent privacy policies. We have no responsibility or liability for the content and activities of these linked sites. However, we strive to protect the integrity of our site and welcome any feedback about these sites.</p>
+              <h3>Changes To Our Privacy Policy</h3>
+              <p>If we decide to change our privacy policy, we will post those changes on this page.</p>
+              <h3>Contacting Us</h3>
+              <p>If you have any questions regarding this privacy policy, you may contact us using the email address below:</p>
+              <p>Email: admin@tinyblogz.com</p>
+              <h2>Terms and Conditions</h2>
+              <p>If you continue to browse and use tiny blogz, you are agreeing to comply with and be bound by the following terms and conditions of use, which govern tiny blogz's relationship with you in relation to this website.</p>
+              <p>The term "tiny blogz" refers to the owner of the website tinyblogz.com. The term "you" refers to the user or viewer of tiny blogz.</p>
+              <p>The use of tiny blogz is subject to the following terms of use:</p>
+              <ol>
+                <li>The content of the pages of tiny blogz is for general information and use only. It is subject to change without notice.</li>
+                <li>Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness, or suitability of the information and materials found or offered on tiny blogz for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors, and we expressly exclude liability for any such errors to the fullest extent permitted by law.</li>
+                <li>Your use of any information or materials on tiny blogz is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services, or information available through tiny blogz meet your specific requirements.</li>
+                <li>tiny blogz contains material that is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance, and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.</li>
+                <li>All trademarks reproduced on tiny blogz, which are not the property of, or licensed to the operator, are acknowledged on the website.</li>
+                <li>Unauthorized use of tiny blogz may give rise to a claim for damages and/or be a criminal offense.</li>
+                <li>From time to time, tiny blogz may also include links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s).</li>
+                <li>Your use of tiny blogz and any dispute arising out of such use of the website is subject to the laws of the United States of America.</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--  footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="footer_columns">
+            <div class="footer_column">
+              <a href="index.html" class="logo ftr_logo">
+                <img src="images/logo/svg/logo-no-background.svg" alt="">
+              </a>
+              <p>Disclaimer: "By utilizing our coupon links on Discount Dash, please be aware that we may earn a commission from your purchases."</p>
+              <form class="subscribe_form">
+                <input type="email" placeholder="Enter the Email...">
+                <button>
+                  <i class="ti ti-arrow-right"></i>
+                </button>
+              </form>
+            </div>
+            <div class="footer_column">
+              <h3>Quick Links</h3>
+              <!-- Add your quick links here -->
+              <div class="ftr_links_wrapper">
+                <a href="about.html" class="footer_link">About</a>
+                <a href="privacy_policy.html" class="footer_link">Privacy Policy</a>
+                <a href="terms_conditions.html" class="footer_link">Terms &amp; Conditions</a>
+                <a href="contact_us.html" class="footer_link">Contact Us</a>
+              </div>
+            </div>
+            <div class="footer_column">
+              <h3>Social Links</h3>
+              <div class="social_icons">
+                <div class="icon facebook">
+                  <figure>
+                    <img src="images/socials/facebook.svg" alt="">
+                  </figure>
+                  <span>faceook</span>
+                </div>
+                <div class="icon twitter">
+                  <figure>
+                    <img src="images/socials/twitter.svg" alt="">
+                  </figure>
+                  <span>twitter</span>
+                </div>
+                <div class="icon instagram">
+                  <figure>
+                    <img src="images/socials/instagram.svg" alt="">
+                  </figure>
+                  <span>instrgram</span>
+                </div>
+                <div class="icon google_plus">
+                  <figure>
+                    <img src="images/socials/google_plus.svg" alt="">
+                  </figure>
+                  <span>google plus</span>
+                </div>
+                <div class="icon linkedin">
+                  <figure>
+                    <img src="images/socials/linkedin.svg" alt="">
+                  </figure>
+                  <span>linked in</span>
+                </div>
+              </div>
+            </div>
+            <div class="footer_column">
+              <h3>Blogs</h3>
+              <!-- Add your blog links or content here -->
+              <div class="footer_blogs_main">
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_1.webp" alt="category image 1"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">10 Essential Wardrobe Pieces for Every Fashionista</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_2.webp" alt="category image 2"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">The Latest Trends in Summer Fashion</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_3.webp" alt="category image 3"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">How to Style Denim Jackets for a Chic Look</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_4.webp" alt="category image 4"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">Accessorizing 101: The Art of Statement Jewelry</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_5.webp" alt="category image 5"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">Elevate Your Style with Monochrome Outfits</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="side_pop_cat">
+                  <figure class="side_pop_cat_img"><img src="images/banners/banner_6.webp" alt="category image 6"></figure>
+                  <div class="side_pop_cat_content">
+                    <a href="single_post.html">
+                      <h4 class="side_pop_cat_title webkit_box">Effortlessly Chic: Styling Tips for Casual Wear</h4>
+                    </a>
+                    <a href="single_categories.html">
+                      <span>learn more</span>
+                      <i class="ti ti-arrow-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright">Copyright 2022 © All Rights Reserved. - Created &amp; Managed By : Hayyan ©</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- JQuery js CDN -->
+  <script src="js/jquery.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- swiper js -->
+  <script src="js/swiper.bundle.min.js"></script>
+  <!-- lazy js -->
+  <script src="js/lazy.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+/*
+==============================================
+        //// CONTAINER RESPONSIVE ////
+==============================================
+*/
+@media (min-width: 991px) {
+   .container {
+      width: 970px;
+   }
+}
+
+@media (min-width: 768px) {
+   .container {
+      width: 750px;
+   }
+}
+
+
+@media (max-width: 1400px) {
+   .container {
+      width: 90%;
+   }
+}
+
+@media (min-width: 1300px) {
+   .container {
+      width: 1300px;
+   }
+}
+
+@media (max-width: 991px) {
+   .container {
+      width: 100%;
+   }
+}
+
+/*
+==============================================
+        //// CUSTOM RESPONSIVE ////
+==============================================
+*/
+@media (max-width: 991px) {
+   .hero_blog_content figure {
+      min-height: 200px;
+   }
+}
+
+@media (max-width: 767px) {
+   .search_form {
+      max-width: 100%;
+   }
+
+   .blog_card:not(.s_small_blog) .blog_img {
+      max-height: 200px;
+      box-shadow: none !important;
+      margin-bottom: 0;
+      border-radius: 8px 8px 0 0;
+   }
+
+   .blog_content {
+      margin: 0;
+      background: transparent;
+      border-radius: 0 0 8px 8px;
+   }
+
+   .blog_title {
+      font-size: 18px;
+   }
+}

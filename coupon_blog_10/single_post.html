@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+<!-- data-bs-theme="dark" -->
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+   <title>Blog 7th</title>
+   <!-- Bootstrap CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- font family -->
+   <link rel="stylesheet" href="fonts/font.css" rel="stylesheet">
+   <!-- swipper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <!-- font-awesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <!-- fav icon -->
+   <link type="image/png" sizes="32x32" rel="icon" href="images/fav_icon.svg">
+   <!-- stylesheet -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="css/responsive.css">
+   <input type="hidden" name="pageNow" id="pageNow" value="homepage">
+</head>
+
+<body>
+   <div class="loader"></div>
+   <!-- header -->
+   <header>
+      <nav class="navbar flex-column navbar-expand-lg">
+         <div class="top_header w-100">
+            <div class="container gap-3 d-flex flex-sm-row flex-column justify-content-between align-items-center">
+               <a class="navbar-brand" href="#">
+                  <img src="images/logo.svg" alt="">
+               </a>
+               <form action="./blog_search.html" class="search_form">
+                  <div class="input-group">
+                     <select class="form-select bg-light d-md-flex d-none" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected="">All</option>
+                        <option value="1">Stores</option>
+                        <option value="2">Categories</option>
+                        <option value="3">Blogs</option>
+                     </select>
+                     <input type="search" class="form-control" placeholder="What do you want to buy today? Search retailer or website name">
+                     <button class="btn search_icon" type="submit">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-1hy7qas">
+                           <circle cx="11" cy="11" r="8"></circle>
+                           <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                     </button>
+                  </div>
+               </form>
+               <div class="social_icons d-lg-flex d-none">
+                  <div class="icon fb">
+                     <i class="fa fa-facebook-f"></i>
+                  </div>
+                  <div class="icon twt">
+                     <i class="fa fa-twitter"></i>
+                  </div>
+                  <div class="icon insta">
+                     <i class="fa fa-instagram"></i>
+                  </div>
+                  <div class="icon google_plus">
+                     <i class="fa fa-google-plus"></i>
+                  </div>
+                  <div class="icon linked_in">
+                     <i class="fa fa-linkedin"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bottom_header w-100">
+            <div class="container d-flex gap-3 justify-content-between">
+               <a href="index.html" class="extra_btn d-lg-none d-flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                  </svg>
+               </a>
+               <ul class="navbar-nav gap-3">
+                  <button class="extra_btn menu_close d-lg-none d-flex">
+                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                     </svg>
+                  </button>
+                  <li class="nav-item">
+                     <a class="nav-link active" href="index.html" data-page="homepage">home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">about</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="store.html" class="nav-link">store</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="contact.html" class="nav-link">contact</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="categories.html" class="nav-link">categories</a>
+                  </li>
+               </ul>
+               <button class="extra_btn menu_toggler d-lg-none d-flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+               </button>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <!-- single post -->
+   <section class="single_post">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="single_post_container">
+                  <div class="single_post_main">
+                     <div class="post_main">
+                        <picture class="post_img">
+                           <img src="images/banners/banner_1.webp" alt="post image">
+                        </picture>
+                        <content>
+                           <div class="post_tags">
+                              <a href="#" class="post_tag">Investment</a>
+                              <a href="#" class="post_tag">Corporate</a>
+                              <a href="#" class="post_tag">Blog</a>
+                              <a href="#" class="post_tag">Business</a>
+                              <a href="#" class="post_tag">Finance</a>
+                           </div>
+                           <h4>Puffy Pancakes Glazed With Caramel Topped With Fruits</h4>
+                           <ul class="post_about">
+                              <li>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                                    <path d="M16 3v4"></path>
+                                    <path d="M8 3v4"></path>
+                                    <path d="M4 11h16"></path>
+                                    <path d="M12 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                                 </svg>
+                                 <span>Published : Dec 06, 2022</span>
+                              </li>
+                              <li>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                    <path d="M12 12l3 2"></path>
+                                    <path d="M12 7v5"></path>
+                                 </svg>
+                                 <span>5 Minutes</span>
+                              </li>
+                           </ul>
+                        </content>
+                     </div>
+                     <div class="post_content">
+                        <h4>Stonewall Kitchen</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia modi natus repellendus placeat obcaecati sint pariatur sunt necessitatibus quaerat reiciendis maxime praesentium, cum temporibus fuga inventore aperiam repellat porro cupiditate perferendis quasi, quos soluta? Doloremque quam, eligendi hic ad natus, corrupti alias maiores ipsam molestias libero nostrum iusto veritatis, neque distinctio ea, deleniti debitis iste inventore ullam? Dolorem exercitationem numquam quae perferendis dignissimos ex necessitatibus quis pariatur, id rem ratione!</p>
+                        <picture><img src="images/banners/banner_2.webp" alt="post image"></picture>
+                        <h4>Stonewall Kitchen</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia modi natus repellendus placeat obcaecati sint pariatur sunt necessitatibus quaerat reiciendis maxime praesentium, cum temporibus fuga inventore aperiam repellat porro cupiditate perferendis quasi, quos soluta? Doloremque quam, eligendi hic ad natus, corrupti alias maiores ipsam molestias libero nostrum iusto veritatis, neque distinctio ea, deleniti debitis iste inventore ullam? Dolorem exercitationem numquam quae perferendis dignissimos ex necessitatibus quis pariatur, id rem ratione!</p>
+                        <picture><img src="images/banners/banner_3.webp" alt="post image"></picture>
+                        <h4>Stonewall Kitchen</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia modi natus repellendus placeat obcaecati sint pariatur sunt necessitatibus quaerat reiciendis maxime praesentium, cum temporibus fuga inventore aperiam repellat porro cupiditate perferendis quasi, quos soluta? Doloremque quam, eligendi hic ad natus, corrupti alias maiores ipsam molestias libero nostrum iusto veritatis, neque distinctio ea, deleniti debitis iste inventore ullam? Dolorem exercitationem numquam quae perferendis dignissimos ex necessitatibus quis pariatur, id rem ratione!</p>
+                        <picture><img src="images/banners/banner_4.webp" alt="post image"></picture>
+                     </div>
+                     <div class="post_pagination">
+                        <a href="#" class="post_page prev">
+                           <picture>
+                              <span>prev</span>
+                              <img src="images/banners/banner_3.webp" alt="">
+                           </picture>
+                           <content>
+                              <h5>Types of Shower Heads: Discover Your Favorites Here</h5>
+                           </content>
+                        </a>
+                        <a href="#" class="post_page next">
+                           <picture>
+                              <span>next</span>
+                              <img src="images/banners/banner_4.webp" alt="">
+                           </picture>
+                           <content>
+                              <h5>Types of Shower Heads: Discover Your Favorites Here</h5>
+                           </content>
+                        </a>
+                     </div>
+                     <div class="reviews">
+                        <h4 class="post_heading">reviews</h4>
+                        <div class="comment">
+                           <div class="cmnt_head">
+                              <div class="web_imagebox">
+                                 <img src="images/blogs/author.webp" alt="">
+                              </div>
+                              <h5>john smith</h5>
+                              <span class="blog_tag">Author</span>
+                              <span>5h ago</span>
+                           </div>
+                           <div class="cmnt_body">
+                              <p class="webkit_box">Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Est maxime eum qui earum consectetur facilis ipsam. Alias quis dolore earum tempore exercitationem at expedita animi dolores deserunt tempora, iusto ipsam asperiores eveniet nihil in, quae quasi fuga saepe dolor labore. Mollitia rem eaque pariatur impedit nemo reiciendis accusamus quam in.</p>
+                           </div>
+                           <div class="cmnt_footer">
+                              <a href="#" class="btn bg-secondary text-white btn-sm text-capitalize">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M9 13l-4 -4l4 -4m-4 4h11a4 4 0 0 1 0 8h-1"></path>
+                                 </svg>
+                                 reply
+                              </a>
+                           </div>
+                        </div>
+                        <div class="comment nasted">
+                           <div class="cmnt_head">
+                              <div class="web_imagebox">
+                                 <img src="images/blogs/author.webp" alt="">
+                              </div>
+                              <h5>john smith</h5>
+                              <span class="blog_tag">Author</span>
+                              <span>5h ago</span>
+                           </div>
+                           <div class="cmnt_body">
+                              <p class="webkit_box">Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Est maxime eum qui earum consectetur facilis ipsam. Alias quis dolore earum tempore exercitationem at expedita animi dolores deserunt tempora, iusto ipsam asperiores eveniet nihil in, quae quasi fuga saepe dolor labore. Mollitia rem eaque pariatur impedit nemo reiciendis accusamus quam in.</p>
+                           </div>
+                           <div class="cmnt_footer">
+                              <a href="#" class="btn bg-secondary text-white btn-sm text-capitalize">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M9 13l-4 -4l4 -4m-4 4h11a4 4 0 0 1 0 8h-1"></path>
+                                 </svg>
+                                 reply
+                              </a>
+                           </div>
+                        </div>
+                        <div class="comment">
+                           <div class="cmnt_head">
+                              <div class="web_imagebox">
+                                 <img src="images/blogs/author.webp" alt="">
+                              </div>
+                              <h5>john smith</h5>
+                              <span class="blog_tag">Author</span>
+                              <span>5h ago</span>
+                           </div>
+                           <div class="cmnt_body">
+                              <p class="webkit_box">Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Est maxime eum qui earum consectetur facilis ipsam. Alias quis dolore earum tempore exercitationem at expedita animi dolores deserunt tempora, iusto ipsam asperiores eveniet nihil in, quae quasi fuga saepe dolor labore. Mollitia rem eaque pariatur impedit nemo reiciendis accusamus quam in.</p>
+                           </div>
+                           <div class="cmnt_footer">
+                              <a href="#" class="btn bg-secondary text-white btn-sm text-capitalize">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M9 13l-4 -4l4 -4m-4 4h11a4 4 0 0 1 0 8h-1"></path>
+                                 </svg>
+                                 reply
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="comment_form">
+                        <h4 class="post_heading">comments</h4>
+                        <form class="contact_form">
+                           <div class="input">
+                              <input type="text" required="" placeholder="Enter Your Name">
+                              <input type="text" required="" placeholder="Enter Your Email">
+                           </div>
+                           <textarea placeholder="Your Message Here" required=""></textarea>
+                           <button type="submit" class="send_btn">
+                              post
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M20 11v3a3 3 0 0 1 -3 3h-9l-4 4v-13a3 3 0 0 1 3 -3h7"></path>
+                                 <path d="M17 4h4v4"></path>
+                                 <path d="M16 9l5 -5"></path>
+                              </svg>
+                           </button>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="single_post_sidebar">
+                     <div class="profile-card">
+                        <div class="image">
+                           <img src="images/blogs/author.webp" alt="" class="profile-img" />
+                        </div>
+                        <div class="text-data">
+                           <span class="name">Franz Kafka</span>
+                           <span class="job webkit_box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, voluptatibus.</span>
+                        </div>
+                        <div class="social_icons">
+                           <div class="icon fb">
+                              <i class="fa fa-facebook-f"></i>
+                           </div>
+                           <div class="icon twt">
+                              <i class="fa fa-twitter"></i>
+                           </div>
+                           <div class="icon insta">
+                              <i class="fa fa-instagram"></i>
+                           </div>
+                           <div class="icon google_plus">
+                              <i class="fa fa-google-plus"></i>
+                           </div>
+                           <div class="icon linked_in">
+                              <i class="fa fa-linkedin"></i>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="s_post_s_item">
+                        <h4>popular blogs</h4>
+                        <div class="s_popular_blogs">
+                           <a href="#" class="s_popular_blog">
+                              <picture><img src="images/banners/banner_1.webp" alt="blog image"></picture>
+                              <h4 class="webkit_box">Puffy Pancakes Glazed With Caramel Topped With Fruits</h4>
+                           </a>
+                           <a href="#" class="s_popular_blog">
+                              <picture><img src="images/banners/banner_2.webp" alt="blog image"></picture>
+                              <h4 class="webkit_box">Puffy Pancakes Glazed With Caramel Topped With Fruits</h4>
+                           </a>
+                           <a href="#" class="s_popular_blog">
+                              <picture><img src="images/banners/banner_3.webp" alt="blog image"></picture>
+                              <h4 class="webkit_box">Puffy Pancakes Glazed With Caramel Topped With Fruits</h4>
+                           </a>
+                           <a href="#" class="s_popular_blog">
+                              <picture><img src="images/banners/banner_4.webp" alt="blog image"></picture>
+                              <h4 class="webkit_box">Puffy Pancakes Glazed With Caramel Topped With Fruits</h4>
+                           </a>
+                           <a href="#" class="s_popular_blog">
+                              <picture><img src="images/banners/banner_5.webp" alt="blog image"></picture>
+                              <h4 class="webkit_box">Puffy Pancakes Glazed With Caramel Topped With Fruits</h4>
+                           </a>
+                           <a href="#" class="s_popular_blog">
+                              <picture><img src="images/banners/banner_6.webp" alt="blog image"></picture>
+                              <h4 class="webkit_box">Puffy Pancakes Glazed With Caramel Topped With Fruits</h4>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="s_post_s_item">
+                        <h4>blog cloud</h4>
+                        <ul class="cloud-tabs">
+                           <li><a href="single_categories.html">Investment</a></li>
+                           <li><a href="single_categories.html">Corporate</a></li>
+                           <li><a href="single_categories.html">Blog</a></li>
+                           <li><a href="single_categories.html">Business</a></li>
+                           <li><a href="single_categories.html">Finance</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- footer -->
+   <section class="footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <div class="footer_container">
+                  <div class="footer_item">
+                     <a class="navbar-brand" href="#">
+                        <img src="images/logo.svg" alt="">
+                     </a>
+                     <p><b>disclaimer : </b>Lorem, ipsum dolor sit amet, consectetur disciplining elit. Imp edit militia vitae repudiandae culpa illo molestias rerum, fugit recusandae eius officious.</p>
+                     <div class="social_icons d-lg-flex d-none">
+                        <div class="icon fb">
+                           <i class="fa fa-facebook-f"></i>
+                        </div>
+                        <div class="icon twt">
+                           <i class="fa fa-twitter"></i>
+                        </div>
+                        <div class="icon insta">
+                           <i class="fa fa-instagram"></i>
+                        </div>
+                        <div class="icon google_plus">
+                           <i class="fa fa-google-plus"></i>
+                        </div>
+                        <div class="icon linked_in">
+                           <i class="fa fa-linkedin"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer_item">
+                     <h4 class="footer_headding">web link</h4>
+                     <ul class="footer_links">
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              home
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              fashion
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              business
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              travel
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              sports
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="footer_item">
+                     <h4 class="footer_headding">latest post</h4>
+                     <ul class="footer_links">
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              home
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              fashion
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              business
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              travel
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="footer_link">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                 <path d="M7 7l5 5l-5 5"></path>
+                                 <path d="M13 7l5 5l-5 5"></path>
+                              </svg>
+                              sports
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="footer_item">
+                     <h4 class="footer_headding">recent post</h4>
+                     <ul class="footer_links">
+                        <li>
+                           <a href="#" class="blog footer_layout">
+                              <picture><img src="images/blogs/blog_1.webp" alt="blog image"></picture>
+                              <content>
+                                 <h4 class="webkit_box">21+ Easy Ways To Build An Email List That Will Skyrocket By 552% In 1 Year</h4>
+                              </content>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#" class="blog footer_layout">
+                              <picture><img src="images/blogs/blog_2.webp" alt="blog image"></picture>
+                              <content>
+                                 <h4 class="webkit_box">21+ Easy Ways To Build An Email List That Will Skyrocket By 552% In 1 Year</h4>
+                              </content>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <p class="text-center copy_right">Copyright 2022 © All Rights Reserved..</p>
+            </div>
+         </div>
+      </div>
+   </section>
+</body>
+<!-- JQuery js CDN -->
+<script src="js/jquery.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- swiper js -->
+<script src="js/swiper.bundle.min.js"></script>
+<!-- lazy js -->
+<script src="js/lazy.min.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+
+</html>

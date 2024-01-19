@@ -1,0 +1,1019 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Blog 3rd</title>
+   <!-- Bootstrap CSS -->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- font family -->
+   <link rel="stylesheet" href="fonts/font.css" rel="stylesheet">
+   <!-- swipper -->
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <!-- font awesome -->
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <!-- fav icon -->
+   <link type="image/png" sizes="32x32" rel="icon" href="images/fav_icon.png">
+   <!-- stylesheet -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- responsive -->
+   <link rel="stylesheet" href="css/responsive.css">
+   <input type="hidden" name="pageNow" id="pageNow" value="homepage">
+</head>
+
+<body>
+   <div class="loader_main">
+      <span class="loader"></span>
+   </div>
+   <!-- header section -->
+   <header>
+      <nav class="navbar navbar-expand-lg bg-primary py-2">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+               <img src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+               </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav align-items-center align-items-lg-end me-auto ms-auto me-lg-0 ms-lg-auto my-3 my-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html" data-page="homepage">home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">about</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="store.html" class="nav-link">store</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="discount.html" class="nav-link">20% off</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="discount.html" class="nav-link">free delivery</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="contact.html" class="nav-link">contact</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <nav class="bg-primaryLight py-2">
+         <div class="container">
+            <div class="d-flex w-100">
+               <a href="#" class="btn d-none d-md-flex cat_btn bg-secondary text-white text-capitalize">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="w-6 h-6">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 0 1-1.125-1.125v-3.75zm12 1.5c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-8.25zm-10.5 7.5c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-2.25z" /></svg>
+                  <span>all categories</span>
+               </a>
+               <form class="search_form">
+                  <div class="input-group">
+                     <button class="btn search_icon" type="submit">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-1hy7qas">
+                           <circle cx="11" cy="11" r="8"></circle>
+                           <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                     </button>
+                     <input type="search" class="form-control" placeholder="What do you want to buy today? Search retailer or website name">
+                     <select class="form-select bg-light" id="inputGroupSelect04" aria-label="Example select with button addon">
+                        <option selected="">All</option>
+                        <option value="1">Stores</option>
+                        <option value="2">Categories</option>
+                        <option value="3">Blogs</option>
+                     </select>
+                  </div>
+                  <div class="search_result">
+                     <h3>Enter Keywords To Search</h3>
+                     <div class="main_search">
+                        <div class="search_item">
+                           <h4>stores :</h4>
+                           <div class="search_result_ul">
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_1.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_2.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_3.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_4.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_5.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_6.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_7.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_8.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_9.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="search_item">
+                           <h4>categories :</h4>
+                           <div class="search_result_ul">
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_1.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_2.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_3.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                              <a href="single_store.html">
+                                 <div class="web_imagebox"><img src="images/stores/store_4.png" alt="" class="img-responsive"></div>
+                                 <div class="li-detail">
+                                    <div class="store-name webkit_box">Abbott Lyon</div>
+                                    <div class="store-info">30 Offers</div>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <!-- blog hero section -->
+   <section class="blog_hero">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-7">
+               <div class="hero_blog_content h-100 d-flex flex-column gap-2">
+                  <div class="post_date">
+                     <ul class="p-0 d-flex gap-3 m-0">
+                        <li>20 January 2021</li>
+                        <li>Blog</li>
+                     </ul>
+                  </div>
+                  <h4 class="text-capitalize lh-sm webkit_box text-black">Best Mountain Bike Brands of 2022-From high-end to budget.</h4>
+                  <figure>
+                     <img src="images/blogs/blog_bg.jpg" class="img-fluid" alt="">
+                  </figure>
+               </div>
+            </div>
+            <div class="col-lg-5 mt-4 m-lg-0">
+               <div class="blog_auther  d-flex align-items-center gap-3 mb-2">
+                  <div class="web_imagebox">
+                     <img src="images/blogs/author.jpg" alt="">
+                  </div>
+                  <div class="hero_author_details">
+                     <h6>author name</h6>
+                     <p>lead product owner</p>
+                  </div>
+               </div>
+               <div class="hero_blog_dec">
+                  <h5>blog description</h5>
+                  <div class="blog_tags d-flex gap-1 mb-2">
+                     <span class="badge text-capitalize">fashion</span>
+                     <span class="badge text-capitalize">lead product owner</span>
+                     <span class="badge text-capitalize">lead product owner</span>
+                  </div>
+                  <p class="text-justify lh-base">For many mountain bikers, understanding the background, history, and ethos of a company has a major impact on the purchase of a new rig. However, with so many brands to choose from, it can be difficult to navigate the landscape and find a good match. From value-oriented companies like Co-op Cycles to high-end, carbon-only players like Yeti, the brands below stand out to us as the top in the business—after all, we’ve spent a lot of time on the trails testing bikes and soliciting input from fellow riders.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- blog hero section -->
+   <section class="fetured_blog">
+      <div class="container">
+         <div class="row position-relative align-items-start">
+            <div class="col-12">
+               <h3 class="main_heading text-black text-capitalize fw-bold">featured post</h3>
+            </div>
+            <div class="col-lg-9 d-flex flex-column gap-4">
+               <div class="blog_card">
+                  <figure class="blog_img shadow">
+                     <img src="images/blogs/blog_1.jpg" class="img-fluid" alt="">
+                  </figure>
+                  <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                     <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                        <div class="blog_tags p-0 d-flex gap-1">
+                           <span class="badge text-capitalize">fashion</span>
+                           <span class="badge text-capitalize">lead product owner</span>
+                        </div>
+                        <ul class="p-0 d-flex gap-3 m-0">
+                           <li>20 January 2021</li>
+                           <li>Blog</li>
+                        </ul>
+                     </div>
+                     <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                     <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                  </div>
+               </div>
+               <div class="row gap-md-0 gap-4">
+                  <div class="col-md-6">
+                     <div class="blog_card small_blog">
+                        <figure class="blog_img shadow">
+                           <img src="images/blogs/blog_2.jpg" class="img-fluid" alt="">
+                        </figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1">
+                                 <span class="badge text-capitalize">fashion</span>
+                                 <span class="badge text-capitalize">lead product owner</span>
+                              </div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="blog_card small_blog">
+                        <figure class="blog_img shadow">
+                           <img src="images/blogs/blog_3.jpg" class="img-fluid" alt="">
+                        </figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1">
+                                 <span class="badge text-capitalize">fashion</span>
+                                 <span class="badge text-capitalize">lead product owner</span>
+                              </div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="blog_card">
+                  <figure class="blog_img shadow">
+                     <img src="images/blogs/blog_4.jpg" class="img-fluid" alt="">
+                  </figure>
+                  <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                     <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                        <div class="blog_tags p-0 d-flex gap-1">
+                           <span class="badge text-capitalize">fashion</span>
+                           <span class="badge text-capitalize">lead product owner</span>
+                        </div>
+                        <ul class="p-0 d-flex gap-3 m-0">
+                           <li>20 January 2021</li>
+                           <li>Blog</li>
+                        </ul>
+                     </div>
+                     <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                     <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3 d-lg-block d-none">
+               <div class="home_blog_sidebar d-flex flex-column gap-3">
+                  <div class="blog_auther text-center d-flex flex-column align-items-center gap-2">
+                     <div class="web_imagebox">
+                        <img src="images/blogs/author.jpg" alt="">
+                     </div>
+                     <div class="hero_author_details d-flex flex-column gap-2">
+                        <h5>author name</h5>
+                        <p>lead product owner Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse minima ipsa, voluptatum labore expedita.</p>
+                        <div class="social_icons d-flex justify-content-start justify-content-lg-center align-items-center gap-2">
+                           <div class="icon fb">
+                              <i class="fa fa-facebook-f"></i>
+                           </div>
+                           <div class="icon twt">
+                              <i class="fa fa-twitter"></i>
+                           </div>
+                           <div class="icon insta">
+                              <i class="fa fa-instagram"></i>
+                           </div>
+                           <div class="icon google_plus">
+                              <i class="fa fa-google-plus"></i>
+                           </div>
+                           <div class="icon linked_in">
+                              <i class="fa fa-linkedin"></i>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <h5 class="text-black text-capitalize fw-bold">popular posts</h5>
+                  <div class="d-flex flex-column gap-2">
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_1.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title webkit_box text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_2.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title webkit_box text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_3.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title webkit_box text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_4.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title webkit_box text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- blog hero section -->
+   <section class="blog_cat">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+               <div class="d-flex flex-column gap-2 align-items-lg-start align-items-center text-lg-start text-center">
+                  <h2 class="text-black text-capitalize fw-bolder">Completed Cases</h2>
+                  <p class="text-secondary">new cases Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Aliquid delectus voluptatum culpa eveniet, quisquam aperiam asperiores odit tempora harum, corrupti?</p>
+                  <a href="#" class="btn py-2 d-flex cat_btn bg-secondary text-white text-capitalize">
+                     <span>all categories</span>
+                  </a>
+               </div>
+            </div>
+            <div class="col-lg-8">
+               <div class="swiper blog_cat_slider">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <a href="#" class="d-block position-relative">
+                           <div class="blog_cat_img_container"><img src="images/blogs/blog_1.jpg" alt="blog image" class="img-fluid"></div>
+                           <div class="blog_cat_content position-absolute">
+                              <h5 class="text-black text-capitalize fw-bold">marketing strategy</h5>
+                              <p class="text-secondary mt-1">completely impact synergistic mindshare whereas premium services.</p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="swiper-slide">
+                        <a href="#" class="d-block position-relative">
+                           <div class="blog_cat_img_container"><img src="images/blogs/blog_2.jpg" alt="blog image" class="img-fluid"></div>
+                           <div class="blog_cat_content position-absolute">
+                              <h5 class="text-black text-capitalize fw-bold">marketing strategy</h5>
+                              <p class="text-secondary mt-1">completely impact synergistic mindshare whereas premium services.</p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="swiper-slide">
+                        <a href="#" class="d-block position-relative">
+                           <div class="blog_cat_img_container"><img src="images/blogs/blog_3.jpg" alt="blog image" class="img-fluid"></div>
+                           <div class="blog_cat_content position-absolute">
+                              <h5 class="text-black text-capitalize fw-bold">marketing strategy</h5>
+                              <p class="text-secondary mt-1">completely impact synergistic mindshare whereas premium services.</p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="swiper-slide">
+                        <a href="#" class="d-block position-relative">
+                           <div class="blog_cat_img_container"><img src="images/blogs/blog_4.jpg" alt="blog image" class="img-fluid"></div>
+                           <div class="blog_cat_content position-absolute">
+                              <h5 class="text-black text-capitalize fw-bold">marketing strategy</h5>
+                              <p class="text-secondary mt-1">completely impact synergistic mindshare whereas premium services.</p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="swiper-slide">
+                        <a href="#" class="d-block position-relative">
+                           <div class="blog_cat_img_container"><img src="images/blogs/blog_5.jpg" alt="blog image" class="img-fluid"></div>
+                           <div class="blog_cat_content position-absolute">
+                              <h5 class="text-black text-capitalize fw-bold">marketing strategy</h5>
+                              <p class="text-secondary mt-1">completely impact synergistic mindshare whereas premium services.</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="swiper-button-next arrows"></div>
+                  <div class="swiper-button-prev arrows"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- latest post section -->
+   <section class="latest_post">
+      <div class="container">
+         <div class="row gy-4">
+            <div class="col-12">
+               <h3 class="main_heading text-black text-capitalize fw-bold no_margin">featured post</h3>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+               <div class="blog_card small_blog">
+                  <figure class="blog_img shadow"><img src="images/blogs/blog_1.jpg" alt="" class="img-fluid"></figure>
+                  <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                     <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                        <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                        <ul class="p-0 d-flex gap-3 m-0">
+                           <li>20 January 2021</li>
+                           <li>Blog</li>
+                        </ul>
+                     </div>
+                     <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                     <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+               <div class="blog_card small_blog">
+                  <figure class="blog_img shadow"><img src="images/blogs/blog_2.jpg" alt="" class="img-fluid"></figure>
+                  <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                     <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                        <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                        <ul class="p-0 d-flex gap-3 m-0">
+                           <li>20 January 2021</li>
+                           <li>Blog</li>
+                        </ul>
+                     </div>
+                     <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                     <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+               <div class="blog_card small_blog">
+                  <figure class="blog_img shadow"><img src="images/blogs/blog_3.jpg" alt="" class="img-fluid"></figure>
+                  <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                     <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                        <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                        <ul class="p-0 d-flex gap-3 m-0">
+                           <li>20 January 2021</li>
+                           <li>Blog</li>
+                        </ul>
+                     </div>
+                     <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                     <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+               <div class="blog_card small_blog">
+                  <figure class="blog_img shadow"><img src="images/blogs/blog_4.jpg" alt="" class="img-fluid"></figure>
+                  <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                     <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                        <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                        <ul class="p-0 d-flex gap-3 m-0">
+                           <li>20 January 2021</li>
+                           <li>Blog</li>
+                        </ul>
+                     </div>
+                     <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                     <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+               <div class="blog_card small_blog">
+                  <figure class="blog_img shadow"><img src="images/blogs/blog_5.jpg" alt="" class="img-fluid"></figure>
+                  <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                     <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                        <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                        <ul class="p-0 d-flex gap-3 m-0">
+                           <li>20 January 2021</li>
+                           <li>Blog</li>
+                        </ul>
+                     </div>
+                     <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                     <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+               <div class="blog_card small_blog">
+                  <figure class="blog_img shadow"><img src="images/blogs/blog_6.jpg" alt="" class="img-fluid"></figure>
+                  <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                     <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                        <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                        <ul class="p-0 d-flex gap-3 m-0">
+                           <li>20 January 2021</li>
+                           <li>Blog</li>
+                        </ul>
+                     </div>
+                     <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                     <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+               <div class="blog_card small_blog">
+                  <figure class="blog_img shadow"><img src="images/blogs/blog_7.jpg" alt="" class="img-fluid"></figure>
+                  <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                     <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                        <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                        <ul class="p-0 d-flex gap-3 m-0">
+                           <li>20 January 2021</li>
+                           <li>Blog</li>
+                        </ul>
+                     </div>
+                     <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                     <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+               <div class="blog_card small_blog">
+                  <figure class="blog_img shadow"><img src="images/blogs/blog_8.jpg" alt="" class="img-fluid"></figure>
+                  <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                     <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                        <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                        <ul class="p-0 d-flex gap-3 m-0">
+                           <li>20 January 2021</li>
+                           <li>Blog</li>
+                        </ul>
+                     </div>
+                     <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                     <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Inspiration section -->
+   <section class="inspiration">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+            </div>
+            <div class="col-lg-4 d-none d-lg-block">
+               <h5 class="main_heading no_margin mb-3 text-black text-capitalize fw-bold">Tag Clouds</h5>
+               <div class="tag_clouds d-flex flex-wrap gap-2 mb-3">
+                  <a href="#" class="tag_cloud btn btn-sm btn-light border">#Audio</a>
+                  <a href="#" class="tag_cloud btn btn-sm btn-light border">#Content</a>
+                  <a href="#" class="tag_cloud btn btn-sm btn-light border">#Featured</a>
+                  <a href="#" class="tag_cloud btn btn-sm btn-light border">#Image</a>
+                  <a href="#" class="tag_cloud btn btn-sm btn-light border">#Inspiration</a>
+                  <a href="#" class="tag_cloud btn btn-sm btn-light border">#Lifestyle</a>
+                  <a href="#" class="tag_cloud btn btn-sm btn-light border">#Photo</a>
+               </div>
+               <h5 class="main_heading no_margin mb-3 text-black text-capitalize fw-bold">latest post</h5>
+               <div class="d-flex flex-wrap gap-3 mb-3">
+                  <div class="blog_card s_small_blog">
+                     <figure class="blog_img shadow"><img src="images/blogs/blog_1.jpg" alt="" class="img-fluid"></figure>
+                     <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                        <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                           <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                           <ul class="p-0 d-flex gap-3 m-0">
+                              <li>20 January 2021</li>
+                              <li>Blog</li>
+                           </ul>
+                        </div>
+                        <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                        <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                     </div>
+                  </div>
+                  <div class="blog_card s_small_blog">
+                     <figure class="blog_img shadow"><img src="images/blogs/blog_2.jpg" alt="" class="img-fluid"></figure>
+                     <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                        <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                           <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                           <ul class="p-0 d-flex gap-3 m-0">
+                              <li>20 January 2021</li>
+                              <li>Blog</li>
+                           </ul>
+                        </div>
+                        <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                        <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                     </div>
+                  </div>
+                  <div class="blog_card s_small_blog">
+                     <figure class="blog_img shadow"><img src="images/blogs/blog_3.jpg" alt="" class="img-fluid"></figure>
+                     <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                        <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                           <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                           <ul class="p-0 d-flex gap-3 m-0">
+                              <li>20 January 2021</li>
+                              <li>Blog</li>
+                           </ul>
+                        </div>
+                        <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                        <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                     </div>
+                  </div>
+                  <div class="blog_card s_small_blog">
+                     <figure class="blog_img shadow"><img src="images/blogs/blog_4.jpg" alt="" class="img-fluid"></figure>
+                     <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                        <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                           <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                           <ul class="p-0 d-flex gap-3 m-0">
+                              <li>20 January 2021</li>
+                              <li>Blog</li>
+                           </ul>
+                        </div>
+                        <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                        <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-8">
+               <h3 class="main_heading no_margin mb-4 text-black text-capitalize fw-bold">inspiration</h3>
+               <div class="row mb-4 gy-4">
+                  <div class="col-xl-6 col-lg-12 col-md-6">
+                     <div class="blog_card overlay">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_1.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-12 col-md-6">
+                     <div class="blog_card overlay">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_2.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h5 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h5>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row gy-4">
+                  <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_1.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_2.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_3.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_4.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_5.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_6.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_7.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_8.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_9.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Footer section -->
+   <section class="footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="footer_container">
+                  <div class="footer_container_items">
+                     <a href="index.html" class="logo_container">
+                        <img src="images/logo.png" alt="">
+                     </a>
+                     <p class="footer_disclaimer">Disclaimer: "We may earn a commission when you use one of our coupons/links to make a purchase."</p>
+                     <form class="subs">
+                        <input type="text" placeholder="Enter your Email Address.">
+                        <a href="#" class="subs_btn">
+                           <i class="fa fa-paper-plane"></i>
+                        </a>
+                     </form>
+                  </div>
+                  <div class="footer_container_items">
+                     <h2 class="card_heading">More Discount</h2>
+                     <ul class="footer_menu">
+                        <li><a href="#">About me</a></li>
+                        <li><a href="#">Help &amp; Support</a></li>
+                        <li><a href="#">Licensing Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Hire me</a></li>
+                        <li><a href="#">Contact</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer_container_items">
+                     <h2 class="card_heading">Popular Stores</h2>
+                     <div class="tag_clouds d-flex flex-wrap gap-2 mb-3">
+                        <a href="#" class="tag_cloud btn btn-sm btn-light border">#Audio</a>
+                        <a href="#" class="tag_cloud btn btn-sm btn-light border">#Content</a>
+                        <a href="#" class="tag_cloud btn btn-sm btn-light border">#Featured</a>
+                        <a href="#" class="tag_cloud btn btn-sm btn-light border">#Image</a>
+                        <a href="#" class="tag_cloud btn btn-sm btn-light border">#Inspiration</a>
+                        <a href="#" class="tag_cloud btn btn-sm btn-light border">#Lifestyle</a>
+                        <a href="#" class="tag_cloud btn btn-sm btn-light border">#Photo</a>
+                     </div>
+                  </div>
+                  <div class="footer_container_items">
+                     <h2 class="card_heading">latest blog</h2>
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_1.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_2.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                     <div class="blog_card s_small_blog">
+                        <figure class="blog_img shadow"><img src="images/blogs/blog_3.jpg" alt="" class="img-fluid"></figure>
+                        <div class="blog_content bg-white p-3 d-flex flex-column gap-2">
+                           <div class="post_date d-flex justify-content-between align-items-center gap-2">
+                              <div class="blog_tags p-0 d-flex gap-1"><span class="badge text-capitalize">fashion</span><span class="badge text-capitalize">lead product owner</span></div>
+                              <ul class="p-0 d-flex gap-3 m-0">
+                                 <li>20 January 2021</li>
+                                 <li>Blog</li>
+                              </ul>
+                           </div>
+                           <h6 class="blog_title text-capitalize"><a href="#" class="text-black">best learning Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></h6>
+                           <p class="webkit_box">beast learing Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Minus ipsum inventore, cumque blanditiis deserunt eos quas sequi quam harum maiores consectetur quis odio excepturi ut doloremque nisi esse, est ducimus.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="copy_right">
+                  <p class="text">Copyright © 2021 | www.promothecode.com - All rights are reserved.</p>
+
+                     <div class="social_icons">
+                        <div class="icon fb">
+                           <i class="fa fa-facebook-f"></i>
+                        </div>
+                        <div class="icon twt">
+                           <i class="fa fa-twitter"></i>
+                        </div>
+                        <div class="icon insta">
+                           <i class="fa fa-instagram"></i>
+                        </div>
+                        <div class="icon google_plus">
+                           <i class="fa fa-google-plus"></i>
+                        </div>
+                        <div class="icon linked_in">
+                           <i class="fa fa-linkedin"></i>
+                        </div>
+                     </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+</body>
+<!-- JQuery js CDN -->
+<script src="js/jquery.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!-- swiper js -->
+<script src="js/swiper.bundle.min.js"></script>
+<!-- lazy js -->
+<script src="js/lazy.min.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+
+</html>
